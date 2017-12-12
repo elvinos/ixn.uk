@@ -8,7 +8,7 @@
 
 	@include('partials.page-header')
 
-	<section class=who-we-are-about> 
+	<section class="who-we-are-about" id="about"> 
 		<div class="container">
 			<div class ="row">
 				<div class="col-lg-12">

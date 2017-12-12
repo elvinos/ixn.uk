@@ -31,19 +31,19 @@ $url = home_url();
 	            <?php if ( is_front_page() ):
 		            echo '
                         <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                            <a class="nav-link js-scroll-trigger " href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+                            <a class="nav-link js-scroll-trigger " href="#projects">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#news">News</a>
+                            <a class="nav-link js-scroll-trigger " href="#news">News</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#eventsHome">Events</a>
+                            <a class="nav-link js-scroll-trigger " href="#eventsHome">Events</a>
                         </li>
                          <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#footerSec">Contact</a>
+                            <a class="nav-link js-scroll-trigger " href="#footerSec">Contact</a>
                         </li>'
                         ;
 	            else:
@@ -58,7 +58,7 @@ $url = home_url();
 	            $outputnews = str_replace( $find, $replace,  $permalinknews);
 	            $outputevents = str_replace( $find, $replace, $permalinkevents);
 		            echo '<li class="nav-item">
-                            <a class="nav-link" href= "' . $outputabout . '">About</a>
+                            <a class="nav-link" href=  "'. $outputabout . '">About</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href= "' . $outputprojects . '">Projects</a>
@@ -70,7 +70,7 @@ $url = home_url();
                             <a class="nav-link" href= "' . $outputevents . '">Events</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#footerSec">Contact</a>
+                            <a class="nav-link js-scroll-trigger"href="#footerPage">Contact</a>
                         </li>';
                 endif
                     ?>

@@ -10,7 +10,7 @@
 
 	
 
-<section id="eventsPage">
+<section id="eventsPage events">
 		<div class="container" id="events-container">
 		<div class="row">
 			<div class="col-lg-4">
