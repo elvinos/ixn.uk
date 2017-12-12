@@ -16,7 +16,7 @@
     ?>
 
     {{--Splash Page--}}
-    <header class="masthead">
+    <header class="masthead" id="about">
         <div class="container h-100">
             <div class="row h-100">
                 <div class="col-lg-8 my-auto">
@@ -283,7 +283,7 @@
                                 <div class="textBox col-md-6 my-auto">
                                     <div class="row">
                                         <div class="col-11 offset-1"><span class="hiwHead">Step 1</span></div>
-                                        <div class="col-9 offset-2"><span> Get in touch with one of our coordinators, Yun Fu or Dean and tell them about your project. </span></div>
+                                        <div class="col-9 offset-2"><span> <?php echo the_field('carousel_step_1');?> </span></div>
                                     </div>
                                 </div>
                                 <div class="hiwBox col-md-6" id="img1">
@@ -296,7 +296,7 @@
                                 <div class="textBox col-md-6 my-auto">
                                     <div class="row">
                                         <div class="col-11 offset-1"><span class="hiwHead">Step 2</span></div>
-                                        <div class="col-9 offset-2"><span>Dean and Yun will consider your project and assign it the perfect group of UCL developers.</span></div>
+                                        <div class="col-9 offset-2"><span><?php echo the_field('carousel_step_2');?> </span></div>
                                     </div>
                                 </div>
                                 <div class="hiwBox col-md-6" id="img2">
@@ -308,7 +308,7 @@
                                 <div class="textBox col-md-6 my-auto">
                                     <div class="row">
                                         <div class="col-11 offset-1"><span class="hiwHead">Step 3</span></div>
-                                        <div class="col-9 offset-2"><span>Your team will get in touch with you to first the discuss design and and motivations behind the project.</span></div>
+                                        <div class="col-9 offset-2"><span><?php echo the_field('carousel_step_3');?> </span></div>
                                     </div>
                                 </div>
                                 <div class="hiwBox col-md-6" id="img3">
@@ -320,7 +320,7 @@
                                 <div class="textBox col-md-6 my-auto">
                                     <div class="row">
                                         <div class="col-11 offset-1"><span class="hiwHead">Step 4</span></div>
-                                        <div class="col-9 offset-2"><span>Your team will iterate through several designs until you are happy the style of the app or site.</span></div>
+                                        <div class="col-9 offset-2"><span><?php echo the_field('carousel_step_4');?> </span></div>
                                     </div>
                                 </div>
                                 <div class="hiwBox col-md-6" id="img4">
@@ -332,7 +332,7 @@
                                 <div class="textBox col-md-6 my-auto">
                                     <div class="row">
                                         <div class="col-11 offset-1"><span class="hiwHead">Step 5</span></div>
-                                        <div class="col-9 offset-2"><span>The team will handle all of the front-end and back-end development of your project.</span></div>
+                                        <div class="col-9 offset-2"><span><?php echo the_field('carousel_step_5');?> </span></div>
                                     </div>
                                 </div>
                                 <div class="hiwBox col-md-6" id="img5">
@@ -344,7 +344,7 @@
                                 <div class="textBox col-md-6 my-auto">
                                     <div class="row">
                                         <div class="col-11 offset-1"><span class="hiwHead">Step 6</span></div>
-                                        <div class="col-9 offset-2"><span>Within a few short months, your project will transform from an idea into a beutiful custom app. </span></div>
+                                        <div class="col-9 offset-2"><span><?php echo the_field('carousel_step_6');?> </span></div>
                                     </div>
                                 </div>
                                 <div class="hiwBox col-md-6" id="img6">
@@ -539,7 +539,7 @@
                         <span class="section-divider">partners</span>
                     </div>
                 </div>
-                <div class="col-lg-7">
+                <div class="col-lg-7" id="logo-container">
                     <div class="row ">
                         <div class="col-6 col-md-2 my-auto mx-auto">
                             <div class="partLogo" id="nhs" alt=""></div>
