@@ -72,41 +72,5 @@
             </div>
         </div>
 
-        {{--<aside class="overlayProject">--}}
-            {{--<!-- Button to close the overlay navigation -->--}}
-            {{--<!-- Overlay content -->--}}
-            {{--<div class="overlay-content">--}}
-                {{--<a class="closeProject toggle-projects-overlay"><span></span></a>--}}
-                {{--<div class="container">--}}
-                    {{--<div class="row">--}}
-                        {{--<div class="col-lg-6">--}}
-                            {{--<div class="innerbox">--}}
-                                {{--<div class="innertop">--}}
-                                    {{--<span class="project-name-text">IXN Website<br/></span>--}}
-                                    {{--<span id="field">Partner: </span>--}}
-                                    {{--<span id="value">Microsoft <br/></span>--}}
-                                    {{--<span id="field">Catagory: </span>--}}
-                                    {{--<span id="value">Tech Industry, Website <br/></span>--}}
-                                    {{--<span id="field">Authors: </span>--}}
-                                    {{--<span id="value">Alex Charles, Phoebe Staab, Giovanni Tenderinni <br/></span>--}}
-                                    {{--<span id="field">Sumbission Date: </span>--}}
-                                    {{--<span id="value"> 11/11/11</span>--}}
-                                {{--</div>--}}
-                                {{--<div class="innerbottom">--}}
-                                    {{--<div class="vid">--}}
-                                    {{--</div>--}}
-                                {{--</div>--}}
-                            {{--</div>--}}
-                        {{--</div>--}}
-                        {{--<div class="col-lg-6">--}}
-                            {{--<div class="innerbox2">--}}
-                                {{--<div class="poster">--}}
-                                {{--</div>--}}
-                            {{--</div>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-            {{--</div>--}}
-        {{--</aside>--}}
     </section>
 @endsection

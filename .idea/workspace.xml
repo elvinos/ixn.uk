@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="465a1e18-6d93-4e37-b660-bb00eb32b495" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/common/_variables.scss" afterPath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/common/_variables.scss" />
-      <change beforePath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/components/_blogSet.scss" afterPath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/components/_blogSet.scss" />
-      <change beforePath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/layouts/_projectsPage.scss" afterPath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/layouts/_projectsPage.scss" />
       <change beforePath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/template-home.blade.php" afterPath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/template-home.blade.php" />
+      <change beforePath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/template-news.blade.php" afterPath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/template-news.blade.php" />
       <change beforePath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/template-projects.blade.php" afterPath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/template-projects.blade.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,13 +19,13 @@
       <file leaf-file-name="template-projects.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/template-projects.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="960">
-              <caret line="60" column="82" lean-forward="false" selection-start-line="60" selection-start-column="69" selection-end-line="60" selection-end-column="82" />
+            <state relative-caret-position="206">
+              <caret line="36" column="37" lean-forward="true" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
               <folding>
                 <element signature="e#3223#3287#0#HTML" expanded="true" />
-                <marker date="1513100316083" expanded="true" signature="55:68" ph="..." />
-                <marker date="1513100316083" expanded="true" signature="80:89" ph="..." />
-                <marker date="1513100316083" expanded="true" signature="105:127" ph="..." />
+                <marker date="1513106172986" expanded="true" signature="55:68" ph="..." />
+                <marker date="1513106172986" expanded="true" signature="80:89" ph="..." />
+                <marker date="1513106172986" expanded="true" signature="105:127" ph="..." />
               </folding>
             </state>
           </provider>
@@ -36,12 +34,27 @@
       <file leaf-file-name="template-home.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/template-home.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="599" column="26" lean-forward="true" selection-start-line="599" selection-start-column="26" selection-end-line="599" selection-end-column="26" />
+            <state relative-caret-position="438">
+              <caret line="189" column="12" lean-forward="false" selection-start-line="189" selection-start-column="12" selection-end-line="189" selection-end-column="40" />
               <folding>
-                <element signature="e#21180#21244#0#HTML" expanded="true" />
-                <marker date="1513101482311" expanded="true" signature="56:69" ph="..." />
-                <marker date="1513101482311" expanded="true" signature="81:90" ph="..." />
+                <element signature="e#21385#21449#0#HTML" expanded="true" />
+                <marker date="1513112933622" expanded="true" signature="56:69" ph="..." />
+                <marker date="1513112933622" expanded="true" signature="81:90" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="template-news.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/template-news.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="49" column="25" lean-forward="false" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="90" />
+              <folding>
+                <element signature="e#1426#1490#0#HTML" expanded="true" />
+                <marker date="1513106225460" expanded="true" signature="52:65" ph="..." />
+                <marker date="1513106225460" expanded="true" signature="78:87" ph="..." />
+                <marker date="1513106225460" expanded="true" signature="100:122" ph="..." />
               </folding>
             </state>
           </provider>
@@ -60,7 +73,7 @@
       <file leaf-file-name="_blogSet.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/components/_blogSet.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
+            <state relative-caret-position="82">
               <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
               <folding />
             </state>
@@ -135,9 +148,10 @@
         <option value="$PROJECT_DIR$/trellis/.vault_pass" />
         <option value="$PROJECT_DIR$/trellis/ansible.cfg" />
         <option value="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/common/_variables.scss" />
-        <option value="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/template-projects.blade.php" />
         <option value="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/layouts/_projectsPage.scss" />
         <option value="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/components/_blogSet.scss" />
+        <option value="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/template-projects.blade.php" />
+        <option value="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/template-news.blade.php" />
         <option value="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/template-home.blade.php" />
       </list>
     </option>
@@ -387,12 +401,12 @@
       <updated>1513076426237</updated>
       <workItem from="1513076427628" duration="1788000" />
       <workItem from="1513078440059" duration="2259000" />
-      <workItem from="1513081010773" duration="10362000" />
+      <workItem from="1513081010773" duration="12999000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14409000" />
+    <option name="totallyTimeSpent" value="17046000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -449,14 +463,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/trellis/group_vars/development/main.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/trellis/group_vars/development/php.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -826,6 +832,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/components/_blogSet.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/layouts/_projectsPage.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -834,35 +848,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/components/_blogSet.scss">
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/template-news.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="162">
+          <caret line="49" column="25" lean-forward="false" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="90" />
+          <folding>
+            <element signature="e#1426#1490#0#HTML" expanded="true" />
+            <marker date="1513106225460" expanded="true" signature="52:65" ph="..." />
+            <marker date="1513106225460" expanded="true" signature="78:87" ph="..." />
+            <marker date="1513106225460" expanded="true" signature="100:122" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/template-projects.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="60" column="82" lean-forward="false" selection-start-line="60" selection-start-column="69" selection-end-line="60" selection-end-column="82" />
+        <state relative-caret-position="206">
+          <caret line="36" column="37" lean-forward="true" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
           <folding>
             <element signature="e#3223#3287#0#HTML" expanded="true" />
-            <marker date="1513100316083" expanded="true" signature="55:68" ph="..." />
-            <marker date="1513100316083" expanded="true" signature="80:89" ph="..." />
-            <marker date="1513100316083" expanded="true" signature="105:127" ph="..." />
+            <marker date="1513106172986" expanded="true" signature="55:68" ph="..." />
+            <marker date="1513106172986" expanded="true" signature="80:89" ph="..." />
+            <marker date="1513106172986" expanded="true" signature="105:127" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/template-home.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="599" column="26" lean-forward="true" selection-start-line="599" selection-start-column="26" selection-end-line="599" selection-end-column="26" />
+        <state relative-caret-position="438">
+          <caret line="189" column="12" lean-forward="false" selection-start-line="189" selection-start-column="12" selection-end-line="189" selection-end-column="40" />
           <folding>
-            <element signature="e#21180#21244#0#HTML" expanded="true" />
-            <marker date="1513101482311" expanded="true" signature="56:69" ph="..." />
-            <marker date="1513101482311" expanded="true" signature="81:90" ph="..." />
+            <element signature="e#21385#21449#0#HTML" expanded="true" />
+            <marker date="1513112933622" expanded="true" signature="56:69" ph="..." />
+            <marker date="1513112933622" expanded="true" signature="81:90" ph="..." />
           </folding>
         </state>
       </provider>

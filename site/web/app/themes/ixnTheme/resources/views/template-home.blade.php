@@ -159,6 +159,7 @@
         </div>
     </section>
     {{--Projects Section--}}
+
     <section id="projects">
         <div class="container-fluid">
             <div class="row">
@@ -166,6 +167,25 @@
                     <span class="section-divider">some of our projects</span>
                 </div>
             </div>
+
+            <?php
+
+            $vargsposts = array(
+            'post_type' => 'project',
+            'posts_per_page'=>'-1',
+            'orderby'=>'post_date'
+            );
+
+            $the_queryposts = new WP_Query($vargsposts);
+            $postCounter = 1;
+
+            if (have_posts()) : while ($the_queryposts->have_posts()) : $the_queryposts->the_post();
+	        $thumbnail_id = get_post_thumbnail_id();
+	        $thumbnail_url = wp_get_attachment_image_src($thumbnail_id, 'large', true);
+	        $thumbnail_meta = get_post_meta($thumbnail_id, '_wp_attachment_image_alt', true);
+	        $categories = get_the_category();
+	        $category_link = get_category_link($categories[0]->cat_ID);
+	        ?>
             {{--Featured Project One Macbook Right--}}
             <div class="row projectRow">
                 <div class="col-lg-9 offset-lg-2 col-md-11 projectBox container-fluid">
@@ -173,12 +193,12 @@
                         <div class="col-md-6">
                             <div class="row">
                                 <div class="projectHeading col-md-12">
-                                    <span> Featured Projects One </span>
+                                    <span> <?php the_Title(); ?> </span>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="projectBody col-md-11 offset-md-1">
-                                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dapibus vulputate diam eu pretium. Mauris elit orci, ultricies id fermentum vel, porta et eros.  Lorem ipsum dolor sit amet, consectetur adipiscing elit.   Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                                    <span><?php the_excerpt(); ?></span>
                                 </div>
                             </div>
                             <div class="row">
@@ -193,7 +213,7 @@
                                     <div class="device">
                                         <div class="screen">
                                             <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                                            <img src="@asset('images/demo-screen-1.jpg')" class="img-fluid" alt="">
+                                            <img src="<?php echo $thumbnail_url[0]; ?>" class="img-fluid" alt="">
                                         </div>
                                         <div class="button">
                                             <!-- You can hook the "home button" to some JavaScript events or just remove it -->
@@ -206,6 +226,7 @@
 
                 </div>
             </div>
+	        <?php endwhile;endif; ?>
             {{--Featured Project Two Iphone Left--}}
             <div class="row projectRow">
                 <div class="col-lg-9 offset-lg-1 col-md-11 projectBox container-fluid">
@@ -243,11 +264,9 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
-
          <div class="container">
             <div class="row">
              <div class="col-md-12">
@@ -457,7 +476,6 @@
 		        wp_reset_query();
 		        ?>
             </div>
-
               <div class="container">
             <div class="row">
              <div class="col-md-12">
@@ -469,7 +487,6 @@
 </div>
 </div>
     </section>
-
     <section class="eventsSec" id="eventsHome">
         <div class="container">
             <div class="events-home-background-box">
