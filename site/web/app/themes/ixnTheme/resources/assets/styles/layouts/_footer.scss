@@ -1,0 +1,81 @@
+.footer {
+  background-color: #0b4f6c;
+}
+
+.logos {
+  width: 600px;
+  min-height: 30px;
+}
+
+.logo1 {
+  background-color: #0b4f6c;
+  background-image: url(../images/footer-images/IXNLOGOMENU.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 48.1px;
+}
+
+.logo2 {
+  background-color: #0b4f6c;
+  background-image: url(../images/footer-images/UCL-Engineering-Logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50px;
+}
+
+.logo3 {
+  background-color: #0b4f6c;
+  background-image: url(../images/footer-images/UCL-Logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 48px;
+}
+
+#logoRow {
+  padding: 30px;
+  background-color: #0b4f6c;
+}
+
+.address {
+  width: 300px;
+  min-height: 200px;
+}
+
+.space {
+  background-color: #0b4f6c;
+}
+
+@media screen and (max-width: 940px) {
+  .logos {
+    width: 100%;
+  }
+
+  .address {
+    width: 100%;
+  }
+
+  .space {
+    visibility: hidden;
+  }
+}
+
+#address {
+  background-color: #0b4f6c;
+  color: #fff;
+  height: 170px;
+  text-align: center;
+  font-size: 19px;
+}
+
+.topcontainer {
+  height: 5px;
+  background-color: #022b3a;
+}
+
+#fa-footer {
+  font-size: 23px;
+  color: white;
+}

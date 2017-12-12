@@ -1,0 +1,132 @@
+// Mixins
+
+/*
+ Transition
+ */
+
+@mixin transition-all() {
+  transition: all 0.35s;
+}
+
+@mixin background-cover() {
+  background-size: cover;
+}
+
+/*
+ Buttons
+ */
+
+@mixin button-variant($color, $background, $border) {
+  color: $color;
+  border-color: $border;
+  background-color: $background;
+
+  &.focus,
+  &:focus {
+    color: $color;
+    border-color: darken($border, 25%);
+    background-color: darken($background, 10%);
+  }
+
+  &:hover {
+    color: $color;
+    border-color: darken($border, 12%);
+    background-color: darken($background, 10%);
+  }
+
+  &.active,
+  &:active,
+  .open > &.dropdown-toggle {
+    color: $color;
+    border-color: darken($border, 12%);
+    background-color: darken($background, 10%);
+
+    &.focus,
+    &:focus,
+    &:hover {
+      color: $color;
+      border-color: darken($border, 25%);
+      background-color: darken($background, 17%);
+    }
+  }
+
+  &.active,
+  &:active,
+  .open > &.dropdown-toggle {
+    background-image: none;
+  }
+
+  &.disabled,
+  &[disabled],
+  fieldset[disabled] & {
+    &.focus,
+    &:focus,
+    &:hover {
+      border-color: $border;
+      background-color: $background;
+    }
+  }
+
+  .badge {
+    color: $background;
+    background-color: $color;
+  }
+}
+
+/*
+ Fonts
+ */
+
+@mixin section-heading-font {
+  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 600;
+  text-transform: lowercase;
+  text-align: left;
+  font-size: 60px;
+  color: $theme-dark;
+  letter-spacing: 2px;
+  line-height: 66px;
+}
+
+@mixin heading-font {
+  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+@mixin body-font {
+  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  font-size: 20px;
+  color: $theme-dark;
+  line-height: 30px;
+}
+
+@mixin about-font {
+  font-weight: 600;
+  font-size: 20px;
+  color: $theme-dark;
+  line-height: 36px;
+}
+
+@mixin alt-font {
+  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+@mixin menu-font {
+  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  letter-spacing: 2px;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+@mixin hiwHead-font {
+  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  letter-spacing: 2px;
+  font-weight: 700;
+  font-size: 42px;
+  text-transform: uppercase;
+}
+

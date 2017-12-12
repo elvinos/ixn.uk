@@ -1,0 +1,16 @@
+.section-divider {
+  @include section-heading-font;
+}
+
+.section-divider-row {
+  padding-left: 0;
+}
+
+.section-divider::before {
+  content: "";
+  position: absolute;
+  height: 15px;
+  top: 3.8rem;
+  border-bottom: 10px solid $theme-tertiary;
+  width: 70px;
+}

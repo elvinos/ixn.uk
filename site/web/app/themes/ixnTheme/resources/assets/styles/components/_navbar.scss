@@ -1,0 +1,156 @@
+#mainNav {
+  border-color: fade-out($gray-darker, 0.95);
+  background-color: $theme-white;
+
+  @include transition-all;
+  @include heading-font;
+
+  .navbar-brand {
+    #nav-logo {
+      fill: $theme-primary;
+    }
+
+    &:focus,
+    &:hover {
+      fill: $theme-dark;
+    }
+  }
+
+  .navbar-nav {
+    > li {
+      > a {
+        font-size: 11px;
+
+        @include menu-font;
+
+        &.active {
+          color: $theme-primary !important;
+          background-color: transparent;
+
+          &:hover {
+            background-color: transparent;
+          }
+        }
+      }
+
+      > a,
+      > a:focus {
+        color: $theme-dark;
+
+        &:hover {
+          color: $theme-dark;
+        }
+      }
+    }
+  }
+
+  @media (min-width: 767px) {
+    border-color: transparent;
+    background-color: transparent;
+
+    .navbar-brand {
+      #nav-logo {
+        fill: $gray-lighter;
+      }
+
+      &:focus,
+      &:hover {
+        color: white;
+      }
+    }
+
+    .navbar-nav > li > a,
+    .navbar-nav > li > a:focus {
+      color: $gray-lighter;
+
+      &:hover {
+        color: $theme-dark;
+      }
+    }
+
+    &.navbar-shrink {
+      border-color: fade-out($theme-primary, 0.9);
+      background-color: white;
+
+      .navbar-brand {
+        #nav-logo {
+          fill: $theme-primary;
+        }
+
+        &:focus,
+        &:hover {
+          fill: $theme-dark;
+        }
+      }
+
+      .navbar-nav > li > a,
+      .navbar-nav > li > a:focus {
+        color: $theme-primary;
+
+        &:hover {
+          color: $theme-dark;
+        }
+      }
+    }
+  }
+}
+
+/*
+  Burger Menu
+ */
+
+.hamburger {
+  width: 40px;
+  height: 28px;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  z-index: 100;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.hamburger span {
+  background: $theme-primary;
+  display: block;
+  position: absolute;
+  height: 4px;
+  transform: rotate(0deg);
+  transition: all 0.25s cubic-bezier(0.22, 0.61, 0.36, 1);
+  opacity: 1;
+  width: 100%;
+  left: 0;
+
+  &.open {
+    background: #fff;
+  }
+}
+
+.hamburger span:nth-child(1) {
+  top: 0;
+}
+
+.hamburger span:nth-child(2) {
+  top: 12px;
+}
+
+.hamburger span:nth-child(3) {
+  top: 24px;
+}
+
+.hamburger.open span:nth-child(1) {
+  top: 12px;
+  transform: rotate(135deg);
+}
+
+.hamburger.open span:nth-child(2) {
+  opacity: 0;
+  left: -60px;
+}
+
+.hamburger.open span:nth-child(3) {
+  top: 12px;
+  transform: rotate(-135deg);
+}
