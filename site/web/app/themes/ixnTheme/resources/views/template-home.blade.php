@@ -383,7 +383,7 @@
     </div>
 
     <section id="newsSec">
-        <div class="blogSet container">
+        <div class="blogSet homeBlogSet container">
 	        <?php
 
 	        $vargsposts = array(
@@ -542,61 +542,60 @@
                 <div class="col-lg-7">
                     <div class="row ">
                         <div class="col-6 col-md-2 my-auto mx-auto">
-                            <div class="partLogo" id="nhs" alt=""></div>
+                            <div class="partLogo mx-auto" id="nhs" alt=""></div>
                         </div>
                         <div class="col-6 col-md-2 my-auto mx-auto">
-                                <div class="partLogo" id="paars" alt=""></div>
+                                <div class="partLogo mx-auto" id="paars" alt=""></div>
                         </div>
                         <div class="col-md-2 col-6 my-auto mx-auto">
-                                <div class="partLogo" id="citi" alt=""></div>
+                                <div class="partLogo mx-auto" id="citi" alt=""></div>
                         </div>
                         <div class="col-md-2 col-6 my-auto mx-auto">
-                                <div class="partLogo" id="unicef" alt=""></div>
+                                <div class="partLogo mx-auto" id="unicef" alt=""></div>
                         </div>
                         <div class="col-md-2 col-6 my-auto mx-auto">
-                                <div class="partLogo" id="capita" alt=""></div>
+                                <div class="partLogo mx-auto" id="capita" alt=""></div>
                         </div>
                         <div class="col-md-2 col-6 my-auto mx-auto">
-                                <div class="partLogo" id="amrc" alt=""></div>
+                                <div class="partLogo mx-auto" id="amrc" alt=""></div>
                         </div>
 
-
                         <div class="col-6 col-md-2 my-auto mx-auto">
-                            <div class="partLogo" id="microsoft" alt=""></div>
+                            <div class="partLogo mx-auto" id="microsoft" alt=""></div>
                         </div>
                         <div class="col-6 col-md-2 my-auto mx-auto">
-                                <div class="partLogo" id="ibm" alt=""></div>
+                                <div class="partLogo mx-auto" id="ibm" alt=""></div>
                         </div>
                         <div class="col-md-2 col-6 my-auto mx-auto">
-                                <div class="partLogo" id="atos" alt=""></div>
+                                <div class="partLogo mx-auto" id="atos" alt=""></div>
                         </div>
                         <div class="col-md-2 col-6 my-auto mx-auto">
-                                <div class="partLogo" id="bosch" alt=""></div>
+                                <div class="partLogo mx-auto" id="bosch" alt=""></div>
                         </div>
                         <div class="col-md-2 col-6 my-auto mx-auto">
-                                <div class="partLogo" id="creditsuisse" alt=""></div>
+                                <div class="partLogo mx-auto" id="creditsuisse" alt=""></div>
                         </div>
                         <div class="col-md-2 col-6 my-auto mx-auto">
-                                <div class="partLogo" id="deutsche" alt=""></div>
+                                <div class="partLogo mx-auto" id="deutsche" alt=""></div>
                         </div>
 
                          <div class="col-6 col-md-2 my-auto mx-auto">
-                            <div class="partLogo" id="google" alt=""></div>
+                            <div class="partLogo mx-auto" id="google" alt=""></div>
                         </div>
                         <div class="col-6 col-md-2 my-auto mx-auto">
-                                <div class="partLogo" id="jpmorgan" alt=""></div>
+                                <div class="partLogo mx-auto" id="jpmorgan" alt=""></div>
                         </div>
                         <div class="col-md-2 col-6 my-auto mx-auto">
-                                <div class="partLogo" id="microsoftresearch" alt=""></div>
+                                <div class="partLogo mx-auto" id="microsoftresearch" alt=""></div>
                         </div>
                         <div class="col-md-2 col-6 my-auto mx-auto">
-                                <div class="partLogo" id="morganstanley" alt=""></div>
+                                <div class="partLogo mx-auto" id="morganstanley" alt=""></div>
                         </div>
                         <div class="col-md-2 col-6 my-auto mx-auto">
-                                <div class="partLogo" id="NTT" alt=""></div>
+                                <div class="partLogo mx-auto" id="NTT" alt=""></div>
                         </div>
                         <div class="col-md-2 col-6 my-auto mx-auto">
-                                <div class="partLogo" id="santander" alt=""></div>
+                                <div class="partLogo mx-auto" id="santander" alt=""></div>
                         </div>
                     </div>
                 </div>
