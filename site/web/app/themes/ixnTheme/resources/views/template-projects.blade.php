@@ -19,7 +19,7 @@
     $the_queryposts = new WP_Query($vargsposts);
     $postCounter = 1; ?>
     <section class="projects-display">
-        <div class="container">
+        <div class="container-fluid" id="projectsPageCont">
             <div class="row">
     <?php if (have_posts()) : while ($the_queryposts->have_posts()) : $the_queryposts->the_post();
 	    $thumbnail_id = get_post_thumbnail_id();
@@ -28,21 +28,43 @@
 	    $categories = get_the_category();
 	    $category_link = get_category_link($categories[0]->cat_ID);
 		    ?>
-                <div class="col-md-6">
+                <div class="col-lg-6">
                     <div class="projects-box">
                         <div class="projects-top">
-                            <span class="project-name-text"><?php the_Title(); ?> <br/> </span>
-                            <span id="field">Partner: </span>
-                            <span id="value"><?php echo the_field('partner'); ?> <br/></span>
-                            <span id="field">Catagory: </span>
-                            <a href="<?php echo $category_link ?>"><?php echo get_the_category_list(","); ?><br/></a>
-                            <span id="field">Authors: </span>
-                            <span id="value"><?php echo the_field('authors'); ?> <br/></span>
-                            <span id="field">Sumbission Date: </span>
-                            <span id="value"> <?php echo the_field('submission_date')?></span>
-                            <span class="openProject toggle-projects-overlay" style="font-size:15px;cursor:pointer">MORE</span>
+                            <span class="project-name-text section-divider"><?php the_Title(); ?> <br/> </span>
+                            <div class="row">
+                                <div class="col-xl-10">
+                            <table class="projectTable">
+                                <colgroup class="projectCols">
+                                    <col class="fieldCol">
+                                    <col class="valueCol">
+                                </colgroup>
+                                <tr>
+                                    <td class="fieldCol"><span>Partner: </span></td>
+                                    <td class="valueCol"> <span><?php echo the_field('partner'); ?> </span></td>
+                                </tr>
+                                <tr>
+                                    <td class="fieldCol"><span>Catagory: </span></td>
+                                    <td class="valueCol"><span><?php foreach((get_the_category()) as $category) {
+                                    	echo $category->cat_name . ' ';}?></span></td>
+                                </tr>
+                                <tr>
+                                    <td class="fieldCol"> <span>Authors: </span></td>
+                                    <td class="valueCol"><span><?php echo the_field('authors'); ?> </span></td>
+                                </tr>
+                                <tr>
+                                    <td class="fieldCol"><span>Sumbission: </span></td>
+                                    <td class="valueCol"><span> <?php echo the_field('submission_date')?></span></td>
+                                </tr>
+                            </table>
+                                </div>
+                                <div class="col-xl-2 mt-auto mx-auto projButtonCol">
+	                              <a class="navLink" href= "<?php the_permalink(); ?>"> <button class="moreBtn draw-border mx-auto" id="projectButton">More</button></a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="projects-bottom">
+                        <div class="projects-bottom"
+                            style="background-image: url(<?php echo $thumbnail_url[0]; ?>);">
                         </div>
                     </div>
                 </div>
