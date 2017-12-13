@@ -10,26 +10,25 @@ $themelight: #f4f4e7;
 
 .projects-box {
   margin-bottom: 5%;
-  //height: 450px;
   background-color: white;
   transition: -webkit-transform 300ms, box-shadow 300ms, opacity 300ms;
   transform: translate3d(0, 0, 0);
-  //box-shadow: rgba(0, 0, 0, 0.0980392) 1px;
   box-shadow: 2px 3px 3px 1px rgba(132, 132, 132, 0.2);
 
   .projButtonCol {
     padding: 0;
   }
 
+  a:hover {
+    text-decoration: none;
+  }
+
   #projectButton {
-    //width: 80px;
     display: block;
     padding: 0.5em;
     width: 75px;
     font-size: 16px;
     letter-spacing: 2px;
-    //padding-left: 1em;
-    //padding-right: 1em;
   }
 }
 
@@ -37,7 +36,6 @@ $themelight: #f4f4e7;
   transform: translateY(-6px);
   transition: -webkit-transform 300ms, box-shadow 300ms, opacity 300ms;
   box-shadow: rgba(0, 0, 0, 0.298039) 12px 12px 12px 0;
-  //box-shadow: 4px 7px 7px 1px rgba(132, 132, 132, 0.45);
 }
 
 .projects-top {

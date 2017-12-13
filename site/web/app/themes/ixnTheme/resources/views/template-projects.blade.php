@@ -8,6 +8,26 @@
 
     @include('partials.page-header')
 
+    <form action="<?php echo site_url() ?>/wp-admin/admin-ajax.php" method="POST" id="filter">
+	    <?php
+	    if( $terms = get_terms( 'category', 'orderby=name' ) ) : // to make it simple I use default categories
+		    echo '<select name="categoryfilter"><option>Select category...</option>';
+		    foreach ( $terms as $term ) :
+			    echo '<option value="' . $term->term_id . '">' . $term->name . '</option>'; // ID of the category as the value of an option
+		    endforeach;
+		    echo '</select>';
+	    endif;
+	    ?>
+        <label>
+            <input type="radio" name="date" value="ASC" /> Date: Ascending
+        </label>
+        <label>
+            <input type="radio" name="date" value="DESC" selected="selected" /> Date: Descending
+        </label>
+        <button>Apply filter</button>
+        <input type="hidden" name="action" value="myFilter">
+    </form>
+    <div id="response"></div>
     <?php
 
     $vargsposts = array(
@@ -72,41 +92,32 @@
             </div>
         </div>
 
-        {{--<aside class="overlayProject">--}}
-            {{--<!-- Button to close the overlay navigation -->--}}
-            {{--<!-- Overlay content -->--}}
-            {{--<div class="overlay-content">--}}
-                {{--<a class="closeProject toggle-projects-overlay"><span></span></a>--}}
-                {{--<div class="container">--}}
-                    {{--<div class="row">--}}
-                        {{--<div class="col-lg-6">--}}
-                            {{--<div class="innerbox">--}}
-                                {{--<div class="innertop">--}}
-                                    {{--<span class="project-name-text">IXN Website<br/></span>--}}
-                                    {{--<span id="field">Partner: </span>--}}
-                                    {{--<span id="value">Microsoft <br/></span>--}}
-                                    {{--<span id="field">Catagory: </span>--}}
-                                    {{--<span id="value">Tech Industry, Website <br/></span>--}}
-                                    {{--<span id="field">Authors: </span>--}}
-                                    {{--<span id="value">Alex Charles, Phoebe Staab, Giovanni Tenderinni <br/></span>--}}
-                                    {{--<span id="field">Sumbission Date: </span>--}}
-                                    {{--<span id="value"> 11/11/11</span>--}}
-                                {{--</div>--}}
-                                {{--<div class="innerbottom">--}}
-                                    {{--<div class="vid">--}}
-                                    {{--</div>--}}
-                                {{--</div>--}}
-                            {{--</div>--}}
-                        {{--</div>--}}
-                        {{--<div class="col-lg-6">--}}
-                            {{--<div class="innerbox2">--}}
-                                {{--<div class="poster">--}}
-                                {{--</div>--}}
-                            {{--</div>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-            {{--</div>--}}
-        {{--</aside>--}}
     </section>
+    <script>
+    jQuery(function($){
+    $('#filter').submit(function(){
+    var filter = $('#filter');
+    $.ajax({
+    url:filter.attr('action'),
+    data:filter.serialize(), // form data
+    type:filter.attr('method'), // POST
+    beforeSend:function(xhr){
+    filter.find('button').text('Processing...'); // changing the button label
+    },
+    success:function(data){
+    filter.find('button').text('Apply filter'); // changing the button label back
+        if (data.status === 'success') {
+    $('#response').html(data); // insert data
+            }
+            else{
+            filter.find('button').text('broken...');
+        }
+
+    }
+    });
+    return false;
+    });
+    });
+
+    </script>
 @endsection
