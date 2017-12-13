@@ -1,215 +1,94 @@
 $themelight: #f4f4e7;
 
+#projectsPageCont {
+  padding: 0 50px;
+
+  @media only screen and (max-width: 800px) {
+    padding: 0 10px;
+  }
+}
+
 .projects-box {
-  // margin-top: 5%;
   margin-bottom: 5%;
-  height: 450px;
+  //height: 450px;
   background-color: white;
-  box-shadow: 2px 2px 2px 2px #848484;
+  transition: -webkit-transform 300ms, box-shadow 300ms, opacity 300ms;
+  transform: translate3d(0, 0, 0);
+  //box-shadow: rgba(0, 0, 0, 0.0980392) 1px;
+  box-shadow: 2px 3px 3px 1px rgba(132, 132, 132, 0.2);
+
+  .projButtonCol {
+    padding: 0;
+  }
+
+  #projectButton {
+    //width: 80px;
+    display: block;
+    padding: 0.5em;
+    width: 75px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    //padding-left: 1em;
+    //padding-right: 1em;
+  }
 }
 
 .projects-box:hover {
-  box-shadow: 5px 5px 5px 5px #848484;
+  transform: translateY(-6px);
+  transition: -webkit-transform 300ms, box-shadow 300ms, opacity 300ms;
+  box-shadow: rgba(0, 0, 0, 0.298039) 12px 12px 12px 0;
+  //box-shadow: 4px 7px 7px 1px rgba(132, 132, 132, 0.45);
 }
 
 .projects-top {
-  // height:180px;
-  background-color: white;
+  background: rgba(244, 244, 231, 0.2);
+  //background-color: $theme-light-opacity;
   line-height: 80%;
   word-wrap: break-word;
-  padding: 1%;
-  padding-bottom: 3%;
+  padding: 10px;
+
+  .project-name-text {
+    @include section-heading-font;
+
+    color: $theme-tertiary;
+    text-transform: capitalize;
+    font-size: 32pt;
+    letter-spacing: normal;
+  }
+
+  .section-divider::before {
+    border-bottom: 10px solid $theme-primary;
+  }
+
+  .projectTable {
+    margin-top: 20px;
+    border-spacing: 20px 20px;
+
+    tr td {
+      padding-right: 10px;
+      padding-bottom: 18px;
+    }
+
+    .fieldCol {
+      font-size: 14pt;
+      font-weight: 400;
+      margin: 5px;
+      font-style: italic;
+      color: #9b9b9b;
+    }
+
+    .valueCol {
+      color: #022b3a;
+      font-size: 14pt;
+      font-weight: 700;
+    }
+  }
 }
 
 .projects-bottom {
   // margin-bottom: 10%;
-  height: 230px;
+  height: 300px;
   background-image: url("http://www.simplereg.com/images/assets/site-builder/site-builder-header.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-.project-name-text {
-  font-family: Lato;
-  color: #022b3a;
-  font-size: 32pt;
-}
-
-#field {
-  font-family: Lato;
-  color: #9b9b9b;
-  font-size: 14pt;
-}
-
-#value {
-  font-family: Lato;
-  color: #022b3a;
-  font-size: 14pt;
-}
-
-span {
-  line-height: 100%;
-}
-
-.btn {
-  margin-left: 80%;
-  height: 30px;
-}
-
-h2 {
-  margin-bottom: 5%;
-}
-
-.overlayProject {
-  position: fixed; /* Stay in place */
-  z-index: 100000;
-  height: 100%;
-  width: 100%; /* Sit on top */
-  left: 0;
-  top: 0;
-  background-color: rgb(0, 0, 0); /* Black fallback color */
-  background-color: rgba(0, 0, 0, 0.9); /* Black w/opacity */
-  overflow-x: hidden; /* Disable horizontal scroll */
-  overflow-y: hidden;
-  transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
-  opacity: 0;
-  visibility: hidden;
-}
-
-.open {
-  opacity: 1;
-  visibility: visible;
-}
-
-/* Position the content inside the overlay */
-.overlay-content {
-  position: relative;
-  top: 20%; /* 25% from the top */
-  width: 100%; /* 100% width */
-  text-align: center; /* Centered text/links */
-  margin-top: 25px; /* 30px top margin to avoid conflict with the close button on smaller screens */
-}
-
-/* The navigation links inside the overlay */
-.overlayProject a {
-  padding: 8px;
-  text-decoration: none;
-  font-size: 36px;
-  color: #818181;
-  display: block; /* Display block instead of inline */
-  transition: 0.3s; /* Transition effects on hover (color) */
-}
-
-/* When you mouse over the navigation links, change their color */
-.overlayProject a:hover,
-.overlayProject a:focus {
-  color: #f1f1f1;
-}
-
-/* Position the close button (top right corner) */
-.closebtn {
-  z-index: 100001;
-  position: absolute;
-  top: 80px;
-  right: 45px;
-  font-size: 60px;
-}
-
-/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
-@media screen and (max-height: 450px) {
-  .overlayProject a {
-    font-size: 20px;
-  }
-
-  .overlayProject .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
-  }
-}
-
-.openProject {
-  margin-left: 84%;
-  font-size: 20pt;
-  color: #b80c09;
-  border-style: solid;
-  border-width: 2px;
-  border-color: #b80c09;
-  font-family: Lato;
-  padding: 1px;
-}
-
-.openProject:hover {
-  border-color: #022b3a;
-  color: #022b3a;
-}
-
-.innerbox {
-  height: 500px;
-  background-color: white;
-  margin-left: 0;
-  margin-right: 0;
-  text-align: left;
-}
-
-.innerbox2 {
-  height: 500px;
-  background-color: #022b3a;
-  padding-top: 10%;
-}
-
-.poster {
-  margin: 0;
-  height: 420px;
-  background-image: url(http://furthermaths.org.uk/manager_area/files/FMSP%20Poster%202%20final.jpg);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.innertop {
-  background-color: white;
-  line-height: 80%;
-  word-wrap: break-word;
-  padding: 1%;
-}
-
-.innerbottom {
-  height: 300px;
-  background-image: url('https://i.ytimg.com/vi/0fjyCfjcLWc/maxresdefault.jpg');
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.closeProject {
-  position: fixed;
-  top: 40px;
-  right: 60px;
-  color: white;
-  z-index: 3;
-  cursor: pointer;
-  font-family: sans-serif;
-
-  span,
-  span::before,
-  span::after {
-    border-radius: 4px;
-    height: 5px;
-    width: 35px;
-    background: white;
-    position: absolute;
-    display: block;
-    content: '';
-  }
-
-  span {
-    background: transparent;
-  }
-
-  span::before {
-    transform: rotate(45deg);
-  }
-
-  span::after {
-    transform: rotate(-45deg);
-  }
 }
