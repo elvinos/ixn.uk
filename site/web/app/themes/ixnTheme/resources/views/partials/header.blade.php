@@ -47,7 +47,7 @@ $url = home_url();
                             <a class="nav-link js-scroll-trigger " href="#eventsHome">Events</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href= "' . $outputcontact . '">Contact</a>
+                            <a class="nav-link js-scroll-trigger" href= "' . $outputcontact . '">Contact</a>
                         </li>'
                         ;
 	            else:

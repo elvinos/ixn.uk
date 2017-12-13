@@ -6,6 +6,7 @@
 @section('content')
     <?php
     $permalinkabout = get_permalink(get_page_by_path('about'));
+    $permalinkabout = get_permalink(get_page_by_path('contact'));
     $permalinkprojects = get_permalink(get_page_by_path('projects'));
     $permalinkevents = get_permalink(get_page_by_path('events'));
     $find = array( '//');
@@ -13,6 +14,7 @@
     $outputabout= str_replace( $find, $replace, $permalinkabout );
     $outputprojects = str_replace( $find, $replace,  $permalinkprojects);
     $outputevents = str_replace( $find, $replace, $permalinkevents);
+    $outputcontact = str_replace( $find, $replace, $permalinkevents);
     ?>
 
     {{--Splash Page--}}
@@ -302,7 +304,7 @@
                                 <div class="textBox col-md-6 my-auto">
                                     <div class="row">
                                         <div class="col-11 offset-1"><span class="hiwHead">Step 1</span></div>
-                                        <div class="col-9 offset-2"><span> <?php echo the_field('carousel_step_1');?> </span></div>
+                                        <div class="col-9 offset-2"><span> Get in touch with one of our coordinators, Dr. Yun Fu or Dr. Dean Mohamedally and tell them about your project. </span></div>
                                     </div>
                                 </div>
                                 <div class="hiwBox col-md-6" id="img1">
@@ -315,7 +317,7 @@
                                 <div class="textBox col-md-6 my-auto">
                                     <div class="row">
                                         <div class="col-11 offset-1"><span class="hiwHead">Step 2</span></div>
-                                        <div class="col-9 offset-2"><span><?php echo the_field('carousel_step_2');?> </span></div>
+                                        <div class="col-9 offset-2"><span>Dr. Fu and Dr. Mohamedally consider your project and assign it the perfect group of UCL engineers. </span></div>
                                     </div>
                                 </div>
                                 <div class="hiwBox col-md-6" id="img2">
@@ -327,7 +329,7 @@
                                 <div class="textBox col-md-6 my-auto">
                                     <div class="row">
                                         <div class="col-11 offset-1"><span class="hiwHead">Step 3</span></div>
-                                        <div class="col-9 offset-2"><span><?php echo the_field('carousel_step_3');?> </span></div>
+                                        <div class="col-9 offset-2"><span>Your team will get in touch with you to discuss design and and motivations behind the project. </span></div>
                                     </div>
                                 </div>
                                 <div class="hiwBox col-md-6" id="img3">
@@ -339,7 +341,7 @@
                                 <div class="textBox col-md-6 my-auto">
                                     <div class="row">
                                         <div class="col-11 offset-1"><span class="hiwHead">Step 4</span></div>
-                                        <div class="col-9 offset-2"><span><?php echo the_field('carousel_step_4');?> </span></div>
+                                        <div class="col-9 offset-2"><span>Your team will iterate through several designs until you are happy the style of product prototype. </span></div>
                                     </div>
                                 </div>
                                 <div class="hiwBox col-md-6" id="img4">
@@ -351,7 +353,7 @@
                                 <div class="textBox col-md-6 my-auto">
                                     <div class="row">
                                         <div class="col-11 offset-1"><span class="hiwHead">Step 5</span></div>
-                                        <div class="col-9 offset-2"><span><?php echo the_field('carousel_step_5');?> </span></div>
+                                        <div class="col-9 offset-2"><span>Your UCL team will handle all of the front-end and back-end development of your project.</span></div>
                                     </div>
                                 </div>
                                 <div class="hiwBox col-md-6" id="img5">
@@ -363,7 +365,7 @@
                                 <div class="textBox col-md-6 my-auto">
                                     <div class="row">
                                         <div class="col-11 offset-1"><span class="hiwHead">Step 6</span></div>
-                                        <div class="col-9 offset-2"><span><?php echo the_field('carousel_step_6');?> </span></div>
+                                        <div class="col-9 offset-2"><span>Within a few short months, your project will transform from an idea into a beautiful custom product. </span></div>
                                     </div>
                                 </div>
                                 <div class="hiwBox col-md-6" id="img6">
@@ -387,7 +389,7 @@
                <span class="imgFullText"> interested? <br/> get in touch.</span>
                </div>
                <div class="row buttonImg">
-    <?php echo '<a class="navLink mx-auto" href= "mailto:y.fu@cs.ucl.ac.uk"> <button class="moreBtn draw-border">Contact us</button> </a>' ?>
+    <?php echo '<a class="navLink mx-auto" href= "' . $outputcontact . '"> <button class="moreBtn draw-border">Contact us</button> </a>' ?>
                </div>
            </div>
        </div>
@@ -527,7 +529,7 @@
                             </div>
                             <div class="events-home-bottom">
                                 <span class="eventName">
-                                    <a href="<?php the_permalink(); ?>"> <?php the_Title() ?></a>
+                                    <?php the_Title() ?>
                                 </span>
                                 <span></br> <?php echo the_field('event_date');?>, <?php echo the_field('event_time');?> </span>
                                 <span></br> <?php echo the_field('event_location');?> </span>

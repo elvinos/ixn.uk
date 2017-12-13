@@ -52,7 +52,7 @@
 					</div>
 					<div class="events-bottom">
 						<span class="eventName">
-							<a href="<?php the_permalink(); ?>"> <?php the_Title() ?></a>
+							<?php the_Title() ?>
 						</span>
 						<span class="eventDateText"></br><?php echo the_field('event_date');?>, <?php echo the_field('event_time');?></span>
 						<span class="eventDateText"></br><?php echo the_field('event_location');?></span>

@@ -23,8 +23,11 @@ export default {
   // Activate scrollspy to add active class to navbar items on scroll
   $('body').scrollspy({
     target: '#mainNav',
-    offset: -1,
+    offset: 40,
   });
+
+  //  add active class to navbar items on active page
+
     // JavaScript to be fired on all pages
       // Collapse Navbar
 
