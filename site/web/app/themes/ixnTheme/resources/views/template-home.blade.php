@@ -16,12 +16,12 @@
     ?>
 
     {{--Splash Page--}}
-    <header class="masthead" id="about">
+    <header class="masthead">
         <div class="container h-100">
             <div class="row h-100">
                 <div class="col-lg-8 my-auto">
                     <div class="header-content mx-auto">
-                        <h1 class="mb-5"><?php echo the_field('home_text');?></h1>
+                        <h1 class="mb-5" id="about"><?php echo the_field('home_text');?></h1>
                     </div>
                 </div>
             </div>

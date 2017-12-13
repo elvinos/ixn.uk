@@ -83,8 +83,9 @@
   background-color: $theme-light;
   margin-top: 10%;
   margin-right: 5%;
-  height: 80%;
+  // height: 80%;
   text-align: center;
+  padding-bottom: 10px;
 }
 
 #aboutButtonBox {
@@ -136,7 +137,7 @@ div.play-button {
   margin-left: -36px;
   margin-top: -36px;
   position: absolute;
-  background: url("http://i.imgur.com/TxzC70f.png") no-repeat;
+  background: url("images/homeImages/play.png") no-repeat;
 }
 
 #youtube-iframe {
