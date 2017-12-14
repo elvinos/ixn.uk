@@ -29,6 +29,10 @@ $url = home_url();
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
 	            <?php if ( is_front_page() ):
+                $permalinkcontact = get_permalink(get_page_by_path('contact'));
+                $find = array( '//');
+                $replace = 'http://';
+                $outputcontact = str_replace( $find, $replace, $permalinkcontact);
 		            echo '
                         <li class="nav-item">
                             <a class="nav-link js-scroll-trigger " href="#about">About</a>
@@ -42,8 +46,8 @@ $url = home_url();
                         <li class="nav-item">
                             <a class="nav-link js-scroll-trigger " href="#eventsHome">Events</a>
                         </li>
-                         <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger " href="#footerSec">Contact</a>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href= "' . $outputcontact . '">Contact</a>
                         </li>'
                         ;
 	            else:
@@ -51,12 +55,14 @@ $url = home_url();
 	            $permalinkprojects = get_permalink(get_page_by_path('projects'));
 	            $permalinknews = get_permalink(get_page_by_path('news'));
 	            $permalinkevents = get_permalink(get_page_by_path('events'));
+                $permalinkcontact = get_permalink(get_page_by_path('contact'));
 	            $find = array( '//');
 	            $replace = 'http://';
 	            $outputabout= str_replace( $find, $replace, $permalinkabout );
 	            $outputprojects = str_replace( $find, $replace,  $permalinkprojects);
 	            $outputnews = str_replace( $find, $replace,  $permalinknews);
 	            $outputevents = str_replace( $find, $replace, $permalinkevents);
+                $outputcontact = str_replace( $find, $replace, $permalinkcontact);
 		            echo '<li class="nav-item">
                             <a class="nav-link" href=  "'. $outputabout . '">About</a>
                         </li>
@@ -70,7 +76,7 @@ $url = home_url();
                             <a class="nav-link" href= "' . $outputevents . '">Events</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger"href="#footerPage">Contact</a>
+                            <a class="nav-link" href= "' . $outputcontact . '">Contact</a>
                         </li>';
                 endif
                     ?>
