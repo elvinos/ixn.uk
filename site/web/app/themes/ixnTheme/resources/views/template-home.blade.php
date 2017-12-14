@@ -5,18 +5,20 @@
 
 @section('content')
 
-    <?php
-    $permalinkabout = get_permalink(get_page_by_path('about'));
-    $permalinkprojects = get_permalink(get_page_by_path('projects'));
-    $permalinkevents = get_permalink(get_page_by_path('events'));
-    $permalinkcontact = get_permalink(get_page_by_path('contact'));
-    $find = array( '//');
-    $replace = 'http://';
-    $outputabout= str_replace( $find, $replace, $permalinkabout );
-    $outputprojects = str_replace( $find, $replace,  $permalinkprojects);
-    $outputevents = str_replace( $find, $replace, $permalinkevents);
-    $outputcontact = str_replace( $find, $replace, $permalinkcontact);
-    ?>
+	<?php
+	$permalinkabout = get_permalink( get_page_by_path( 'about' ) );
+	$permalinkprojects = get_permalink( get_page_by_path( 'projects' ) );
+	$permalinkevents = get_permalink( get_page_by_path( 'events' ) );
+	$permalinkcontact = get_permalink( get_page_by_path( 'contact' ) );
+	$permalinknews = get_permalink( get_page_by_path( 'news' ) );
+	$find = array( '//' );
+	$replace = 'http://';
+	$outputabout = str_replace( $find, $replace, $permalinkabout );
+	$outputprojects = str_replace( $find, $replace, $permalinkprojects );
+	$outputevents = str_replace( $find, $replace, $permalinkevents );
+	$outputcontact = str_replace( $find, $replace, $permalinkcontact );
+	$outputnews = str_replace( $find, $replace, $permalinknews );
+	?>
 
 
     {{--Splash Page--}}
@@ -25,7 +27,7 @@
             <div class="row h-100">
                 <div class="col-lg-8 my-auto">
                     <div class="header-content mx-auto">
-                        <h1 class="mb-5"><?php echo the_field('home_text');?></h1>
+                        <h1 class="mb-5"><?php echo the_field( 'home_text' );?></h1>
                     </div>
                 </div>
             </div>
@@ -165,99 +167,107 @@
         </div>
     </section>
 
-     <section id="hiwSec">
+    <section id="hiwSec">
         <div class="container">
-        <div class="row">
-            <div class="col-md-12" id="hiwDivider">
-                <span class="section-divider">how it works</span>
+            <div class="row">
+                <div class="col-md-12" id="hiwDivider">
+                    <span class="section-divider">how it works</span>
+                </div>
             </div>
         </div>
-        </div>
-        <div class="container hiwslide" id="hiwcontainer">
-                <div class="carousel slide" id="slider" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#slider" data-slide-to="0" class="active"></li>
-                        <li data-target="#slider" data-slide-to="1"></li>
-                        <li data-target="#slider" data-slide-to="2"></li>
-                        <li data-target="#slider" data-slide-to="3"></li>
-                        <li data-target="#slider" data-slide-to="4"></li>
-                        <li data-target="#slider" data-slide-to="5"></li>
-                    </ol>
-                    <div class="carousel-inner" role="listbox">
-                        <div class="carousel-item active" >
-                            <div class="row">
-                                <div class="textBox col-md-6 my-auto">
-                                    <div class="row">
-                                        <div class="col-11 offset-1"><span class="hiwHead">Step 1</span></div>
-                                        <div class="col-9 offset-2"><span> Get in touch with one of our coordinators, Dr. Yun Fu or Dr. Dean Mohamedally and tell them about your project. </span></div>
-                                    </div>
-                                </div>
-                                <div class="hiwBox col-md-6" id="img1">
-                                </div>
-                            </div>
-                        </div>
+        <div class="container hiwslide">
 
-                        <div class="carousel-item">
-                            <div class="row">
-                                <div class="textBox col-md-6 my-auto">
-                                    <div class="row">
-                                        <div class="col-11 offset-1"><span class="hiwHead">Step 2</span></div>
-                                        <div class="col-9 offset-2"><span>Dr. Fu and Dr. Mohamedally consider your project and assign it the perfect group of UCL engineers. </span></div>
+            <div class="carousel slide" id="slider" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#slider" data-slide-to="0" class="active"></li>
+                    <li data-target="#slider" data-slide-to="1"></li>
+                    <li data-target="#slider" data-slide-to="2"></li>
+                    <li data-target="#slider" data-slide-to="3"></li>
+                    <li data-target="#slider" data-slide-to="4"></li>
+                    <li data-target="#slider" data-slide-to="5"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="textBox col-md-6 my-auto">
+                                <div class="row">
+                                    <div class="col-11 offset-1"><span class="hiwHead">Step 1</span></div>
+                                    <div class="col-9 offset-2"><span> Get in touch with one of our coordinators, Dr. Yun Fu or Dr. Dean Mohamedally and tell them about your project. </span>
                                     </div>
-                                </div>
-                                <div class="hiwBox col-md-6" id="img2">
                                 </div>
                             </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row">
-                                <div class="textBox col-md-6 my-auto">
-                                    <div class="row">
-                                        <div class="col-11 offset-1"><span class="hiwHead">Step 3</span></div>
-                                        <div class="col-9 offset-2"><span>Your team will get in touch with you to discuss design and and motivations behind the project. </span></div>
-                                    </div>
-                                </div>
-                                <div class="hiwBox col-md-6" id="img3">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row">
-                                <div class="textBox col-md-6 my-auto">
-                                    <div class="row">
-                                        <div class="col-11 offset-1"><span class="hiwHead">Step 4</span></div>
-                                        <div class="col-9 offset-2"><span>Your team will iterate through several designs until you are happy the style of product prototype. </span></div>
-                                    </div>
-                                </div>
-                                <div class="hiwBox col-md-6" id="img4">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row">
-                                <div class="textBox col-md-6 my-auto">
-                                    <div class="row">
-                                        <div class="col-11 offset-1"><span class="hiwHead">Step 5</span></div>
-                                        <div class="col-9 offset-2"><span>Your UCL team will handle all of the front-end and back-end development of your project.</span></div>
-                                    </div>
-                                </div>
-                                <div class="hiwBox col-md-6" id="img5">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row">
-                                <div class="textBox col-md-6 my-auto">
-                                    <div class="row">
-                                        <div class="col-11 offset-1"><span class="hiwHead">Step 6</span></div>
-                                        <div class="col-9 offset-2"><span>Within a few short months, your project will transform from an idea into a beautiful custom product. </span></div>
-                                    </div>
-                                </div>
-                                <div class="hiwBox col-md-6" id="img6">
-                                </div>
+                            <div class="hiwBox col-md-6" id="img1">
                             </div>
                         </div>
                     </div>
+
+
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="textBox col-md-6 my-auto">
+                                <div class="row">
+                                    <div class="col-11 offset-1"><span class="hiwHead">Step 2</span></div>
+                                    <div class="col-9 offset-2"><span>Dr. Fu and Dr. Mohamedally consider your project and assign it the perfect group of UCL engineers. </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hiwBox col-md-6" id="img2">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="textBox col-md-6 my-auto">
+                                <div class="row">
+                                    <div class="col-11 offset-1"><span class="hiwHead">Step 3</span></div>
+                                    <div class="col-9 offset-2"><span>Your team will get in touch with you to discuss design and and motivations behind the project. </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hiwBox col-md-6" id="img3">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="textBox col-md-6 my-auto">
+                                <div class="row">
+                                    <div class="col-11 offset-1"><span class="hiwHead">Step 4</span></div>
+                                    <div class="col-9 offset-2"><span>Your team will iterate through several designs until you are happy the style of product prototype. </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hiwBox col-md-6" id="img4">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="textBox col-md-6 my-auto">
+                                <div class="row">
+                                    <div class="col-11 offset-1"><span class="hiwHead">Step 5</span></div>
+                                    <div class="col-9 offset-2"><span>Your UCL team will handle all of the front-end and back-end development of your project.</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hiwBox col-md-6" id="img5">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="textBox col-md-6 my-auto">
+                                <div class="row">
+                                    <div class="col-11 offset-1"><span class="hiwHead">Step 6</span></div>
+                                    <div class="col-9 offset-2"><span>Within a few short months, your project will transform from an idea into a beautiful custom product. </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="hiwBox col-md-6" id="img6">
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <a class="carousel-control-prev" href="#slider" role="button" data-slide="prev">
                     <i class="fa fa-chevron-left arrowStyle"></i>
                 </a>
@@ -266,7 +276,6 @@
                 </a>
             </div>
         </div>
-
     </section>
     {{--Projects Section--}}
 
@@ -282,7 +291,7 @@
 
 			$vargsposts = array(
 				'post_type'      => 'project',
-				'tag'=> 'Featured',
+				'tag'            => 'Featured',
 				'posts_per_page' => '3',
 				'orderby'        => 'post_date'
 			);
@@ -301,212 +310,88 @@
             <div class="row projectRow">
                 @if($postCounter %2 == 0)
                     <div class="col-lg-9 offset-lg-1 col-md-11 projectBox container-fluid">
-                @else
-                    <div class="col-lg-9 offset-lg-2 col-md-11 projectBox container-fluid">
-                @endif
-                    <div class="row">
-                        @if($postCounter %2 == 0)
-                            <div class="col-md-6 order-md-2">
                         @else
-                            <div class="col-md-6">
-                        @endif
+                            <div class="col-lg-9 offset-lg-2 col-md-11 projectBox container-fluid">
+                                @endif
                                 <div class="row">
-                                    <div class="projectHeading col-md-12">
-                                        <span> <?php the_Title(); ?> </span>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="projectBody col-md-11 offset-md-1">
-                                        <span><?php the_excerpt(); ?></span>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-lg-12 buttonRow">
-                                     <a class="navLink" href= "<?php the_permalink(); ?>"> <button class="moreBtn draw-border float-right">More</button></a>
-                                    </div>
-                                </div>
-                            </div>
-                            @if($postCounter %2 == 0)
-                                <div class="projectImage col-md-6 my-auto order-md-1">
-                                    @else
-                                        <div class="projectImage col-md-6 my-auto">
-                                    @endif
-                                    @if(has_category('Web'))
-                                        <div class="device-container">
-                                            <div class="device-mockup macbook_2015">
-                                    @elseif (has_category('Mobile'))
-                                        <div class="device-container iphone6Cont">
-                                            <div class="device-mockup iphone6">
-                                                @else
-                                                    <div class="device-container">
-                                                        <div class="device-mockup macbook_2015">
-                                                            @endif
-                                                            <div class="device">
-                                                                <div class="screen">
-                                                                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                                                                    <img src="<?php echo $thumbnail_url[0]; ?>"
-                                                                         class="img-fluid" alt="">
-                                                                </div>
-                                                            </div>
+                                    @if($postCounter %2 == 0)
+                                        <div class="col-md-6 order-md-2">
+                                            @else
+                                                <div class="col-md-6">
+                                                    @endif
+                                                    <div class="row">
+                                                        <div class="projectHeading col-md-12">
+                                                            <span> <?php the_Title(); ?> </span>
                                                         </div>
                                                     </div>
-                                            </div>
+                                                    <div class="row">
+                                                        <div class="projectBody col-md-11 offset-md-1">
+                                                            <span><?php the_excerpt(); ?></span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-lg-12 buttonRow">
+                                                            <a class="navLink" href="<?php the_permalink(); ?>">
+                                                                <button class="moreBtn draw-border float-right">More
+                                                                </button>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                @if($postCounter %2 == 0)
+                                                    <div class="projectImage col-md-6 my-auto order-md-1">
+                                                        @else
+                                                            <div class="projectImage col-md-6 my-auto">
+                                                                @endif
+                                                                @if(has_category('Web'))
+                                                                    <div class="device-container">
+                                                                        <div class="device-mockup macbook_2015">
+                                                                            @elseif (has_category('Mobile'))
+                                                                                <div class="device-container iphone6Cont">
+                                                                                    <div class="device-mockup iphone6">
+                                                                                        @else
+                                                                                            <div class="device-container">
+                                                                                                <div class="device-mockup macbook_2015">
+                                                                                                    @endif
+                                                                                                    <div class="device">
+                                                                                                        <div class="screen">
+                                                                                                            <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                                                                                                            <img src="<?php echo $thumbnail_url[0]; ?>"
+                                                                                                                 class="img-fluid"
+                                                                                                                 alt="">
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                        </div>
+                                                                    </div>
+																	<?php $postCounter ++;
+																	endwhile;endif ?>
+																	<?php wp_reset_query(); ?>
+                                                            </div>
+                                                            <div class="container">
+                                                                <div class="row">
+                                                                    <div class="col-md-12">
+                                                                        <div class="see-more-projects-box">
+
+																			<?php echo '<a class="navLink" href= "' . $outputprojects . '"> <button class="moreBtn draw-border float-center">See More Projects</button></a>' ?>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                    </div>
                                         </div>
                                 </div>
                             </div>
-                            <?php $postCounter++;
-                            endwhile;endif;
-                                        wp_reset_query();?>
-                                </div>
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <div class="see-more-projects-box">
-
-												<?php echo '<a class="navLink" href= "' . $outputprojects . '"> <button class="moreBtn draw-border float-center">See More Projects</button></a>' ?>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-<<<<<<< HEAD
-    </section>
-    <section id="hiwSec">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12" id="hiwDivider">
-                    <span class="section-divider">how it works</span>
-                </div>
-            </div>
-        </div>
-        <div class="container hiwslide">
-
-                <div class="carousel slide" id="slider" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#slider" data-slide-to="0" class="active"></li>
-                        <li data-target="#slider" data-slide-to="1"></li>
-                        <li data-target="#slider" data-slide-to="2"></li>
-                        <li data-target="#slider" data-slide-to="3"></li>
-                        <li data-target="#slider" data-slide-to="4"></li>
-                        <li data-target="#slider" data-slide-to="5"></li>
-                    </ol>
-                    <div class="carousel-inner" role="listbox">
-                        <div class="carousel-item active" >
-                            <div class="row">
-                                <div class="textBox col-md-6 my-auto">
-                                    <div class="row">
-                                        <div class="col-11 offset-1"><span class="hiwHead">Step 1</span></div>
-                                        <div class="col-9 offset-2"><span> Get in touch with one of our coordinators, Dr. Yun Fu or Dr. Dean Mohamedally and tell them about your project. </span></div>
-                                    </div>
-                                </div>
-                                <div class="hiwBox col-md-6" id="img1">
-                            </div>
-                        </div>
                     </div>
-
-
-                        <div class="carousel-item">
-                            <div class="row">
-                                <div class="textBox col-md-6 my-auto">
-                                    <div class="row">
-                                        <div class="col-11 offset-1"><span class="hiwHead">Step 2</span></div>
-                                        <div class="col-9 offset-2"><span>Dr. Fu and Dr. Mohamedally consider your project and assign it the perfect group of UCL engineers. </span></div>
-                                    </div>
-                                </div>
-                                <div class="hiwBox col-md-6" id="img2">
-                            </div>
-                        </div>
-                    </div>
-                        <div class="carousel-item">
-                            <div class="row">
-                                <div class="textBox col-md-6 my-auto">
-                                    <div class="row">
-                                        <div class="col-11 offset-1"><span class="hiwHead">Step 3</span></div>
-                                        <div class="col-9 offset-2"><span>Your team will get in touch with you to discuss design and and motivations behind the project. </span></div>
-                                    </div>
-                                </div>
-                                <div class="hiwBox col-md-6" id="img3">
-                            </div>
-                        </div>
-                    </div>
-                        <div class="carousel-item">
-                            <div class="row">
-                                <div class="textBox col-md-6 my-auto">
-                                    <div class="row">
-                                        <div class="col-11 offset-1"><span class="hiwHead">Step 4</span></div>
-                                        <div class="col-9 offset-2"><span>Your team will iterate through several designs until you are happy the style of product prototype. </span></div>
-                                    </div>
-                                </div>
-                                <div class="hiwBox col-md-6" id="img4">
-                            </div>
-                        </div>
-                    </div>
-                        <div class="carousel-item">
-                            <div class="row">
-                                <div class="textBox col-md-6 my-auto">
-                                    <div class="row">
-                                        <div class="col-11 offset-1"><span class="hiwHead">Step 5</span></div>
-                                        <div class="col-9 offset-2"><span>Your UCL team will handle all of the front-end and back-end development of your project.</span></div>
-                                    </div>
-                                </div>
-                                <div class="hiwBox col-md-6" id="img5">
-                            </div>
-                        </div>
-                    </div>
-                        <div class="carousel-item">
-                            <div class="row">
-                                <div class="textBox col-md-6 my-auto">
-                                    <div class="row">
-                                        <div class="col-11 offset-1"><span class="hiwHead">Step 6</span></div>
-                                        <div class="col-9 offset-2"><span>Within a few short months, your project will transform from an idea into a beautiful custom product. </span></div>
-                                    </div>
-                                </div>
-                                <div class="hiwBox col-md-6" id="img6">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <a class="carousel-control-prev" href="#slider" role="button" data-slide="prev">
-                    <i class="fa fa-chevron-left arrowStyle"></i>
-                </a>
-                <a class="carousel-control-next" href="#slider" role="button" data-slide="next">
-                    <i class="fa fa-chevron-right arrowStyle"></i>
-                </a>
             </div>
         </div>
     </section>
-   <section id="getInTouchSec">
-       <div class="container-fluid" id="getInTouch">
-           <div class="contentImg">
-               <div class="row">
-               <span class="imgFullText"> interested? <br/> get in touch.</span>
-               </div>
-               <div class="row buttonImg">
-    <?php echo '<a class="navLink mx-auto" href= "' . $outputcontact . '"> <button class="moreBtn draw-border">Contact us</button> </a>' ?>
-               </div>
-           </div>
-       </div>
-   </section>
-=======
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-         <div class="container" id="projectscontainer">
-            <div class="row">
-             <div class="col-md-12">
-                <div class="see-more-projects-box" id="news">
 
-        <?php echo '<a class="navLink" href= "' . $outputprojects . '"> <button class="moreBtn draw-border float-center">See More Projects</button></a>' ?>
-    </div>
-    </div>
-</div>
-</div>
-    </section>
-   
-  
->>>>>>> PhoebeCode
+
 
     <div class="container" id="news">
         <div class="row">
@@ -587,29 +472,19 @@
 			<?php
 			$postCounter = $postCounter + 1;
 			endwhile; endif;
-
-<<<<<<< HEAD
 			wp_reset_query();
 			?>
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="see-more-projects-box">
-=======
-		        wp_reset_query();
-		        ?>
-            </div>
-              <div class="container" id="newscontainer">
-            <div class="row">
-             <div class="col-md-12">
-                <div class="see-more-projects-box" id="eventsHome">
->>>>>>> PhoebeCode
+            <div class="container" id="newscontainer">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="see-more-projects-box" id="eventsHome">
 
-						<?php echo '<a class="navLink" href= "' . $outputprojects . '"> <button class="moreBtn draw-border float-center">See More News</button></a>' ?>
+									<?php echo '<a class="navLink" href= "' . $outputnews . '"> <button class="moreBtn draw-border float-center">See More News</button></a>' ?>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
         </div>
     </section>
     <section class="eventsSec">
@@ -675,26 +550,22 @@
 
 
     </section>
-<<<<<<< HEAD
+
+    <section id="getInTouchSec">
+        <div class="container-fluid" id="getInTouch">
+            <div class="contentImg">
+                <div class="row">
+                    <span class="imgFullText"> interested? <br/> get in touch.</span>
+                </div>
+                <div class="row buttonImg">
+					<?php echo '<a class="navLink mx-auto" href= "' . $outputcontact . '"> <button class="moreBtn draw-border">Contact us</button> </a>' ?>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="partners">
-=======
 
-
-     <section id="getInTouchSec">
-       <div class="container-fluid" id="getInTouch">
-           <div class="contentImg">
-               <div class="row">
-               <span class="imgFullText"> interested? <br/> get in touch.</span>
-               </div>
-               <div class="row buttonImg">
-    <?php echo '<a class="navLink mx-auto" href= "' . $outputcontact . '"> <button class="moreBtn draw-border">Contact us</button> </a>' ?>
-               </div>
-           </div>
-       </div>
-   </section>
-   
-     <section class="partners">
->>>>>>> PhoebeCode
         <div class="container">
             <div class="row">
                 <div class="col-lg-4">
