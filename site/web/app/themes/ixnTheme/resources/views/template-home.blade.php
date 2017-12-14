@@ -23,7 +23,7 @@
             <div class="row h-100">
                 <div class="col-lg-8 my-auto">
                     <div class="header-content mx-auto">
-                        <h1 class="mb-5" id="about"><?php echo the_field('home_text');?></h1>
+                        <h1 class="mb-5"><?php echo the_field('home_text');?></h1>
                     </div>
                 </div>
             </div>
@@ -86,7 +86,7 @@
         </div>
     </section>
     <section class="what-we-do">
-        <div class="container-fluid">
+        <div class="container-fluid" id="wwdcontainer">
             <div class="row">
                 <div class="col-lg-4 order-lg-2">
                     <div class="box">
@@ -119,7 +119,7 @@
         </div>
     </section>
     <section id="stats">
-        <div class="container">
+        <div class="container" id="statscontainter">
             <div class="row">
                 <div class="col-md-4 statsBox text-center">
                     <div class="row">
@@ -169,7 +169,7 @@
             </div>
         </div>
         </div>
-        <div class="container hiwslide">
+        <div class="container hiwslide" id="hiwcontainer">
                 <div class="carousel slide" id="slider" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#slider" data-slide-to="0" class="active"></li>
@@ -262,11 +262,12 @@
                 </a>
             </div>
         </div>
+
     </section>
     {{--Projects Section--}}
 
     <section id="projects">
-        <div class="container-fluid">
+        <div class="container-fluid" id="projects">
             <div class="row">
                 <div class="offset-md-1 col-md-11">
                     <span class="section-divider">some of our projects</span>
@@ -372,10 +373,10 @@
                 </div>
             </div>
         </div>
-         <div class="container">
+         <div class="container" id="projectscontainer">
             <div class="row">
              <div class="col-md-12">
-                <div class="see-more-projects-box">
+                <div class="see-more-projects-box" id="news">
 
         <?php echo '<a class="navLink" href= "' . $outputprojects . '"> <button class="moreBtn draw-border float-center">See More Projects</button></a>' ?>
     </div>
@@ -469,10 +470,10 @@
 		        wp_reset_query();
 		        ?>
             </div>
-              <div class="container">
+              <div class="container" id="newscontainer">
             <div class="row">
              <div class="col-md-12">
-                <div class="see-more-projects-box">
+                <div class="see-more-projects-box" id="eventsHome">
 
         <?php echo '<a class="navLink" href= "' . $outputprojects . '"> <button class="moreBtn draw-border float-center">See More News</button></a>' ?>
     </div>
@@ -480,8 +481,8 @@
 </div>
 </div>
     </section>
-    <section class="eventsSec" id="eventsHome">
-        <div class="container">
+    <section class="eventsSec">
+        <div class="container" id="eventscontainer">
             <div class="events-home-background-box">
                 <div class="row">
                     <div class="col-12 col-sm-12 col-md-12 col-lg-4">
