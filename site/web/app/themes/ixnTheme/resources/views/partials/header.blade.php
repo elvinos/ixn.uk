@@ -29,10 +29,6 @@ $url = home_url();
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
 	            <?php if ( is_front_page() ):
-                $permalinkcontact = get_permalink(get_page_by_path('contact'));
-                $find = array( '//');
-                $replace = 'http://';
-                $outputcontact = str_replace( $find, $replace, $permalinkcontact);
 		            echo '
                         <li class="nav-item">
                             <a class="nav-link js-scroll-trigger " href="#about">About</a>
@@ -47,8 +43,9 @@ $url = home_url();
                             <a class="nav-link js-scroll-trigger " href="#eventsHome">Events</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href= "' . $outputcontact . '">Contact</a>
+                            <a class="nav-link js-scroll-trigger " href="#getInTouchSec">Contact</a>
                         </li>'
+
                         ;
 	            else:
 	            $permalinkabout = get_permalink(get_page_by_path('about'));

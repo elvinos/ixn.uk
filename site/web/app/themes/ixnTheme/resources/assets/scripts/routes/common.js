@@ -23,7 +23,7 @@ export default {
   // Activate scrollspy to add active class to navbar items on scroll
   $('body').scrollspy({
     target: '#mainNav',
-    offset: 40,
+    offset: 20,
   });
 
   //  add active class to navbar items on active page

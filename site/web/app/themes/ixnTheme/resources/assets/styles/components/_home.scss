@@ -70,6 +70,10 @@
  What We DO
  */
 
+#wwdcontainer {
+  padding-top: 50px;
+}
+
 #wwdbox {
   margin-top: 30px;
 }
@@ -154,6 +158,10 @@ Projects
 
 .see-more-projects-box {
   text-align: center;
+}
+
+#projectscontainer {
+  padding-bottom: 70px;
 }
 
 /*
@@ -300,6 +308,11 @@ Projects
 Stats Box
  */
 
+#statscontainter {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
 .statsBox {
   padding: 20px 30px;
   text-align: center;
@@ -347,6 +360,10 @@ Stats Box
 /*
 How it works Section
  */
+
+#hiwcontainer {
+  padding-bottom: 50px;
+}
 
 .hiwslide {
   max-width: 900px;
@@ -539,6 +556,14 @@ How it works Section
   //position: relative;
   z-index: 3;
   margin-top: 50px;
+}
+
+/*
+Events
+*/
+
+#eventscontainer {
+  padding-top: 40px;
 }
 
 .events-home-background-box {
