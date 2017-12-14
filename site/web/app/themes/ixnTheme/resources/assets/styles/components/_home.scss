@@ -70,6 +70,10 @@
  What We DO
  */
 
+#wwdcontainer {
+  padding-top: 50px;
+}
+
 #wwdbox {
   margin-top: 30px;
 }
@@ -83,8 +87,9 @@
   background-color: $theme-light;
   margin-top: 10%;
   margin-right: 5%;
-  height: 80%;
+  // height: 80%;
   text-align: center;
+  padding-bottom: 10px;
 }
 
 #aboutButtonBox {
@@ -136,7 +141,7 @@ div.play-button {
   margin-left: -36px;
   margin-top: -36px;
   position: absolute;
-  background: url("http://i.imgur.com/TxzC70f.png") no-repeat;
+  background: url("images/homeImages/play.png") no-repeat;
 }
 
 #youtube-iframe {
@@ -153,6 +158,10 @@ Projects
 
 .see-more-projects-box {
   text-align: center;
+}
+
+#projectscontainer {
+  padding-bottom: 70px;
 }
 
 /*
@@ -299,6 +308,11 @@ Projects
 Stats Box
  */
 
+#statscontainter {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
 .statsBox {
   padding: 20px 30px;
   text-align: center;
@@ -346,6 +360,10 @@ Stats Box
 /*
 How it works Section
  */
+
+#hiwcontainer {
+  padding-bottom: 50px;
+}
 
 .hiwslide {
   max-width: 900px;
@@ -538,6 +556,14 @@ How it works Section
   //position: relative;
   z-index: 3;
   margin-top: 50px;
+}
+
+/*
+Events
+*/
+
+#eventscontainer {
+  padding-top: 40px;
 }
 
 .events-home-background-box {
