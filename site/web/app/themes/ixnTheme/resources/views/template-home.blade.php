@@ -4,18 +4,7 @@
 @extends('layouts.app')
 
 @section('content')
-<<<<<<< HEAD
-	<?php
-	$permalinkabout = get_permalink( get_page_by_path( 'about' ) );
-	$permalinkprojects = get_permalink( get_page_by_path( 'projects' ) );
-	$permalinkevents = get_permalink( get_page_by_path( 'events' ) );
-	$find = array( '//' );
-	$replace = 'http://';
-	$outputabout = str_replace( $find, $replace, $permalinkabout );
-	$outputprojects = str_replace( $find, $replace, $permalinkprojects );
-	$outputevents = str_replace( $find, $replace, $permalinkevents );
-	?>
-=======
+
     <?php
     $permalinkabout = get_permalink(get_page_by_path('about'));
     $permalinkabout = get_permalink(get_page_by_path('contact'));
@@ -28,7 +17,7 @@
     $outputevents = str_replace( $find, $replace, $permalinkevents);
     $outputcontact = str_replace( $find, $replace, $permalinkevents);
     ?>
->>>>>>> PhoebeCode
+
 
     {{--Splash Page--}}
     <header class="masthead">
@@ -36,11 +25,7 @@
             <div class="row h-100">
                 <div class="col-lg-8 my-auto">
                     <div class="header-content mx-auto">
-<<<<<<< HEAD
-                        <h1 class="mb-5"><?php echo the_field( 'home_text' );?></h1>
-=======
                         <h1 class="mb-5" id="about"><?php echo the_field('home_text');?></h1>
->>>>>>> PhoebeCode
                     </div>
                 </div>
             </div>
@@ -289,25 +274,7 @@
             </div>
         </div>
         <div class="container hiwslide">
-<<<<<<< HEAD
-            <div class="carousel slide" id="slider" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#slider" data-slide-to="0" class="active"></li>
-                    <li data-target="#slider" data-slide-to="1"></li>
-                    <li data-target="#slider" data-slide-to="2"></li>
-                    <li data-target="#slider" data-slide-to="3"></li>
-                    <li data-target="#slider" data-slide-to="4"></li>
-                    <li data-target="#slider" data-slide-to="5"></li>
-                </ol>
-                <div class="carousel-inner" role="listbox">
-                    <div class="carousel-item active">
-                        <div class="row">
-                            <div class="textBox col-md-6 my-auto">
-                                <div class="row">
-                                    <div class="col-11 offset-1"><span class="hiwHead">Step 1</span></div>
-                                    <div class="col-9 offset-2">
-                                        <span> <?php echo the_field( 'carousel_step_1' );?> </span></div>
-=======
+
                 <div class="carousel slide" id="slider" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#slider" data-slide-to="0" class="active"></li>
@@ -327,23 +294,11 @@
                                     </div>
                                 </div>
                                 <div class="hiwBox col-md-6" id="img1">
->>>>>>> PhoebeCode
-                                </div>
-                            </div>
-                            <div class="hiwBox col-md-6" id="img1">
                             </div>
                         </div>
                     </div>
 
-<<<<<<< HEAD
-                    <div class="carousel-item">
-                        <div class="row">
-                            <div class="textBox col-md-6 my-auto">
-                                <div class="row">
-                                    <div class="col-11 offset-1"><span class="hiwHead">Step 2</span></div>
-                                    <div class="col-9 offset-2">
-                                        <span><?php echo the_field( 'carousel_step_2' );?> </span></div>
-=======
+
                         <div class="carousel-item">
                             <div class="row">
                                 <div class="textBox col-md-6 my-auto">
@@ -353,22 +308,9 @@
                                     </div>
                                 </div>
                                 <div class="hiwBox col-md-6" id="img2">
->>>>>>> PhoebeCode
-                                </div>
-                            </div>
-                            <div class="hiwBox col-md-6" id="img2">
                             </div>
                         </div>
-<<<<<<< HEAD
                     </div>
-                    <div class="carousel-item">
-                        <div class="row">
-                            <div class="textBox col-md-6 my-auto">
-                                <div class="row">
-                                    <div class="col-11 offset-1"><span class="hiwHead">Step 3</span></div>
-                                    <div class="col-9 offset-2">
-                                        <span><?php echo the_field( 'carousel_step_3' );?> </span></div>
-=======
                         <div class="carousel-item">
                             <div class="row">
                                 <div class="textBox col-md-6 my-auto">
@@ -378,22 +320,9 @@
                                     </div>
                                 </div>
                                 <div class="hiwBox col-md-6" id="img3">
->>>>>>> PhoebeCode
-                                </div>
-                            </div>
-                            <div class="hiwBox col-md-6" id="img3">
                             </div>
                         </div>
-<<<<<<< HEAD
                     </div>
-                    <div class="carousel-item">
-                        <div class="row">
-                            <div class="textBox col-md-6 my-auto">
-                                <div class="row">
-                                    <div class="col-11 offset-1"><span class="hiwHead">Step 4</span></div>
-                                    <div class="col-9 offset-2">
-                                        <span><?php echo the_field( 'carousel_step_4' );?> </span></div>
-=======
                         <div class="carousel-item">
                             <div class="row">
                                 <div class="textBox col-md-6 my-auto">
@@ -403,22 +332,9 @@
                                     </div>
                                 </div>
                                 <div class="hiwBox col-md-6" id="img4">
->>>>>>> PhoebeCode
-                                </div>
-                            </div>
-                            <div class="hiwBox col-md-6" id="img4">
                             </div>
                         </div>
-<<<<<<< HEAD
                     </div>
-                    <div class="carousel-item">
-                        <div class="row">
-                            <div class="textBox col-md-6 my-auto">
-                                <div class="row">
-                                    <div class="col-11 offset-1"><span class="hiwHead">Step 5</span></div>
-                                    <div class="col-9 offset-2">
-                                        <span><?php echo the_field( 'carousel_step_5' );?> </span></div>
-=======
                         <div class="carousel-item">
                             <div class="row">
                                 <div class="textBox col-md-6 my-auto">
@@ -428,22 +344,9 @@
                                     </div>
                                 </div>
                                 <div class="hiwBox col-md-6" id="img5">
->>>>>>> PhoebeCode
-                                </div>
-                            </div>
-                            <div class="hiwBox col-md-6" id="img5">
                             </div>
                         </div>
-<<<<<<< HEAD
                     </div>
-                    <div class="carousel-item">
-                        <div class="row">
-                            <div class="textBox col-md-6 my-auto">
-                                <div class="row">
-                                    <div class="col-11 offset-1"><span class="hiwHead">Step 6</span></div>
-                                    <div class="col-9 offset-2">
-                                        <span><?php echo the_field( 'carousel_step_6' );?> </span></div>
-=======
                         <div class="carousel-item">
                             <div class="row">
                                 <div class="textBox col-md-6 my-auto">
@@ -453,10 +356,6 @@
                                     </div>
                                 </div>
                                 <div class="hiwBox col-md-6" id="img6">
->>>>>>> PhoebeCode
-                                </div>
-                            </div>
-                            <div class="hiwBox col-md-6" id="img6">
                             </div>
                         </div>
                     </div>
@@ -470,20 +369,6 @@
             </div>
         </div>
     </section>
-<<<<<<< HEAD
-    <section id="getInTouchSec">
-        <div class="container-fluid" id="getInTouch">
-            <div class="contentImg">
-                <div class="row">
-                    <span class="imgFullText"> interested? <br/> get in touch.</span>
-                </div>
-                <div class="row buttonImg">
-					<?php echo '<a class="navLink mx-auto" href= "mailto:y.fu@cs.ucl.ac.uk"> <button class="moreBtn draw-border">Contact us</button> </a>' ?>
-                </div>
-            </div>
-        </div>
-    </section>
-=======
    <section id="getInTouchSec">
        <div class="container-fluid" id="getInTouch">
            <div class="contentImg">
@@ -496,7 +381,6 @@
            </div>
        </div>
    </section>
->>>>>>> PhoebeCode
 
     <div class="container" id="news">
         <div class="row">
