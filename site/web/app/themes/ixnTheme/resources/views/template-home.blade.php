@@ -7,15 +7,15 @@
 
     <?php
     $permalinkabout = get_permalink(get_page_by_path('about'));
-    $permalinkabout = get_permalink(get_page_by_path('contact'));
     $permalinkprojects = get_permalink(get_page_by_path('projects'));
     $permalinkevents = get_permalink(get_page_by_path('events'));
+    $permalinkcontact = get_permalink(get_page_by_path('contact'));
     $find = array( '//');
     $replace = 'http://';
     $outputabout= str_replace( $find, $replace, $permalinkabout );
     $outputprojects = str_replace( $find, $replace,  $permalinkprojects);
     $outputevents = str_replace( $find, $replace, $permalinkevents);
-    $outputcontact = str_replace( $find, $replace, $permalinkevents);
+    $outputcontact = str_replace( $find, $replace, $permalinkcontact);
     ?>
 
 
