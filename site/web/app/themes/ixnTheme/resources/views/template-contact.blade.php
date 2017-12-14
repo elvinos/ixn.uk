@@ -17,12 +17,11 @@
                                 
                                 
                                 <div id="mapbox">
-                                    <span>Get in touch.</span>
-                                    <a href="https://www.google.co.uk/maps/place/The+UCL:+Department+of+Computer+Science/@51.5230695,-0.13318,18z/data=!4m5!3m4!1s0x48761b2f06cd24d9:0x921db3ae5ef57ce7!8m2!3d51.523188!4d-0.1324129">
+                                    <a href="https://www.ucl.ac.uk/maps/66-72-gower-street">
                                     <div id="map"></div>
                                 </a>
 
-                                <span class= "contactText"> Department of Computer Science <br/>University College London<br/>Gower Street<br/>London, WC1E 6BT<br/>United Kingdom </span>
+                                <span class= "contactText"> Department of Computer Science <br/>University College London<br/>66-72 Gower Street<br/>London, WC1E 6BT<br/>United Kingdom </span>
                                 </div>
 
 

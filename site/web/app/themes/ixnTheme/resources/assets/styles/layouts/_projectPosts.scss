@@ -1,0 +1,26 @@
+article.project {
+  .container {
+    max-width: 1000px;
+  }
+
+  .entry-title {
+    text-align: left;
+    margin: 50px 0;
+  }
+
+  .projectTable {
+    text-align: left;
+
+    tr td {
+      padding-right: 20px;
+    }
+  }
+  //IPHONE
+  .iphone6Cont {
+    padding: 0 35%;
+  }
+
+  .section-divider {
+    margin-bottom: 40px;
+  }
+}
