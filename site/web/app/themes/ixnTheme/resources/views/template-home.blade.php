@@ -160,6 +160,109 @@
             </div>
         </div>
     </section>
+
+     <section id="hiwSec">
+        <div class="container">
+        <div class="row">
+            <div class="col-md-12" id="hiwDivider">
+                <span class="section-divider">how it works</span>
+            </div>
+        </div>
+        </div>
+        <div class="container hiwslide">
+                <div class="carousel slide" id="slider" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#slider" data-slide-to="0" class="active"></li>
+                        <li data-target="#slider" data-slide-to="1"></li>
+                        <li data-target="#slider" data-slide-to="2"></li>
+                        <li data-target="#slider" data-slide-to="3"></li>
+                        <li data-target="#slider" data-slide-to="4"></li>
+                        <li data-target="#slider" data-slide-to="5"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active" >
+                            <div class="row">
+                                <div class="textBox col-md-6 my-auto">
+                                    <div class="row">
+                                        <div class="col-11 offset-1"><span class="hiwHead">Step 1</span></div>
+                                        <div class="col-9 offset-2"><span> Get in touch with one of our coordinators, Dr. Yun Fu or Dr. Dean Mohamedally and tell them about your project. </span></div>
+                                    </div>
+                                </div>
+                                <div class="hiwBox col-md-6" id="img1">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="textBox col-md-6 my-auto">
+                                    <div class="row">
+                                        <div class="col-11 offset-1"><span class="hiwHead">Step 2</span></div>
+                                        <div class="col-9 offset-2"><span>Dr. Fu and Dr. Mohamedally consider your project and assign it the perfect group of UCL engineers. </span></div>
+                                    </div>
+                                </div>
+                                <div class="hiwBox col-md-6" id="img2">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="textBox col-md-6 my-auto">
+                                    <div class="row">
+                                        <div class="col-11 offset-1"><span class="hiwHead">Step 3</span></div>
+                                        <div class="col-9 offset-2"><span>Your team will get in touch with you to discuss design and and motivations behind the project. </span></div>
+                                    </div>
+                                </div>
+                                <div class="hiwBox col-md-6" id="img3">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="textBox col-md-6 my-auto">
+                                    <div class="row">
+                                        <div class="col-11 offset-1"><span class="hiwHead">Step 4</span></div>
+                                        <div class="col-9 offset-2"><span>Your team will iterate through several designs until you are happy the style of product prototype. </span></div>
+                                    </div>
+                                </div>
+                                <div class="hiwBox col-md-6" id="img4">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="textBox col-md-6 my-auto">
+                                    <div class="row">
+                                        <div class="col-11 offset-1"><span class="hiwHead">Step 5</span></div>
+                                        <div class="col-9 offset-2"><span>Your UCL team will handle all of the front-end and back-end development of your project.</span></div>
+                                    </div>
+                                </div>
+                                <div class="hiwBox col-md-6" id="img5">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="textBox col-md-6 my-auto">
+                                    <div class="row">
+                                        <div class="col-11 offset-1"><span class="hiwHead">Step 6</span></div>
+                                        <div class="col-9 offset-2"><span>Within a few short months, your project will transform from an idea into a beautiful custom product. </span></div>
+                                    </div>
+                                </div>
+                                <div class="hiwBox col-md-6" id="img6">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <a class="carousel-control-prev" href="#slider" role="button" data-slide="prev">
+                    <i class="fa fa-chevron-left arrowStyle"></i>
+                </a>
+                <a class="carousel-control-next" href="#slider" role="button" data-slide="next">
+                    <i class="fa fa-chevron-right arrowStyle"></i>
+                </a>
+            </div>
+        </div>
+    </section>
     {{--Projects Section--}}
 
     <section id="projects">
@@ -280,120 +383,8 @@
 </div>
 </div>
     </section>
-    <section id="hiwSec">
-        <div class="container">
-        <div class="row">
-            <div class="col-md-12" id="hiwDivider">
-                <span class="section-divider">how it works</span>
-            </div>
-        </div>
-        </div>
-        <div class="container hiwslide">
-                <div class="carousel slide" id="slider" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#slider" data-slide-to="0" class="active"></li>
-                        <li data-target="#slider" data-slide-to="1"></li>
-                        <li data-target="#slider" data-slide-to="2"></li>
-                        <li data-target="#slider" data-slide-to="3"></li>
-                        <li data-target="#slider" data-slide-to="4"></li>
-                        <li data-target="#slider" data-slide-to="5"></li>
-                    </ol>
-                    <div class="carousel-inner" role="listbox">
-                        <div class="carousel-item active" >
-                            <div class="row">
-                                <div class="textBox col-md-6 my-auto">
-                                    <div class="row">
-                                        <div class="col-11 offset-1"><span class="hiwHead">Step 1</span></div>
-                                        <div class="col-9 offset-2"><span> Get in touch with one of our coordinators, Dr. Yun Fu or Dr. Dean Mohamedally and tell them about your project. </span></div>
-                                    </div>
-                                </div>
-                                <div class="hiwBox col-md-6" id="img1">
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="carousel-item">
-                            <div class="row">
-                                <div class="textBox col-md-6 my-auto">
-                                    <div class="row">
-                                        <div class="col-11 offset-1"><span class="hiwHead">Step 2</span></div>
-                                        <div class="col-9 offset-2"><span>Dr. Fu and Dr. Mohamedally consider your project and assign it the perfect group of UCL engineers. </span></div>
-                                    </div>
-                                </div>
-                                <div class="hiwBox col-md-6" id="img2">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row">
-                                <div class="textBox col-md-6 my-auto">
-                                    <div class="row">
-                                        <div class="col-11 offset-1"><span class="hiwHead">Step 3</span></div>
-                                        <div class="col-9 offset-2"><span>Your team will get in touch with you to discuss design and and motivations behind the project. </span></div>
-                                    </div>
-                                </div>
-                                <div class="hiwBox col-md-6" id="img3">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row">
-                                <div class="textBox col-md-6 my-auto">
-                                    <div class="row">
-                                        <div class="col-11 offset-1"><span class="hiwHead">Step 4</span></div>
-                                        <div class="col-9 offset-2"><span>Your team will iterate through several designs until you are happy the style of product prototype. </span></div>
-                                    </div>
-                                </div>
-                                <div class="hiwBox col-md-6" id="img4">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row">
-                                <div class="textBox col-md-6 my-auto">
-                                    <div class="row">
-                                        <div class="col-11 offset-1"><span class="hiwHead">Step 5</span></div>
-                                        <div class="col-9 offset-2"><span>Your UCL team will handle all of the front-end and back-end development of your project.</span></div>
-                                    </div>
-                                </div>
-                                <div class="hiwBox col-md-6" id="img5">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row">
-                                <div class="textBox col-md-6 my-auto">
-                                    <div class="row">
-                                        <div class="col-11 offset-1"><span class="hiwHead">Step 6</span></div>
-                                        <div class="col-9 offset-2"><span>Within a few short months, your project will transform from an idea into a beautiful custom product. </span></div>
-                                    </div>
-                                </div>
-                                <div class="hiwBox col-md-6" id="img6">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                <a class="carousel-control-prev" href="#slider" role="button" data-slide="prev">
-                    <i class="fa fa-chevron-left arrowStyle"></i>
-                </a>
-                <a class="carousel-control-next" href="#slider" role="button" data-slide="next">
-                    <i class="fa fa-chevron-right arrowStyle"></i>
-                </a>
-            </div>
-        </div>
-    </section>
-   <section id="getInTouchSec">
-       <div class="container-fluid" id="getInTouch">
-           <div class="contentImg">
-               <div class="row">
-               <span class="imgFullText"> interested? <br/> get in touch.</span>
-               </div>
-               <div class="row buttonImg">
-    <?php echo '<a class="navLink mx-auto" href= "' . $outputcontact . '"> <button class="moreBtn draw-border">Contact us</button> </a>' ?>
-               </div>
-           </div>
-       </div>
-   </section>
+   
+  
 
     <div class="container" id="news">
         <div class="row">
@@ -550,6 +541,21 @@
 
 
     </section>
+
+
+     <section id="getInTouchSec">
+       <div class="container-fluid" id="getInTouch">
+           <div class="contentImg">
+               <div class="row">
+               <span class="imgFullText"> interested? <br/> get in touch.</span>
+               </div>
+               <div class="row buttonImg">
+    <?php echo '<a class="navLink mx-auto" href= "' . $outputcontact . '"> <button class="moreBtn draw-border">Contact us</button> </a>' ?>
+               </div>
+           </div>
+       </div>
+   </section>
+   
      <section class="partners">
         <div class="container">
             <div class="row">
