@@ -3,24 +3,120 @@ article.project {
     max-width: 1000px;
   }
 
-  .entry-title {
+  #projectPostTitle {
     text-align: left;
     margin: 50px 0;
+
+    .projectPostTitleCol {
+      padding: 0;
+      font-size: 48px;
+
+      .section-divider {
+        font-size: 72px;
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 2.7px;
+
+        @media screen and (max-width: $ipadPort) {
+          font-size: 50px;
+        }
+      }
+
+      .section-divider-row {
+        padding-left: 0;
+      }
+
+      .section-divider::before {
+        content: "";
+        position: absolute;
+        height: 18px;
+        bottom: -1.3rem;
+        border-bottom: 18px solid $theme-tertiary;
+        width: 120px;
+      }
+    }
   }
 
   .projectTable {
     text-align: left;
 
     tr td {
-      padding-right: 20px;
+      vertical-align: top;
+      padding-right: 25px;
+    }
+
+    .fieldCol {
+      font-size: 18pt;
+      font-weight: 300;
+      margin: 5px;
+      font-style: italic;
+      color: #9b9b9b;
+    }
+
+    .valueCol {
+      color: #022b3a;
+      font-size: 18pt;
+      font-weight: 500;
     }
   }
   //IPHONE
   .iphone6Cont {
     padding: 0 35%;
+
+    @media screen and (max-width: $ipadPort) {
+      padding: 0 20%;
+    }
+  }
+  //Macbook
+  .macbookCont {
+    padding: 0 20%;
+
+    @media screen and (max-width: $ipadPort) {
+      padding: 0;
+    }
   }
 
   .section-divider {
     margin-bottom: 40px;
+  }
+
+  .device-container {
+    //background-color: $theme-tertiary;
+  }
+
+  .device-background {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    bottom: 0;
+    left: 0;
+    height: 50%;
+    width: 100vw;
+    background-color: $theme-light;
+  }
+
+  // About Section
+  .entry-content {
+    margin-top: 30px;
+
+    @media screen and (max-width: $ipadPort) {
+      padding: 0 2%;
+    }
+  }
+
+  // Video Section
+  .video-div {
+    width: 100%;
+
+    @media screen and (max-width: $ipadPort) {
+      margin-top: 50px;
+    }
+  }
+
+  // Poster Section
+  .poster-image {
+    margin-top: 50px;
+    background-size: cover;
+    max-height: 60vh;
   }
 }

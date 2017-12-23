@@ -4,6 +4,11 @@
   padding-top: 100px;
   padding-right: 10%;
   text-align: right;
+
+  @media screen and (max-width: $ipadPort) {
+    height: 210px;
+    padding-top: 170px;
+  }
 }
 
 .page-heading-bottom {

@@ -51,7 +51,13 @@
                 <div class="col-lg-6">
                     <div class="projects-box">
                         <div class="projects-top">
-                            <span class="project-name-text section-divider"><?php the_Title(); ?> <br/> </span>
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <span class="project-name-text section-divider"><?php the_Title(); ?> <br/> </span>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="row">
                                 <div class="col-xl-10">
                             <table class="projectTable">
