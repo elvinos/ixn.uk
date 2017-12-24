@@ -330,7 +330,7 @@
                                                         </div>
                                                     </div>
                                                     <div class="row">
-                                                        <div class="col-lg-12 buttonRow">
+                                                        <div class="mx-auto projButtonRow">
                                                             <a class="navLink" href="<?php the_permalink(); ?>">
                                                                 <button class="moreBtn draw-border float-right">More
                                                                 </button>
@@ -475,16 +475,16 @@
 			wp_reset_query();
 			?>
         </div>
-            <div class="container" id="newscontainer">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="see-more-projects-box" id="eventsHome">
+        <div class="container" id="newscontainer">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="see-more-projects-box" id="eventsHome">
 
-									<?php echo '<a class="navLink" href= "' . $outputnews . '"> <button class="moreBtn draw-border float-center">See More News</button></a>' ?>
-                                </div>
-                            </div>
-                        </div>
+						<?php echo '<a class="navLink" href= "' . $outputnews . '"> <button class="moreBtn draw-border float-center">See More News</button></a>' ?>
                     </div>
+                </div>
+            </div>
+        </div>
         </div>
     </section>
     <section class="eventsSec">
@@ -493,8 +493,12 @@
                 <div class="row">
                     <div class="col-12 col-sm-12 col-md-12 col-lg-4">
                         <div class="homepage-event-box">
-                            <div class="events-text-box">
-                                <span class="section-divider">events</span>
+                            <div class="events-text-box container-fluid">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <span class="section-divider">events</span>
+                                    </div>
+                                </div>
                                 <p class="events-home-text"><?php echo the_field( 'events_home_page_text' );?></p>
                             </div>
 							<?php echo '<a class="navLink" href= "' . $outputevents . '"> <button class="moreBtn draw-border float-right">More</button></a>' ?>
@@ -527,9 +531,9 @@
                                  style="background-image: url(<?php echo $thumbnail_url[0]; ?>);">
                             </div>
                             <div class="events-home-bottom">
-                                <span class="eventName">
-                                    <?php the_Title() ?>
-                                </span>
+                                        <span class="eventName">
+                                        <?php the_Title() ?>
+                                        </span>
                                 <span></br> <?php echo the_field( 'event_date' );?>
                                     , <?php echo the_field( 'event_time' );?> </span>
                                 <span></br> <?php echo the_field( 'event_location' );?> </span>
@@ -540,15 +544,12 @@
 					<?php
 					$postCounter = $postCounter + 1;
 					endwhile; endif;
-
 					wp_reset_query();
 					?>
 
                 </div>
             </div>
         </div>
-
-
     </section>
 
     <section id="getInTouchSec">
@@ -636,19 +637,4 @@
             </div>
         </div>
     </section>
-
-
-
-    {{-- @if (!have_posts())
-      <div class="alert alert-warning">
-        {{ __('Sorry, no results were found.', 'sage') }}
-      </div>
-      {!! get_search_form(false) !!}
-    @endif
-
-    @while (have_posts()) @php(the_post())
-      @include('partials.content-'.get_post_type())
-    @endwhile
-
-    {!! get_the_posts_navigation() !!} --}}
 @endsection

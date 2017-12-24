@@ -108,6 +108,10 @@ Projects
   padding-bottom: 70px;
 }
 
+.projButtonRow {
+  margin-bottom: 20px;
+}
+
 /*
  Partners
  */
@@ -128,10 +132,6 @@ Projects
 .partLogo:hover {
   filter: grayscale(10%);
 }
-
-// #nhs {
-//   background-image: url("@asset('images/NHS-Logo.png')");
-// }
 
 #logo-container {
   margin-top: 10px;
@@ -518,7 +518,7 @@ Events
 
 .homepage-event-box {
   // margin-top: 100px;
-  height: 400px;
+  height: 440px;
   width: 500px;
   background-color: #f4f4e7;
   padding-right: 200px;

@@ -65,7 +65,7 @@
 
       &:hover,
       &:focus {
-        color: white;
+        color: $theme-dark;
       }
     }
 
@@ -87,8 +87,9 @@
       .navbar-nav > li > a {
         color: $theme-primary;
 
-        // &:hover{ 
-        // }
+        &:hover {
+          color: $theme-dark;
+        }
 
         &:focus {
           color: $theme-primary;
