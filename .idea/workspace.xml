@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="465a1e18-6d93-4e37-b660-bb00eb32b495" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/components/_blogSet.scss" afterPath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/components/_blogSet.scss" />
       <change beforePath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/components/_home.scss" afterPath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/components/_home.scss" />
-      <change beforePath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/components/_navbar.scss" afterPath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/components/_navbar.scss" />
+      <change beforePath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/layouts/_aboutPage.scss" afterPath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/layouts/_aboutPage.scss" />
+      <change beforePath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/layouts/_footer.scss" afterPath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/layouts/_footer.scss" />
+      <change beforePath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/index.blade.php" afterPath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/index.blade.php" />
+      <change beforePath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/partials/footer.blade.php" afterPath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/partials/footer.blade.php" />
+      <change beforePath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/template-about.blade.php" afterPath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/template-about.blade.php" />
       <change beforePath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/template-home.blade.php" afterPath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/template-home.blade.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +24,8 @@
       <file leaf-file-name="template-projects.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/template-projects.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="56" column="40" lean-forward="false" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
+            <state relative-caret-position="230">
+              <caret line="63" column="62" lean-forward="false" selection-start-line="63" selection-start-column="62" selection-end-line="63" selection-end-column="62" />
               <folding>
                 <marker date="1514057570627" expanded="true" signature="55:68" ph="..." />
                 <marker date="1514057570627" expanded="true" signature="80:89" ph="..." />
@@ -33,28 +38,27 @@
       <file leaf-file-name="template-home.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/template-home.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="499" column="40" lean-forward="false" selection-start-line="499" selection-start-column="40" selection-end-line="499" selection-end-column="40" />
+            <state relative-caret-position="407">
+              <caret line="475" column="68" lean-forward="false" selection-start-line="475" selection-start-column="68" selection-end-line="475" selection-end-column="68" />
               <folding>
-                <element signature="e#26295#26359#0#HTML" expanded="true" />
-                <marker date="1514107881017" expanded="true" signature="56:69" ph="..." />
-                <marker date="1514107881017" expanded="true" signature="81:90" ph="..." />
-                <marker date="1514107881017" expanded="true" signature="14457:14477" ph="..." />
-                <marker date="1514107881017" expanded="true" signature="14830:14850" ph="..." />
-                <marker date="1514107881017" expanded="true" signature="16643:16663" ph="..." />
-                <marker date="1514107881017" expanded="true" signature="17077:17096" ph="..." />
-                <marker date="1514107881017" expanded="true" signature="17395:17417" ph="..." />
+                <element signature="e#7656#13687#0#HTML" expanded="false" />
+                <element signature="e#7686#7940#0#HTML" expanded="false" />
+                <element signature="e#18472#21960#0#HTML" expanded="false" />
+                <element signature="e#20140#20204#0#HTML" expanded="true" />
+                <element signature="e#22064#22255#0#HTML" expanded="false" />
+                <element signature="e#22098#22236#0#HTML" expanded="false" />
+                <element signature="e#22928#26064#0#HTML" expanded="false" />
+                <element signature="e#24141#24205#0#HTML" expanded="true" />
+                <element signature="e#26103#26622#0#HTML" expanded="false" />
+                <element signature="e#26627#30447#0#HTML" expanded="false" />
+                <marker date="1514385047891" expanded="true" signature="56:69" ph="..." />
+                <marker date="1514385047891" expanded="true" signature="81:90" ph="..." />
+                <marker date="1514385047891" expanded="true" signature="14770:14790" ph="..." />
+                <marker date="1514385047891" expanded="true" signature="15079:15099" ph="..." />
+                <marker date="1514385047891" expanded="true" signature="16324:16344" ph="..." />
+                <marker date="1514385047891" expanded="true" signature="16586:16605" ph="..." />
+                <marker date="1514385047891" expanded="true" signature="16776:16798" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_blogSet.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/components/_blogSet.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="347" column="15" lean-forward="true" selection-start-line="347" selection-start-column="15" selection-end-line="347" selection-end-column="15" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -62,39 +66,83 @@
       <file leaf-file-name="_home.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/components/_home.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="518" column="21" lean-forward="false" selection-start-line="518" selection-start-column="21" selection-end-line="518" selection-end-column="21" />
+            <state relative-caret-position="251">
+              <caret line="396" column="13" lean-forward="false" selection-start-line="396" selection-start-column="11" selection-end-line="396" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_projectPosts.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/layouts/_projectPosts.scss">
+      <file leaf-file-name="_masthead.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/components/_masthead.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="69" column="11" lean-forward="false" selection-start-line="69" selection-start-column="11" selection-end-line="69" selection-end-column="11" />
+            <state relative-caret-position="384">
+              <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_pages.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/layouts/_pages.scss">
+      <file leaf-file-name="_blogSet.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/components/_blogSet.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+            <state relative-caret-position="251">
+              <caret line="50" column="13" lean-forward="false" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_navbar.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/components/_navbar.scss">
+      <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/common/_variables.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="626">
-              <caret line="91" column="9" lean-forward="false" selection-start-line="91" selection-start-column="9" selection-end-line="91" selection-end-column="9" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/layouts/_footer.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="431">
+              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/partials/footer.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_aboutPage.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/layouts/_aboutPage.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="46" column="33" lean-forward="false" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="template-about.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/template-about.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <folding>
+                <marker date="1514372624648" expanded="true" signature="53:66" ph="..." />
+                <marker date="1514372624648" expanded="true" signature="79:88" ph="..." />
+                <marker date="1514372624648" expanded="true" signature="101:123" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -103,12 +151,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>bootstrap</find>
-      <find>button</find>
-      <find>border</find>
-      <find>shadow</find>
-      <find>transit</find>
-      <find>height</find>
       <find>ip</find>
       <find>iphone</find>
       <find>app</find>
@@ -118,12 +160,31 @@
       <find>section-d</find>
       <find>.section-divider</find>
       <find>youtube</find>
-      <find>ent</find>
       <find>media</find>
       <find>buttonRow</find>
       <find>proje</find>
+      <find>home</find>
+      <find>ent</find>
+      <find>90%</find>
+      <find>col</find>
+      <find>col-10</find>
+      <find>col-1</find>
+      <find>hiw</find>
+      <find>profile</find>
+      <find>exc</find>
+      <find>hover</find>
+      <find>transi</find>
       <find>event</find>
+      <find>pro</find>
+      <find>news</find>
+      <find>get</find>
+      <find>events</find>
+      <find>flow-root</find>
+      <find>$theme-secondary</find>
     </findStrings>
+    <replaceStrings>
+      <replace>$theme-primary</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -164,9 +225,13 @@
         <option value="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/partials/content-single-project.blade.php" />
         <option value="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/layouts/_projectPosts.scss" />
         <option value="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/components/_navbar.scss" />
+        <option value="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/template-about.blade.php" />
+        <option value="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/layouts/_aboutPage.scss" />
         <option value="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/template-home.blade.php" />
         <option value="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/components/_home.scss" />
         <option value="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/components/_blogSet.scss" />
+        <option value="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/partials/footer.blade.php" />
+        <option value="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/layouts/_footer.scss" />
       </list>
     </option>
   </component>
@@ -193,6 +258,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="-1440" />
+    <option name="y" value="-373" />
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -340,6 +407,30 @@
             <path>
               <item name="ixn.uk" type="b2602c69:ProjectViewProjectNode" />
               <item name="ixn.uk" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ixnTheme" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="layouts" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="ixn.uk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ixn.uk" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ixnTheme" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="partials" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="ixn.uk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ixn.uk" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="trellis" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -439,10 +530,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43610000" />
+    <option name="totallyTimeSpent" value="61509000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="-1440" y="-373" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1981402" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -450,7 +541,7 @@
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -508,34 +599,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/common/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="31" column="25" lean-forward="false" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/page.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/partials/sidebar.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/partials/content.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/config/assets.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -738,14 +801,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/single-project.blade.php" />
-    <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/template-about.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/layouts/_posts.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
@@ -758,14 +813,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="81" column="5" lean-forward="false" selection-start-line="69" selection-start-column="3" selection-end-line="81" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/layouts/_aboutPage.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -818,14 +865,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/layouts/_projectPosts.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="69" column="11" lean-forward="false" selection-start-line="69" selection-start-column="11" selection-end-line="69" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/layouts/_pages.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -852,10 +891,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/layouts/_projectPosts.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="69" column="11" lean-forward="false" selection-start-line="69" selection-start-column="11" selection-end-line="69" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/template-about.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding>
+            <marker date="1514372624648" expanded="true" signature="53:66" ph="..." />
+            <marker date="1514372624648" expanded="true" signature="79:88" ph="..." />
+            <marker date="1514372624648" expanded="true" signature="101:123" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/layouts/_aboutPage.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="46" column="33" lean-forward="false" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/components/_masthead.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/template-projects.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="56" column="40" lean-forward="false" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
+        <state relative-caret-position="230">
+          <caret line="63" column="62" lean-forward="false" selection-start-line="63" selection-start-column="62" selection-end-line="63" selection-end-column="62" />
           <folding>
             <marker date="1514057570627" expanded="true" signature="55:68" ph="..." />
             <marker date="1514057570627" expanded="true" signature="80:89" ph="..." />
@@ -866,33 +941,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/template-home.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="499" column="40" lean-forward="false" selection-start-line="499" selection-start-column="40" selection-end-line="499" selection-end-column="40" />
+        <state relative-caret-position="407">
+          <caret line="475" column="68" lean-forward="false" selection-start-line="475" selection-start-column="68" selection-end-line="475" selection-end-column="68" />
           <folding>
-            <element signature="e#26295#26359#0#HTML" expanded="true" />
-            <marker date="1514107881017" expanded="true" signature="56:69" ph="..." />
-            <marker date="1514107881017" expanded="true" signature="81:90" ph="..." />
-            <marker date="1514107881017" expanded="true" signature="14457:14477" ph="..." />
-            <marker date="1514107881017" expanded="true" signature="14830:14850" ph="..." />
-            <marker date="1514107881017" expanded="true" signature="16643:16663" ph="..." />
-            <marker date="1514107881017" expanded="true" signature="17077:17096" ph="..." />
-            <marker date="1514107881017" expanded="true" signature="17395:17417" ph="..." />
+            <element signature="e#7656#13687#0#HTML" expanded="false" />
+            <element signature="e#7686#7940#0#HTML" expanded="false" />
+            <element signature="e#18472#21960#0#HTML" expanded="false" />
+            <element signature="e#20140#20204#0#HTML" expanded="true" />
+            <element signature="e#22064#22255#0#HTML" expanded="false" />
+            <element signature="e#22098#22236#0#HTML" expanded="false" />
+            <element signature="e#22928#26064#0#HTML" expanded="false" />
+            <element signature="e#24141#24205#0#HTML" expanded="true" />
+            <element signature="e#26103#26622#0#HTML" expanded="false" />
+            <element signature="e#26627#30447#0#HTML" expanded="false" />
+            <marker date="1514385047891" expanded="true" signature="56:69" ph="..." />
+            <marker date="1514385047891" expanded="true" signature="81:90" ph="..." />
+            <marker date="1514385047891" expanded="true" signature="14770:14790" ph="..." />
+            <marker date="1514385047891" expanded="true" signature="15079:15099" ph="..." />
+            <marker date="1514385047891" expanded="true" signature="16324:16344" ph="..." />
+            <marker date="1514385047891" expanded="true" signature="16586:16605" ph="..." />
+            <marker date="1514385047891" expanded="true" signature="16776:16798" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/components/_home.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="518" column="21" lean-forward="false" selection-start-line="518" selection-start-column="21" selection-end-line="518" selection-end-column="21" />
+        <state relative-caret-position="251">
+          <caret line="396" column="13" lean-forward="false" selection-start-line="396" selection-start-column="11" selection-end-line="396" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/components/_blogSet.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="347" column="15" lean-forward="true" selection-start-line="347" selection-start-column="15" selection-end-line="347" selection-end-column="15" />
+        <state relative-caret-position="251">
+          <caret line="50" column="13" lean-forward="false" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/common/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/partials/footer.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/layouts/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>

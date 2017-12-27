@@ -24,13 +24,13 @@ $blogBreakWidth: $ipadPort + 100px;
 
 .blogSet {
   position: relative;
-  height: $blogArticleLargeHeight + $blogArticleMedHeight;
+  //height: $blogArticleLargeHeight + $blogArticleMedHeight;
   display: block;
 }
 
 .blogSet.homeBlogSet {
   //@media only screen and (min-width: $ipadPort) {
-  height: $blogArticleLargeHeight;
+  //height: $blogArticleLargeHeight;
   //}
 }
 
@@ -47,6 +47,7 @@ $blogBreakWidth: $ipadPort + 100px;
 
 //@media only screen and (max-width: $ipadLand) {
 .blogSet.container {
+  display: inline-block;
   width: 98%;
   padding-right: 15px;
   padding-left: 15px;
@@ -221,7 +222,6 @@ $blogBreakWidth: $ipadPort + 100px;
   margin-top: 3px;
   margin-bottom: 3px;
   letter-spacing: normal;
-  //text-transform: lowercase;
 }
 
 .blogArticle:nth-child(-n+3) .blogArticleTitle {
@@ -283,7 +283,7 @@ $blogBreakWidth: $ipadPort + 100px;
 }
 
 .blogArticleInfo {
-  background: rgba(247, 247, 239, 0.9);
+  background: rgba(247, 247, 239, 0.95);
   box-sizing: border-box;
   border-radius: 0 0 $borderRadiusBlog $borderRadiusBlog;
   width: 100%;
@@ -305,7 +305,7 @@ $blogBreakWidth: $ipadPort + 100px;
   margin-top: 5px;
   //margin: 5px 0;
   font-size: 15px;
-  font-weight: 100;
+  font-weight: 300;
   overflow: hidden;
   text-overflow: ellipsis;
   line-height: 1;
@@ -395,7 +395,7 @@ $blogBreakWidth: $ipadPort + 100px;
 
 @media screen and (max-width: $ipadPort) {
   .blogArticle {
-    width: 90%;
+    width: 100%;
     padding-bottom: 50vh;
     border-left: 0;
     border-right: 0;

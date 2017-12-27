@@ -11,15 +11,6 @@
   @include body-font;
 }
 
-.profile {
-  background-color: $theme-light;
-  margin-top: 10%;
-  padding-bottom: 5px;
-  // margin-right: 5%;
-  height: auto;
-  text-align: center;
-}
-
 .spacer {
   background-color: $theme-light;
   height: 20px;
@@ -478,14 +469,6 @@ How it works Section
 }
 
 .imgFullText {
-  //@include body-font;
-  //
-  //font-size: 56pt;
-  //line-height: normal;
-  //text-align: center;
-  //color: white;
-  //opacity: 1;
-  //margin-top: 0;
   margin-top: 0;
   font-family: Lato;
   font-size: 2em;
@@ -497,32 +480,49 @@ How it works Section
 }
 
 .buttonImg {
-  //position: relative;
   z-index: 3;
   margin-top: 50px;
+}
+
+/*
+News
+ */
+#moreNews {
+  margin-top: 30px;
 }
 
 /*
 Events
 */
 
-#eventscontainer {
-  padding-top: 40px;
-}
-
 .events-home-background-box {
-  // margin-top: -50px;
+  //background-color: #f4f4e7;
+  padding-left: 20px;
   padding-bottom: 20px;
-  padding-right: 50px;
+  width: 400px;
+  max-height: 300px;
+
+  @media screen and (max-width: 1200px) {
+    max-height: 400px;
+    margin-left: 15px;
+  }
+
+  @media screen and (max-width: 992px) {
+    margin-left: 0;
+  }
 }
 
-.homepage-event-box {
-  // margin-top: 100px;
-  height: 440px;
-  width: 500px;
-  background-color: #f4f4e7;
-  padding-right: 200px;
-  padding-left: 20px;
+.events-post-group {
+  @media screen and (max-width: 992px) {
+    margin-left: 0;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  @media screen and (max-width: 768px) {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 
 .eventsbutton {
@@ -532,39 +532,84 @@ Events
 
 .events-home-box {
   margin-top: 2%;
-  height: 380px;
-  background-color: #f4f4e7;
+  padding: 0;
+  border-right: 15px solid transparent;
+
+  @media screen and (max-width: 992px) {
+    padding-left: 15px;
+  }
+}
+
+.events-content {
+  transition: -webkit-transform 300ms, box-shadow 300ms, opacity 300ms;
+
+  &:hover {
+    transform: translateY(-6px);
+    box-shadow: rgba(0, 0, 0, 0.298039) 10px 10px 10px 0;
+  }
 }
 
 .events-home-top {
+  position: relative;
   height: 210px;
   background-color: #f4f4e7;
-  line-height: 80%;
-  word-wrap: break-word;
-  padding: 1%;
-  background-image: url("https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&w=1600&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D");
+  padding: 3%;
   background-size: cover;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+    background: $theme-dark;
+    background: radial-gradient(circle at top, #fff, $theme-dark);
+  }
+}
+
+.eventHomeName {
+  font-size: 30pt;
+  font-weight: 600;
+  color: $theme-white;
+  position: absolute;
+  bottom: 10px;
+  line-height: normal;
 }
 
 .events-home-bottom {
   height: 170px;
-  background-color: white;
-  border-style: solid;
-  border-width: 5px;
-  border-color: #022b3a;
+
+  @media screen and (max-width: 992px) {
+    height: auto;
+  }
+
+  background-color: $theme-light;
   background-repeat: no-repeat;
   padding: 10px;
+
+  .fieldCol {
+    font-style: italic;
+    color: $theme-primary;
+    padding-right: 10px;
+  }
+
+  .valueCol {
+    color: $theme-dark;
+    font-weight: 600;
+  }
 }
 
-.eventName {
-  font-size: 30pt;
-}
+#eventBox1 {
+  margin-top: -60px;
 
-#events-box-2 {
-  margin-top: 40px;
+  @media screen and (max-width: 992px) {
+    margin-top: 0;
+  }
 }
 
 .events-home-text {
-  padding-top: 30px;
+  font-size: 20px;
+  margin-bottom: 15px;
 }
-

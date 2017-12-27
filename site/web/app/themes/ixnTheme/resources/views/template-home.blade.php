@@ -64,27 +64,29 @@
                 <div class="col-lg-7 col-md-12">
                     <div class="row">
                         <div class="col-lg-6 col-sm-12 aboutBox">
-                            <div class="profile">
-                                <div class="spacer"></div>
-                                <div class="img1"></div>
-                                <span class="aboutText">Dr. Yun Fu<br/>App Project Manager<br/>Teaching Fellow<br/>University College London<br/>
-                            </span>
-                                <a href="mailto:y.fu@cs.ucl.ac.uk" class="fa fa-envelope-o fa-lg" aria-hidden="true"
-                                   id="faHome"></a>
+                            <div class="profile-box">
+                                <div class="row">
+                                    <div class="col-12 col-md-6 col-lg-12">
+                                        <div class="img1"></div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-12">
+                                        <span class="aboutText">Dr. Yun Fu<br/>App Project Manager<br/>Teaching Fellow<br/>University College London<br/></span>
+                                        <a href="mailto:y.fu@cs.ucl.ac.uk" class="fa fa-envelope-o fa-lg" aria-hidden="true" id="faHome"></a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="col-lg-6 col-sm-12 aboutBox">
-                            <div class="profile" id=>
-                                <div class="spacer"></div>
-                                <div class="img2"></div>
-                                <span class="aboutText">Dr. Dean Mohamedally<br/>
-                                Teaching Fellow<br/>
-                                Director for Apps Engineering<br/>
-                                University College London<br/>
-                            </span>
-                                <a href="mailto:d.mohamedally@cs.ucl.ac.uk" class="fa fa-envelope-o fa-lg"
+                            <div class="profile-box">
+                                <div class="row">
+                                    <div class="col-12 col-md-6 col-lg-12">
+                                        <div class="img2"></div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-12">
+                                    <span class="aboutText">Dr. Dean Mohamedally<br/> Teaching Fellow<br/> Director for Apps Engineering<br/> University College London<br/></span><a href="mailto:d.mohamedally@cs.ucl.ac.uk" class="fa fa-envelope-o fa-lg"
                                    aria-hidden="true" id="faHome"></a>
-                            </div>
+                                    </div>
+                                </div>
                         </div>
                     </div>
                 </div>
@@ -121,7 +123,6 @@
                 </div>
 
             </div>
-        </div>
         </div>
     </section>
     <section id="stats">
@@ -166,11 +167,10 @@
             </div>
         </div>
     </section>
-
     <section id="hiwSec">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-md-12" id="hiwDivider">
+                <div class="col-md-11 offset-md-1" id="hiwDivider">
                     <span class="section-divider">how it works</span>
                 </div>
             </div>
@@ -278,7 +278,6 @@
         </div>
     </section>
     {{--Projects Section--}}
-
     <section id="projects">
         <div class="container-fluid" id="projects">
             <div class="row">
@@ -287,14 +286,11 @@
                 </div>
             </div>
 
-			<?php
-
-			$vargsposts = array(
+			<?php $vargsposts = array(
 				'post_type'      => 'project',
 				'tag'            => 'Featured',
 				'posts_per_page' => '3',
-				'orderby'        => 'post_date'
-			);
+				'orderby'        => 'post_date' );
 
 			$the_queryposts = new WP_Query( $vargsposts );
 			$postCounter = 1;
@@ -309,107 +305,90 @@
             {{--Featured Project One Macbook Right--}}
             <div class="row projectRow">
                 @if($postCounter %2 == 0)
-                    <div class="col-lg-9 offset-lg-1 col-md-11 projectBox container-fluid">
+                <div class="col-lg-9 offset-lg-1 col-md-11 projectBox container-fluid">
+                @else
+                <div class="col-lg-9 offset-lg-2 col-md-11 projectBox container-fluid">
+                @endif
+                    <div class="row">
+                        @if($postCounter %2 == 0)
+                        <div class="col-md-6 order-md-2">
                         @else
-                            <div class="col-lg-9 offset-lg-2 col-md-11 projectBox container-fluid">
-                                @endif
-                                <div class="row">
-                                    @if($postCounter %2 == 0)
-                                        <div class="col-md-6 order-md-2">
-                                            @else
-                                                <div class="col-md-6">
-                                                    @endif
-                                                    <div class="row">
-                                                        <div class="projectHeading col-md-12">
-                                                            <span> <?php the_Title(); ?> </span>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="projectBody col-md-11 offset-md-1">
-                                                            <span><?php the_excerpt(); ?></span>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="mx-auto projButtonRow">
-                                                            <a class="navLink" href="<?php the_permalink(); ?>">
-                                                                <button class="moreBtn draw-border float-right">More
-                                                                </button>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                @if($postCounter %2 == 0)
-                                                    <div class="projectImage col-md-6 my-auto order-md-1">
-                                                        @else
-                                                            <div class="projectImage col-md-6 my-auto">
-                                                                @endif
-                                                                @if(has_category('Web'))
-                                                                    <div class="device-container">
-                                                                        <div class="device-mockup macbook_2015">
-                                                                            @elseif (has_category('Mobile'))
-                                                                                <div class="device-container iphone6Cont">
-                                                                                    <div class="device-mockup iphone6">
-                                                                                        @else
-                                                                                            <div class="device-container">
-                                                                                                <div class="device-mockup macbook_2015">
-                                                                                                    @endif
-                                                                                                    <div class="device">
-                                                                                                        <div class="screen">
-                                                                                                            <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                                                                                                            <img src="<?php echo $thumbnail_url[0]; ?>"
-                                                                                                                 class="img-fluid"
-                                                                                                                 alt="">
-                                                                                                        </div>
-                                                                                                    </div>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                        </div>
-                                                                    </div>
-																	<?php $postCounter ++;
-																	endwhile;endif ?>
-																	<?php wp_reset_query(); ?>
-                                                            </div>
-                                                            <div class="container">
-                                                                <div class="row">
-                                                                    <div class="col-md-12">
-                                                                        <div class="see-more-projects-box">
-
-																			<?php echo '<a class="navLink" href= "' . $outputprojects . '"> <button class="moreBtn draw-border float-center">See More Projects</button></a>' ?>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-
-                                                    </div>
-                                        </div>
+                        <div class="col-md-6">
+                        @endif
+                            <div class="row">
+                                <div class="projectHeading col-md-12">
+                                    <span> <?php the_Title(); ?> </span>
                                 </div>
                             </div>
+                            <div class="row">
+                                <div class="projectBody col-md-11 offset-md-1">
+                                    <span><?php the_excerpt(); ?></span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="mx-auto projButtonRow">
+                                    <a class="navLink" href="<?php the_permalink(); ?>">
+                                        <button class="moreBtn draw-border float-right">More
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        @if($postCounter %2 == 0)
+                        <div class="projectImage col-md-6 my-auto order-md-1">
+                        @else
+                        <div class="projectImage col-md-6 my-auto">
+                        @endif
+                            @if(has_category('Web'))
+                            <div class="device-container">
+                                <div class="device-mockup macbook_2015">
+                            @elseif (has_category('Mobile'))
+                            <div class="device-container iphone6Cont">
+                                <div class="device-mockup iphone6">
+                            @else
+                                <div class="device-container">
+                                    <div class="device-mockup macbook_2015">
+                            @endif
+                                        <div class="device">
+                                            <div class="screen">
+                                                <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                                                <img src="<?php echo $thumbnail_url[0]; ?>"
+                                                     class="img-fluid"
+                                                     alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                </div>
+            <?php $postCounter ++;
+            endwhile;endif ?>
+            <?php wp_reset_query(); ?>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="see-more-projects-box mx-auto">
+
+                        <?php echo '<a class="navLink" href= "' . $outputprojects . '"> <button class="moreBtn draw-border float-center">See More Projects</button></a>' ?>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-
-
-
-    <div class="container" id="news">
-        <div class="row">
-            <div class="col-md-11" id="hiwDivider">
-                <span class="section-divider">latest news</span>
+    <section id="newsSec">
+        <div class="container-fluid" id="news">
+            <div class="row">
+                <div class="col-md-11 offset-md-1" id="hiwDivider">
+                    <span class="section-divider">latest news</span>
+                </div>
             </div>
         </div>
-    </div>
-
-    <section id="newsSec">
         <div class="blogSet homeBlogSet container">
-			<?php
-
-			$vargsposts = array(
+			<?php $vargsposts = array(
 				'post_type'      => 'post',
-				'posts_per_page' => '3',
-				'orderby'        => 'post_date'
-			);
+				'posts_per_page' => '2',
+				'orderby'        => 'post_date' );
 
 			$the_queryposts = new WP_Query( $vargsposts );
 			$postCounter = 1;
@@ -434,7 +413,7 @@
 				$postCounter = 1;
 			}
 			?>
-            <article class="blogArticle mx-auto">
+            <article class="blogArticle">
 
                 <div class="blogArticleContent">
 
@@ -478,80 +457,78 @@
         <div class="container" id="newscontainer">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="see-more-projects-box" id="eventsHome">
+                    <div class="see-more-projects-box" id="moreNews">
 
 						<?php echo '<a class="navLink" href= "' . $outputnews . '"> <button class="moreBtn draw-border float-center">See More News</button></a>' ?>
                     </div>
                 </div>
             </div>
         </div>
-        </div>
     </section>
     <section class="eventsSec">
-        <div class="container" id="eventscontainer">
-            <div class="events-home-background-box">
-                <div class="row">
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-4">
-                        <div class="homepage-event-box">
-                            <div class="events-text-box container-fluid">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <span class="section-divider">events</span>
-                                    </div>
-                                </div>
-                                <p class="events-home-text"><?php echo the_field( 'events_home_page_text' );?></p>
-                            </div>
-							<?php echo '<a class="navLink" href= "' . $outputevents . '"> <button class="moreBtn draw-border float-right">More</button></a>' ?>
-                        </div>
-                    </div>
-
-
-					<?php
-
-					$vargsposts = array(
-						'post_type'      => 'event',
-						'posts_per_page' => '2',
-						'orderby'        => 'post_date'
-					);
-
-					$the_queryposts = new WP_Query( $vargsposts );
-					$postCounter = 1;
-
-					if (have_posts()) : while ($the_queryposts->have_posts()) : $the_queryposts->the_post();
-
-					$thumbnail_id = get_post_thumbnail_id();
-					$thumbnail_url = wp_get_attachment_image_src( $thumbnail_id, 'large', true );
-					$thumbnail_meta = get_post_meta( $thumbnail_id, '_wp_attachment_image_alt', true );
-					$content = get_the_excerpt();
-					?>
-
-                    <div class="col-12 col-sm-12 col-med-12 col-lg-4">
-                        <div class="events-home-box">
-                            <div class="events-home-top"
-                                 style="background-image: url(<?php echo $thumbnail_url[0]; ?>);">
-                            </div>
-                            <div class="events-home-bottom">
-                                        <span class="eventName">
-                                        <?php the_Title() ?>
-                                        </span>
-                                <span></br> <?php echo the_field( 'event_date' );?>
-                                    , <?php echo the_field( 'event_time' );?> </span>
-                                <span></br> <?php echo the_field( 'event_location' );?> </span>
-                            </div>
-                        </div>
-                    </div>
-
-					<?php
-					$postCounter = $postCounter + 1;
-					endwhile; endif;
-					wp_reset_query();
-					?>
-
+        <div class="container-fluid" id="eventscontainer">
+            <div class="row">
+                <div class="col-xl-11 offset-xl-1" id="hiwDivider">
+                    <span class="section-divider">events</span>
                 </div>
             </div>
-        </div>
-    </section>
+                <div class="row">
+                    <div class="col-12 col-xl-5 offset-xl-1 col-lg-4 events-home-background-box">
+                        <div class="events-box-text col-lg-12 col-xl-11">
+                            <div class="events-text-box container-fluid">
+                                <div class="events-home-text"><?php echo the_field( 'events_home_page_text' );?></div>
+                            </div>
+                            <?php echo '<a class="navLink" href= "' . $outputevents . '"> <button class="moreBtn draw-border float-right">More</button></a>' ?>
+                        </div>
+                    </div>
+                    <div class="col-12 col-xl-6 col-lg-7 events-post-group ">
+                        <div class="row">
+                        <?php $vargsposts = array('post_type' => 'event', 'posts_per_page' => '2', 'orderby' => 'post_date');
+                        $the_queryposts = new WP_Query( $vargsposts );
+                        $postCounter = 1;
+                        if (have_posts()) : while ($the_queryposts->have_posts()) : $the_queryposts->the_post();
+                        $thumbnail_id = get_post_thumbnail_id();
+                        $thumbnail_url = wp_get_attachment_image_src( $thumbnail_id, 'large', true );
+                        $thumbnail_meta = get_post_meta( $thumbnail_id, '_wp_attachment_image_alt', true );
+                        $content = get_the_excerpt(); ?>
+                            @if($postCounter %2 == 0)
+                            <div class="col-lg-6 mx-auto events-home-box" id="eventBox2">
+                            @else
+                            <div class="col-lg-6 mx-auto events-home-box" id="eventBox1">
+                            @endif
+                                <div class="events-content">
+                                    <div class="events-home-top" style="background-image: url(<?php echo $thumbnail_url[0]; ?>);">
+                                        <div class="eventHomeName"><?php the_Title() ?></div>
+                                    </div>
+                                    <div class="events-home-bottom">
+                                        <table class="eventTable">
+                                            <colgroup class="eventCols">
+                                                <col class="fieldCol">
+                                                <col class="valueCol">
+                                            </colgroup>
+                                            <tr>
+                                                <td class="fieldCol"><span>Date: </span></td>
+                                                <td class="valueCol"> <span><?php echo the_field('event_date'); ?> </span></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="fieldCol"><span>Time: </span></td>
+                                                <td class="valueCol"><span><?php echo the_field( 'event_time' );?></span></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="fieldCol"> <span>Location: </span></td>
+                                                <td class="valueCol"><span><?php echo the_field('event_location'); ?> </span></td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                        </div>
 
+                        <?php $postCounter = $postCounter + 1; endwhile; endif; wp_reset_query();?>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
     <section id="getInTouchSec">
         <div class="container-fluid" id="getInTouch">
             <div class="contentImg">
@@ -564,7 +541,6 @@
             </div>
         </div>
     </section>
-
     <section class="partners">
 
         <div class="container">

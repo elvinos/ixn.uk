@@ -6,11 +6,11 @@
     <div class="row">
         <div class="logos">
           <div class="row" id="logoRow">
-              <div class="col-4 my-auto logo1">
+              <div class="col-4 my-auto logo" id="ixnLogo">
               </div>
-              <div class="col-4 logo2">
+              <div class="col-4 logo"  id="uclEngLogo">
               </div>
-              <div class="col-4 logo3">
+              <div class="col-4 logo"  id="uclLogo">
               </div>
             </div>
         </div>

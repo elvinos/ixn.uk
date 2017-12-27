@@ -23,7 +23,7 @@
 
 
 				<div class="col-lg-6 aboutBox">
-					<div class="profile" id="aboutPageProfile">
+					<div class="profile-box" id="aboutPageProfile">
 						<div class="spacer"></div>
 						<div class="img1"></div>
 						<p class="aboutPageText"> <?php echo the_field('yun_fu_about_page');?></p>
@@ -38,7 +38,7 @@
 
 
 				<div class="col-lg-6  aboutBox">
-					<div class="profile" id="aboutPageProfile">
+					<div class="profile-box" id="aboutPageProfile">
 						<div class="spacer"></div>
 						<div class="img2"></div>
 						<p class="aboutPageText"> <?php echo the_field('dean_about_page');?></p>

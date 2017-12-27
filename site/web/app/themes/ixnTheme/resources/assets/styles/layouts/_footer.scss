@@ -1,5 +1,7 @@
 .footer {
   background-color: #0b4f6c;
+  height: 200px;
+  position: relative;
 }
 
 .logos {
@@ -7,48 +9,43 @@
   min-height: 30px;
 }
 
-.logo1 {
-  background-color: #0b4f6c;
-  background-image: url(../images/footer-images/IXNLOGOMENU.png);
+.logo {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+#ixnLogo {
+  background-image: url(../images/footer-images/IXNLOGOMENU.png);
   height: 48.1px;
 }
 
-.logo2 {
-  background-color: #0b4f6c;
+#uclEngLogo {
   background-image: url(../images/footer-images/UCL-Engineering-Logo.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
   height: 50px;
 }
 
-.logo3 {
-  background-color: #0b4f6c;
+#uclLogo {
   background-image: url(../images/footer-images/UCL-Logo.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
   height: 48px;
 }
 
 #logoRow {
   padding: 30px;
-  background-color: #0b4f6c;
+  background-color: $theme-primary;
+  height: 100%;
 }
 
 .address {
-  width: 300px;
+  width: 400px;
   min-height: 200px;
 }
 
 .space {
-  background-color: #0b4f6c;
+  background-color: $theme-primary;
 }
 
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 992px) {
   .logos {
     width: 100%;
   }
@@ -63,16 +60,15 @@
 }
 
 #address {
-  background-color: #0b4f6c;
+  background-color: $theme-primary;
   color: #fff;
-  height: 170px;
   text-align: center;
   font-size: 19px;
 }
 
 .topcontainer {
-  height: 5px;
-  background-color: #022b3a;
+  height: 10px;
+  background-color: $theme-dark;
 }
 
 #fa-footer {
