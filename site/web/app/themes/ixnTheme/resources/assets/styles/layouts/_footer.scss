@@ -36,9 +36,8 @@
   height: 100%;
 }
 
-.address {
-  width: 400px;
-  min-height: 200px;
+.addressBlock {
+  width: 300px;
 }
 
 .space {
@@ -59,7 +58,7 @@
   }
 }
 
-#address {
+#addressText {
   background-color: $theme-primary;
   color: #fff;
   text-align: center;
@@ -67,6 +66,7 @@
 }
 
 .topcontainer {
+  width: 100%;
   height: 10px;
   background-color: $theme-dark;
 }
@@ -74,4 +74,8 @@
 #fa-footer {
   font-size: 23px;
   color: white;
+}
+
+#footerPage {
+  margin-bottom: 0;
 }

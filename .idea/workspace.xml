@@ -4,13 +4,8 @@
     <list default="true" id="465a1e18-6d93-4e37-b660-bb00eb32b495" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/components/_blogSet.scss" afterPath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/components/_blogSet.scss" />
-      <change beforePath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/components/_home.scss" afterPath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/components/_home.scss" />
-      <change beforePath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/layouts/_aboutPage.scss" afterPath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/layouts/_aboutPage.scss" />
       <change beforePath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/layouts/_footer.scss" afterPath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/layouts/_footer.scss" />
-      <change beforePath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/index.blade.php" afterPath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/index.blade.php" />
       <change beforePath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/partials/footer.blade.php" afterPath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/partials/footer.blade.php" />
-      <change beforePath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/template-about.blade.php" afterPath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/template-about.blade.php" />
-      <change beforePath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/template-home.blade.php" afterPath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/template-home.blade.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,135 +14,88 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/site/composer.json</pharConfigPath>
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="template-projects.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/template-projects.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="63" column="62" lean-forward="false" selection-start-line="63" selection-start-column="62" selection-end-line="63" selection-end-column="62" />
-              <folding>
-                <marker date="1514057570627" expanded="true" signature="55:68" ph="..." />
-                <marker date="1514057570627" expanded="true" signature="80:89" ph="..." />
-                <marker date="1514057570627" expanded="true" signature="105:127" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="template-home.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/template-home.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="475" column="68" lean-forward="false" selection-start-line="475" selection-start-column="68" selection-end-line="475" selection-end-column="68" />
-              <folding>
-                <element signature="e#7656#13687#0#HTML" expanded="false" />
-                <element signature="e#7686#7940#0#HTML" expanded="false" />
-                <element signature="e#18472#21960#0#HTML" expanded="false" />
-                <element signature="e#20140#20204#0#HTML" expanded="true" />
-                <element signature="e#22064#22255#0#HTML" expanded="false" />
-                <element signature="e#22098#22236#0#HTML" expanded="false" />
-                <element signature="e#22928#26064#0#HTML" expanded="false" />
-                <element signature="e#24141#24205#0#HTML" expanded="true" />
-                <element signature="e#26103#26622#0#HTML" expanded="false" />
-                <element signature="e#26627#30447#0#HTML" expanded="false" />
-                <marker date="1514385047891" expanded="true" signature="56:69" ph="..." />
-                <marker date="1514385047891" expanded="true" signature="81:90" ph="..." />
-                <marker date="1514385047891" expanded="true" signature="14770:14790" ph="..." />
-                <marker date="1514385047891" expanded="true" signature="15079:15099" ph="..." />
-                <marker date="1514385047891" expanded="true" signature="16324:16344" ph="..." />
-                <marker date="1514385047891" expanded="true" signature="16586:16605" ph="..." />
-                <marker date="1514385047891" expanded="true" signature="16776:16798" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_home.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/components/_home.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="396" column="13" lean-forward="false" selection-start-line="396" selection-start-column="11" selection-end-line="396" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_masthead.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/components/_masthead.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_blogSet.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/components/_blogSet.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="50" column="13" lean-forward="false" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/common/_variables.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/layouts/_footer.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/partials/footer.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_aboutPage.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/layouts/_aboutPage.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="46" column="33" lean-forward="false" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="template-about.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/template-about.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-              <folding>
-                <marker date="1514372624648" expanded="true" signature="53:66" ph="..." />
-                <marker date="1514372624648" expanded="true" signature="79:88" ph="..." />
-                <marker date="1514372624648" expanded="true" signature="101:123" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="template-home.blade.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/template-home.blade.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="16">
+                  <caret line="475" column="68" lean-forward="false" selection-start-line="475" selection-start-column="68" selection-end-line="475" selection-end-column="68" />
+                  <folding>
+                    <marker date="1514385047891" expanded="true" signature="56:69" ph="..." />
+                    <marker date="1514385047891" expanded="true" signature="81:90" ph="..." />
+                    <marker date="1514385047891" expanded="true" signature="14770:14790" ph="..." />
+                    <marker date="1514385047891" expanded="true" signature="15079:15099" ph="..." />
+                    <marker date="1514385047891" expanded="true" signature="16324:16344" ph="..." />
+                    <marker date="1514385047891" expanded="true" signature="16586:16605" ph="..." />
+                    <marker date="1514385047891" expanded="true" signature="16776:16798" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_home.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/components/_home.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="6336">
+                  <caret line="396" column="13" lean-forward="false" selection-start-line="396" selection-start-column="11" selection-end-line="396" selection-end-column="13" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/common/_variables.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/layouts/_footer.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="398">
+                  <caret line="42" column="8" lean-forward="false" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="footer.blade.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/partials/footer.blade.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="242">
+                  <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/layouts/_footer.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="288">
+                  <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -178,9 +126,9 @@
       <find>pro</find>
       <find>news</find>
       <find>get</find>
-      <find>events</find>
       <find>flow-root</find>
       <find>$theme-secondary</find>
+      <find>events</find>
     </findStrings>
     <replaceStrings>
       <replace>$theme-primary</replace>
@@ -230,8 +178,8 @@
         <option value="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/template-home.blade.php" />
         <option value="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/components/_home.scss" />
         <option value="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/components/_blogSet.scss" />
-        <option value="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/partials/footer.blade.php" />
         <option value="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/layouts/_footer.scss" />
+        <option value="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/partials/footer.blade.php" />
       </list>
     </option>
   </component>
@@ -258,8 +206,6 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="-1440" />
-    <option name="y" value="-373" />
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -279,6 +225,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -483,8 +431,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -526,46 +472,35 @@
       <workItem from="1513081010773" duration="17561000" />
       <workItem from="1513120016232" duration="9613000" />
       <workItem from="1513265551151" duration="701000" />
+      <workItem from="1514460557571" duration="1467000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61509000" />
+    <option name="totallyTimeSpent" value="63643000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1440" y="-373" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1981402" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.49713877" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19527897" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36517534" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36608344" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36608344" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19241774" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -590,6 +525,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -772,7 +717,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1728">
           <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -780,11 +724,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-          <folding>
-            <marker date="1513203741844" expanded="true" signature="52:65" ph="..." />
-            <marker date="1513203741844" expanded="true" signature="78:87" ph="..." />
-            <marker date="1513203741844" expanded="true" signature="100:122" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -792,11 +731,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1513265507475" expanded="true" signature="55:68" ph="..." />
-            <marker date="1513265507475" expanded="true" signature="81:90" ph="..." />
-            <marker date="1513265507475" expanded="true" signature="103:125" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -821,7 +755,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="560">
           <caret line="35" column="26" lean-forward="false" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -829,7 +762,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
           <caret line="144" column="240124" lean-forward="false" selection-start-line="144" selection-start-column="240124" selection-end-line="144" selection-end-column="240124" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -837,7 +769,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -853,7 +784,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="636">
           <caret line="84" column="7" lean-forward="false" selection-start-line="84" selection-start-column="7" selection-end-line="84" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -885,9 +815,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="67" column="56" lean-forward="false" selection-start-line="67" selection-start-column="45" selection-end-line="67" selection-end-column="56" />
-          <folding>
-            <marker date="1514057808459" expanded="true" signature="2863:2885" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -895,7 +822,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="69" column="11" lean-forward="false" selection-start-line="69" selection-start-column="11" selection-end-line="69" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -903,11 +829,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding>
-            <marker date="1514372624648" expanded="true" signature="53:66" ph="..." />
-            <marker date="1514372624648" expanded="true" signature="79:88" ph="..." />
-            <marker date="1514372624648" expanded="true" signature="101:123" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -923,6 +844,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
           <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/components/_home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6336">
+          <caret line="396" column="13" lean-forward="false" selection-start-line="396" selection-start-column="11" selection-end-line="396" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -931,53 +859,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="63" column="62" lean-forward="false" selection-start-line="63" selection-start-column="62" selection-end-line="63" selection-end-column="62" />
-          <folding>
-            <marker date="1514057570627" expanded="true" signature="55:68" ph="..." />
-            <marker date="1514057570627" expanded="true" signature="80:89" ph="..." />
-            <marker date="1514057570627" expanded="true" signature="105:127" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/template-home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="475" column="68" lean-forward="false" selection-start-line="475" selection-start-column="68" selection-end-line="475" selection-end-column="68" />
-          <folding>
-            <element signature="e#7656#13687#0#HTML" expanded="false" />
-            <element signature="e#7686#7940#0#HTML" expanded="false" />
-            <element signature="e#18472#21960#0#HTML" expanded="false" />
-            <element signature="e#20140#20204#0#HTML" expanded="true" />
-            <element signature="e#22064#22255#0#HTML" expanded="false" />
-            <element signature="e#22098#22236#0#HTML" expanded="false" />
-            <element signature="e#22928#26064#0#HTML" expanded="false" />
-            <element signature="e#24141#24205#0#HTML" expanded="true" />
-            <element signature="e#26103#26622#0#HTML" expanded="false" />
-            <element signature="e#26627#30447#0#HTML" expanded="false" />
-            <marker date="1514385047891" expanded="true" signature="56:69" ph="..." />
-            <marker date="1514385047891" expanded="true" signature="81:90" ph="..." />
-            <marker date="1514385047891" expanded="true" signature="14770:14790" ph="..." />
-            <marker date="1514385047891" expanded="true" signature="15079:15099" ph="..." />
-            <marker date="1514385047891" expanded="true" signature="16324:16344" ph="..." />
-            <marker date="1514385047891" expanded="true" signature="16586:16605" ph="..." />
-            <marker date="1514385047891" expanded="true" signature="16776:16798" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/components/_home.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="396" column="13" lean-forward="false" selection-start-line="396" selection-start-column="11" selection-end-line="396" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/components/_blogSet.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="50" column="13" lean-forward="false" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -989,18 +870,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/components/_blogSet.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="53" column="21" lean-forward="false" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/template-home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="475" column="68" lean-forward="false" selection-start-line="475" selection-start-column="68" selection-end-line="475" selection-end-column="68" />
+          <folding>
+            <marker date="1514385047891" expanded="true" signature="56:69" ph="..." />
+            <marker date="1514385047891" expanded="true" signature="81:90" ph="..." />
+            <marker date="1514385047891" expanded="true" signature="14770:14790" ph="..." />
+            <marker date="1514385047891" expanded="true" signature="15079:15099" ph="..." />
+            <marker date="1514385047891" expanded="true" signature="16324:16344" ph="..." />
+            <marker date="1514385047891" expanded="true" signature="16586:16605" ph="..." />
+            <marker date="1514385047891" expanded="true" signature="16776:16798" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/partials/footer.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        <state relative-caret-position="242">
+          <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/layouts/_footer.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="288">
+          <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
           <folding />
         </state>
       </provider>
