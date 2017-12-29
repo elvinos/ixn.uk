@@ -6,6 +6,9 @@
     ],
     "customizer": [
       "./scripts/customizer.js"
+    ],
+    "ajax-function": [
+      "./scripts/ajax-function.js"
     ]
   },
   "publicPath": "/app/themes/ixnTheme",

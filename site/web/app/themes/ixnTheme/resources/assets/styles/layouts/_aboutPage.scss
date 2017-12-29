@@ -1,15 +1,11 @@
-
-
-.section-divider {
-  @include section-heading-font;
-}
-
-.section-divider-row {
-  padding-left: 0;
-}
-
 .homeText {
   @include body-font;
+}
+
+.aboutText {
+  @include body-font;
+
+  padding: 20px 5%;
 }
 
 #wwdbox {
@@ -18,11 +14,7 @@
 }
 
 .aboutPageText {
-  line-height: 150%;
-  font-family: Lato;
-  font-weight: 400;
-  color: #022b3a;
-  font-size: 13pt;
+  @include body-font;
 }
 
 .aboutBox {
@@ -48,7 +40,6 @@
   margin-top: 5%;
   padding-top: 30px;
   padding-bottom: 15px;
-  // margin-right: 5%;
   height: auto;
   text-align: center;
 }

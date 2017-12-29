@@ -1,12 +1,20 @@
 .footer {
   background-color: #0b4f6c;
-  height: 200px;
+  min-height: 200px;
   position: relative;
 }
 
 .logos {
   width: 600px;
   min-height: 30px;
+}
+
+.addressBlock {
+  padding-right: 150px;
+
+  @media screen and (max-width: 1080px) {
+    padding-right: 50px;
+  }
 }
 
 .logo {
@@ -34,10 +42,8 @@
   padding: 30px;
   background-color: $theme-primary;
   height: 100%;
-}
-
-.addressBlock {
-  width: 300px;
+  margin-right: 0;
+  margin-left: 0;
 }
 
 .space {
@@ -47,6 +53,11 @@
 @media screen and (max-width: 992px) {
   .logos {
     width: 100%;
+  }
+
+  .addressBlock {
+    width: 100%;
+    padding-right: 0;
   }
 
   .address {
@@ -74,6 +85,11 @@
 #fa-footer {
   font-size: 23px;
   color: white;
+
+  &:hover {
+    text-decoration: none;
+    color: $theme-tertiary;
+  }
 }
 
 #footerPage {

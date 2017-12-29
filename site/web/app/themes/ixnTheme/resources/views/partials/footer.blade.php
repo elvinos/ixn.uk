@@ -6,15 +6,12 @@
     <div class="row">
         <div class="logos">
           <div class="row" id="logoRow">
-              <div class="col-4 my-auto logo" id="ixnLogo">
-              </div>
-              <div class="col-4 my-auto logo" id="uclEngLogo">
-              </div>
-              <div class="col-4 my-auto logo" id="uclLogo">
-              </div>
+              <div class="col-4 my-auto logo" id="ixnLogo"></div>
+              <a href="https://www.engineering.ucl.ac.uk" class="col-4 logo my-auto" id="uclEngLogo"></a>
+              <a href="https://www.ucl.ac.uk" class="col-4 my-auto logo" id="uclLogo"></a>
             </div>
         </div>
-        <div class="colspace"></div>
+        <div class="col space"></div>
         <div class="addressBlock">
             <div class="row" id="logoRow">
                 <div class="col-md-12 mx-auto" id="addressText">

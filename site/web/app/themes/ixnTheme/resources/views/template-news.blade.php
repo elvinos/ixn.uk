@@ -3,34 +3,8 @@
 	--}}
 
 	@extends('layouts.app')
-
 	@section('content')
-
 	@include('partials.page-header')
-
-	<form action="<?php echo site_url() ?>/wp-admin/admin-ajax.php" method="POST" id="filter">
-		<?php
-		if( $terms = get_terms( 'category', 'orderby=name' ) ) : // to make it simple I use default categories
-			echo '<select name="categoryfilter"><option>Select category...</option>';
-			foreach ( $terms as $term ) :
-				echo '<option value="' . $term->term_id . '">' . $term->name . '</option>'; // ID of the category as the value of an option
-			endforeach;
-			echo '</select>';
-		endif;
-		?>
-		<label>
-			<input type="radio" name="date" value="ASC" /> Date: Ascending
-		</label>
-		<label>
-			<input type="radio" name="date" value="DESC" selected="selected" /> Date: Descending
-		</label>
-		<label>
-			<input type="checkbox" name="featured_image" /> Only posts with featured image
-		</label>
-		<button>Apply filter</button>
-		<input type="hidden" name="action" value="myfilter">
-	</form>
-	<div id="response"></div>
 	<section id="newsSec">
 		<div class="blogSet homeBlogSet container">
 			<?php
@@ -43,9 +17,7 @@
 
 			$the_queryposts = new WP_Query($vargsposts);
 			$postCounter = 1;
-
 			if (have_posts()) : while ($the_queryposts->have_posts()) : $the_queryposts->the_post();
-
 			$thumbnail_id = get_post_thumbnail_id();
 			$thumbnail_url = wp_get_attachment_image_src($thumbnail_id, 'large', true);
 			$thumbnail_meta = get_post_meta($thumbnail_id, '_wp_attachment_image_alt', true);
@@ -65,33 +37,23 @@
 			}
 			?>
 			<article class="blogArticle mx-auto">
-
 				<div class="blogArticleContent">
-
 					<a href="<?php the_permalink(); ?>" class="blogImgLnk"></a>
-
 					<div class="blogImgDiv bcgimg"
 						 style="background-image: url(<?php echo $thumbnail_url[0]; ?>);">
 					</div>
 					<div class="blogArticleInfo">
-
 						<h2 class="blogArticleTitle">
 							<a href="<?php the_permalink(); ?>"> <?php the_Title() ?></a>
 						</h2>
-
 						<div class="blogArticleExcerpt">
                             <span>
-<?php
-	                            /* Function To Chop Blog Excerpts to length
-*/
-	                            // }
-	                            if($postCounter == 1) {
-		                            echo App\chop_string($contentclean, 350);
-	                            }
-	                            else{
-		                            echo App\chop_string($contentclean, 150);
-	                            }
-	                            ?>                            </span>
+                            <?php
+                            /* Function To Chop Blog Excerpts to length */
+                            if($postCounter == 1) {echo App\chop_string($contentclean, 350);}
+                            else{echo App\chop_string($contentclean, 150);}
+                            ?>
+                            </span>
 						</div>
 						<div class="blogArticleCatDiv">
 							<span><i class="fa fa-clock-o" aria-hidden="true"></i> <?php echo human_time_diff( get_the_time( 'U' ), current_time( 'timestamp' ) ) . ' ago'; ?></span>
@@ -99,32 +61,7 @@
 					</div>
 				</div>
 			</article>
-			<?php
-			$postCounter = $postCounter + 1;
-			endwhile; endif;
-
-			wp_reset_query();
-			?>
+			<?php $postCounter = $postCounter + 1; endwhile; endif;wp_reset_query();?>
 		</div>
 	</section>
-<script>
-	jQuery(function($){
-	$('#filter').submit(function(){
-	var filter = $('#filter');
-	$.ajax({
-	url:filter.attr('action'),
-	data:filter.serialize(), // form data
-	type:filter.attr('method'), // POST
-	beforeSend:function(xhr){
-	filter.find('button').text('Processing...'); // changing the button label
-	},
-	success:function(data){
-	filter.find('button').text('Apply filter'); // changing the button label back
-	$('#response').html(data); // insert data
-	}
-	});
-	return false;
-	});
-	});
-</script>
-	@endsection
+@endsection

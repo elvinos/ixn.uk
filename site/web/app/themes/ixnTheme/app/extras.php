@@ -37,76 +37,34 @@ function reading_time() {
 }
 add_filter('reading_time', __NAMESPACE__ . '\\reading_time');
 
-function misha_filter_function(){
-	$args = array(
-		'orderby' => 'date', // we will sort posts by date
-		'order'	=> $_POST['date'] // ASC или DESC
-	);
+function my_ajax_function(){
 
-	// for taxonomies / categories
-	if( isset( $_POST['categoryfilter'] ) )
-		$args['tax_query'] = array(
-			array(
-				'taxonomy' => 'category',
-				'field' => 'id',
-				'terms' => $_POST['categoryfilter']
-			)
-		);
+    $args = array(
+	    'post_type' => 'project',
 
-	// create $args['meta_query'] array if one of the following fields is filled
-	if( isset( $_POST['price_min'] ) && $_POST['price_min'] || isset( $_POST['price_max'] ) && $_POST['price_max'] || isset( $_POST['featured_image'] ) && $_POST['featured_image'] == 'on' )
-		$args['meta_query'] = array( 'relation'=>'AND' ); // AND means that all conditions of meta_query should be true
+    );
+	$the_queryposts = new WP_Query($args);
 
-	// if both minimum price and maximum price are specified we will use BETWEEN comparison
-	if( isset( $_POST['price_min'] ) && $_POST['price_min'] && isset( $_POST['price_max'] ) && $_POST['price_max'] ) {
-		$args['meta_query'][] = array(
-			'key' => '_price',
-			'value' => array( $_POST['price_min'], $_POST['price_max'] ),
-			'type' => 'numeric',
-			'compare' => 'between'
-		);
-	} else {
-		// if only min price is set
-		if( isset( $_POST['price_min'] ) && $_POST['price_min'] )
-			$args['meta_query'][] = array(
-				'key' => '_price',
-				'value' => $_POST['price_min'],
-				'type' => 'numeric',
-				'compare' => '>'
-			);
+	ob_start(); ?>
+<?php	if (have_posts()) : while ($the_queryposts->have_posts()) : $the_queryposts->the_post();
+	    $thumbnail_id = get_post_thumbnail_id();
+	    $thumbnail_url = wp_get_attachment_image_src($thumbnail_id, 'large', true);
+?>
+		<div class="col-lg-6 ">
+			<span class="project-name-text section-divider"><?php the_Title(); ?> <br/> </span>
+		</div>
 
-		// if only max price is set
-		if( isset( $_POST['price_max'] ) && $_POST['price_max'] )
-			$args['meta_query'][] = array(
-				'key' => '_price',
-				'value' => $_POST['price_max'],
-				'type' => 'numeric',
-				'compare' => '<'
-			);
-	}
+<?php
+    endwhile;
+    else:
+    echo "no results";
+    endif;
 
-
-	// if post thumbnail is set
-	if( isset( $_POST['featured_image'] ) && $_POST['featured_image'] == 'on' )
-		$args['meta_query'][] = array(
-			'key' => '_thumbnail_id',
-			'compare' => 'EXISTS'
-		);
-
-	$query = new WP_Query( $args );
-
-	if( $query->have_posts() ) :
-		while( $query->have_posts() ): $query->the_post();
-			echo '<h2>' . $query->post->post_title . '</h2>';
-		endwhile;
-		wp_reset_postdata();
-	else :
-		echo 'No posts found';
-	endif;
+    $content = ob_get_contents();
+//	$query_vars = json_decode( stripslashes( $_POST['query_vars'] ), true );
+	echo $content;
 
 	die();
 }
-
-
-add_action('wp_ajax_myfilter', __NAMESPACE__ . '\\misha_filter_function');
-add_action('wp_ajax_nopriv_myfilter',__NAMESPACE__ . '\\misha_filter_function');
+add_action('wp_ajax_ajax_function', __NAMESPACE__ . '\\my_ajax_function');
+add_action('wp_ajax_nopriv_ajax_function', __NAMESPACE__ . '\\my_ajax_function');
