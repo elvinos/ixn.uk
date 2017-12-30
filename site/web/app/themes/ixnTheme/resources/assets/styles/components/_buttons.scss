@@ -62,6 +62,12 @@ Button With border
   }
 }
 
+#faHome:hover {
+  text-decoration: none;
+  color: $theme-tertiary;
+  font-weight: 500;
+}
+
 /*
 <div class="arrow bounce">
   <a class="fa fa-arrow-down fa-2x" href="#"></a>

@@ -31,7 +31,7 @@
 			if ( ! empty( $categories ) ) {
 				$catname = $categories[0]->name;
 			};
-			if($postCounter %7 == 0) {
+			if($postCounter %3 == 0) {
 				echo '</div> <div class="blogSet">';
 				$postCounter = 1;
 			}

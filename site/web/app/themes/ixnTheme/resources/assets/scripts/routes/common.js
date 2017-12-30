@@ -52,7 +52,7 @@ export default {
               $('aside').toggleClass('open');
           });
       });
-    
+
     $(function() {
     $('.toggle-overlay').click(function() {
     $('aside').toggleClass('open');
@@ -100,6 +100,8 @@ export default {
                 $(this).parents().eq(4).find('dt').text($(this).text());
             });
         }
+
+
   });
   },
   finalize() {

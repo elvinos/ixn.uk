@@ -1,6 +1,6 @@
 $blogArticlePosTop: 50px;
 $blogArticleLargeWidth: 60%;
-$blogArticleLargeHeight: 55vh;
+$blogArticleLargeHeight: 45vh;
 $blogArticleMedWidth: 40%;
 $blogArticleMedHeight: 35vh;
 $blogArticleBottomHeight: 36vh;
@@ -29,9 +29,9 @@ $blogBreakWidth: $ipadPort + 100px;
 }
 
 .blogSet.homeBlogSet {
-  //@media only screen and (min-width: $ipadPort) {
-  //height: $blogArticleLargeHeight;
-  //}
+  @media only screen and (min-width: $ipadPort) {
+    height: $blogArticleLargeHeight;
+  }
 }
 
 .blogSet {
