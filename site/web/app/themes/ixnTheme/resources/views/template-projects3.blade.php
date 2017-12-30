@@ -7,43 +7,7 @@
 @section('content')
 
     @include('partials.page-header')
-    <div class="container-fluid formCont">
-        <div class="row">
-            <form id="filter">
-                <div class="container filterCont">
-                    <div class="row filterRow">
-                    <div class="select-cont col-md-12 col-lg-5">
-                    <?php
-                    if( $terms = App\get_terms_by_post_type(array('category') , array('project') ) ) :
-                        echo '<select class="selectbox" name="categoryfilter"><option>Select category...</option>';
-                        foreach ( $terms as $term ) :
-                            echo '<option value="' . $term->term_id . '">' . $term->name . '</option>';
-                        endforeach;
-                        echo '</select>';
-                    endif;
-                    ?>
-                    </div>
-                    <div class="col-9 col-lg-4 offset-lg-1 my-auto mx-auto">
-                        <div class="style4">
-                        <span id="radioTitle">Date:</span>
-                        <input type="radio" id="style4radio1" name="date" value="ASC" />
-                        <label for="style4radio1"></label>
-                        <span class="radioSpan">Ascending</span>
-                        <input type="radio" id="style4radio2" name="date" value="DESC" />
-                        <label for="style4radio2"></label>
-                        <span class="radioSpan">Descending</span>
-                        </div>
-                    </div>
-                    <div class="col-3 col-lg-2">
-                        <button class="moreBtn draw-border float-right" id="filterBtn">Filter</button>
-                        <input type="hidden" name="action" value="ajax_function">
-                        </div>
-                    </div>
-                </div>
-            </form>
-            <div id="response"></div>
-        </div>
-    </div>
+        <div class="nav-links"><button>Apply filters</button></div>
     <?php
     $args = array(
 	    'post_type' => 'project',
@@ -111,21 +75,23 @@
         </div>
 
     </section>
-    <script>
-        jQuery(function($){
-            $('#filter').submit(function(){
-                var filter = $('#filter');
+    <script type="text/javascript">
+        (function($) {
+            $(document).on( 'click', '.nav-links button', function( event ) {
+                event.preventDefault();
                 $.ajax({
-                    url:ajaxfunction.ajaxurl,
-                    data:filter.serialize(), // form data
-                    type:'post', // POST
-                    beforeSend:function(xhr){
-                        filter.find('button').text('Filtering');
+                    url: ajaxfunction.ajaxurl,
+                    type: 'post',
+                    data: {
+                        action: 'ajax_function',
+                        query_vars: ajaxfunction.query_vars,
+                    },
+                    beforeSend: function() {
                         $('#projectsList').remove();
                         $(document).scrollTop();
-                        $('#projectsPageCont').append( '<div class="page-content" id="loader">Loading New Posts...</div>' );},
-                    success:function(html){
-                        filter.find('button').text('Filter');
+                        $('#projectsPageCont').append( '<div class="page-content" id="loader">Loading New Posts...</div>' );
+                    },
+                    success: function( html ) {
                         $('#projectsPageCont #loader').remove();
                         $('#projectsPageCont').append( html );
                     },
@@ -133,10 +99,8 @@
                     {
                         $('#projectsPageCont').append('<span> Error</span>');
                     }
-                });
-                return false;
-            });
-        });
-
+                })
+            })
+        })(jQuery);
     </script>
 @endsection
