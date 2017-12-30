@@ -6,10 +6,13 @@
     ],
     "customizer": [
       "./scripts/customizer.js"
+    ],
+    "ajax-function": [
+      "./scripts/ajax-function.js"
     ]
   },
   "publicPath": "/app/themes/ixnTheme",
-  "devUrl": "ixn.test",
+  "devUrl": "http://ixn.test",
   "proxyUrl": "http://localhost:3000",
   "cacheBusting": "[name]_[hash:8]",
   "watch": [

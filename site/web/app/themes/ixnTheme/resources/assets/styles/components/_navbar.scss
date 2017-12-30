@@ -12,7 +12,7 @@
 
     &:focus,
     &:hover {
-      fill: $theme-dark;
+      fill: $theme-primary;
     }
   }
 
@@ -24,7 +24,7 @@
         @include menu-font;
 
         &.active {
-          color: $theme-primary !important;
+          color: #b80c09 !important;
           background-color: transparent;
 
           &:hover {
@@ -35,7 +35,7 @@
 
       > a,
       > a:focus {
-        color: $theme-dark;
+        color: $theme-primary;
 
         &:hover {
           color: $theme-dark;
@@ -61,9 +61,10 @@
 
     .navbar-nav > li > a,
     .navbar-nav > li > a:focus {
-      color: $gray-lighter;
+      color: white;
 
-      &:hover {
+      &:hover,
+      &:focus {
         color: $theme-dark;
       }
     }
@@ -79,16 +80,19 @@
 
         &:focus,
         &:hover {
-          fill: $theme-dark;
+          fill: $theme-primary;
         }
       }
 
-      .navbar-nav > li > a,
-      .navbar-nav > li > a:focus {
+      .navbar-nav > li > a {
         color: $theme-primary;
 
         &:hover {
           color: $theme-dark;
+        }
+
+        &:focus {
+          color: $theme-primary;
         }
       }
     }

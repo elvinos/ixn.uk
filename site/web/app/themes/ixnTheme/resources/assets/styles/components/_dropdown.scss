@@ -1,0 +1,172 @@
+@mixin box-sizing() {
+  box-sizing: border-box;
+}
+
+.select-cont {
+  box-sizing: border-box;
+
+  @media screen and (max-width: $mdbreak) {
+    margin-bottom: 30px;
+  }
+}
+
+select.selectbox {
+  display: none;
+}
+
+dl.selectbox {
+  width: 100%;
+  cursor: pointer;
+  position: relative;
+  margin-bottom: 0;
+
+  dt {
+    width: 100%;
+    background: $theme-secondary;
+
+    @include box-sizing;
+
+    color: $theme-white;
+    padding: 8px;
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      width: 12px;
+      height: 12px;
+      border-right: solid 1px $theme-white;
+      border-bottom: solid 1px $theme-white;
+      right: 15px;
+      top: 14px;
+      transform: rotate(45deg);
+    }
+  }
+
+  dt.open::after {
+    transform: rotate(225deg);
+    top: 20px;
+  }
+
+  dd {
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    visibility: hidden;
+    opacity: 0;
+    transition: 300ms all;
+
+    &.open {
+      visibility: visible;
+      opacity: 1;
+    }
+
+    ul {
+      padding-left: 0;
+      list-style: none;
+    }
+  }
+
+  dd ul li {
+    width: 100%;
+    background: darken($theme-secondary, 5%);
+    text-decoration: none;
+    list-style: none;
+
+    @include box-sizing;
+
+    color: #ecf0f1;
+    padding: 8px;
+
+    &:hover {
+      background: $theme-tertiary;
+    }
+  }
+}
+
+input {
+  display: none;
+  font-size: 15px;
+}
+
+.style4 {
+  label {
+    width: 18px;
+    height: 18px;
+    margin-bottom: -3px;
+    margin-right: 0;
+    background: $theme-secondary;
+    border-radius: 3px;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    transition: 300ms all;
+
+    &::after {
+      content: "";
+      position: absolute;
+      width: 12px;
+      height: 12px;
+      left: 3px;
+      top: 3px;
+      background: darken($theme-secondary, 5%);
+      border-radius: 3px;
+      opacity: 1;
+      z-index: 1;
+      transition: 300ms all;
+    }
+  }
+
+  input:checked + label {
+    background: $theme-tertiary;
+  }
+
+  input:checked + label::after {
+    opacity: 1;
+    background: lighten($theme-tertiary, 10%);
+  }
+
+  input[type=radio] + label {
+    border-radius: 100%;
+
+    &::after {
+      border-radius: 100%;
+    }
+  }
+}
+
+.radioSpan {
+  margin-right: 5px;
+}
+
+#filter {
+  width: 100%;
+}
+
+.filterCont {
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  @media screen and (max-width: 1200px) {
+    max-width: 95%;
+  }
+}
+
+.filterRow div {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.formCont {
+  background-color: $theme-light;
+}
+
+#radioTitle {
+  font-style: italic;
+  font-weight: 700;
+}
+
+#filterBtn {
+  line-height: 20px;
+  padding: 0.6em 0.8em;
+}

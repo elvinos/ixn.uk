@@ -31,34 +31,37 @@ $url = home_url();
 	            <?php if ( is_front_page() ):
 		            echo '
                         <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                            <a class="nav-link js-scroll-trigger " href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+                            <a class="nav-link js-scroll-trigger " href="#projects">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#news">News</a>
+                            <a class="nav-link js-scroll-trigger " href="#news">News</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#eventsHome">Events</a>
+                            <a class="nav-link js-scroll-trigger " href="#eventsHome">Events</a>
                         </li>
-                         <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#footerSec">Contact</a>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger " href="#getInTouchSec">Contact</a>
                         </li>'
+
                         ;
 	            else:
 	            $permalinkabout = get_permalink(get_page_by_path('about'));
 	            $permalinkprojects = get_permalink(get_page_by_path('projects'));
 	            $permalinknews = get_permalink(get_page_by_path('news'));
 	            $permalinkevents = get_permalink(get_page_by_path('events'));
+                $permalinkcontact = get_permalink(get_page_by_path('contact'));
 	            $find = array( '//');
 	            $replace = 'http://';
 	            $outputabout= str_replace( $find, $replace, $permalinkabout );
 	            $outputprojects = str_replace( $find, $replace,  $permalinkprojects);
 	            $outputnews = str_replace( $find, $replace,  $permalinknews);
 	            $outputevents = str_replace( $find, $replace, $permalinkevents);
+                $outputcontact = str_replace( $find, $replace, $permalinkcontact);
 		            echo '<li class="nav-item">
-                            <a class="nav-link" href= "' . $outputabout . '">About</a>
+                            <a class="nav-link" href=  "'. $outputabout . '">About</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href= "' . $outputprojects . '">Projects</a>
@@ -70,7 +73,7 @@ $url = home_url();
                             <a class="nav-link" href= "' . $outputevents . '">Events</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#footerSec">Contact</a>
+                            <a class="nav-link" href= "' . $outputcontact . '">Contact</a>
                         </li>';
                 endif
                     ?>

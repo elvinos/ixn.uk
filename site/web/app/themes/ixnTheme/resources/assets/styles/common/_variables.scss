@@ -6,6 +6,7 @@ $theme-secondary: #083d77;
 $theme-tertiary: #b80c09;
 $theme-dark: #022b3a;
 $theme-light: #f7f7ef;
+$theme-light-opacity: rgba(247, 247, 299, 0.6);
 $theme-white: #fff;
 $theme-offwhite: #ece5e6;
 
@@ -23,11 +24,19 @@ $brand-twitter: #1da1f2;
 $brand-facebook: #3b5998;
 $brand-google-plus: #dd4b39;
 
+//Component Sizes
+$sidebar-width: 300px;
+
+// Margins
+$sectionMarginTop: 50px;
+$sectionMarginSide: 50px;
+
 /*
  Breakpoints
  */
 $smallPort: 320px;
 $smallLand: 480px;
 $ipadPort: 768px;
+$mdbreak: 992px;
 $ipadLand: 1025px;
 $largeLand: 1824px;

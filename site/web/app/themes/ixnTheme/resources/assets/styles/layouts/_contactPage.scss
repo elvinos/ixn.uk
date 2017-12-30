@@ -1,0 +1,40 @@
+#mapbox {
+  height: 400px;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: $theme-dark;
+  text-align: center;
+  padding-top: 10px;
+  line-height: 90%;
+}
+
+#map {
+  height: 250px;
+  width: 80%;
+  margin: 0 auto;
+  background-image: url("images/map4.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 10px;
+  margin-top: 4px;
+}
+
+#map:hover {
+  box-shadow: 4px 4px 6px 6px #dbdbdb;
+}
+
+.mapouter {
+  text-align: center;
+}
+
+#contactProfile {
+  margin-bottom: 30px;
+}
+
+.contactText {
+  font-size: 10pt;
+}

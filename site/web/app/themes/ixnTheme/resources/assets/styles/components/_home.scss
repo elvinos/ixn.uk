@@ -11,15 +11,6 @@
   @include body-font;
 }
 
-.profile {
-  background-color: $theme-light;
-  margin-top: 10%;
-  padding-bottom: 5px;
-  // margin-right: 5%;
-  height: auto;
-  text-align: center;
-}
-
 .spacer {
   background-color: $theme-light;
   height: 20px;
@@ -70,6 +61,10 @@
  What We DO
  */
 
+#wwdcontainer {
+  padding-top: 50px;
+}
+
 #wwdbox {
   margin-top: 30px;
 }
@@ -83,68 +78,13 @@
   background-color: $theme-light;
   margin-top: 10%;
   margin-right: 5%;
-  height: 80%;
+  // height: 80%;
   text-align: center;
+  padding-bottom: 10px;
 }
 
 #aboutButtonBox {
   text-align: center;
-}
-
-/*
-Youtube
- */
-
-.youtube-container {
-  display: block;
-  //margin: auto;
-  width: 90%;
-  //height: 380px;
-  margin: -70px auto 50px auto;
-}
-
-.youtube-player {
-  display: block;
-  width: 100%;
-
-  /* assuming that the video has a 16:9 ratio */
-  padding-bottom: 56.25%;
-  overflow: hidden;
-  position: relative;
-  height: 100%;
-  cursor: pointer;
-}
-
-img.youtube-thumb {
-  bottom: 0;
-  display: block;
-  left: 0;
-  margin: auto;
-  max-width: 100%;
-  width: 100%;
-  position: absolute;
-  right: 0;
-  top: 0;
-  height: auto;
-}
-
-div.play-button {
-  height: 72px;
-  width: 72px;
-  left: 50%;
-  top: 50%;
-  margin-left: -36px;
-  margin-top: -36px;
-  position: absolute;
-  background: url("http://i.imgur.com/TxzC70f.png") no-repeat;
-}
-
-#youtube-iframe {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
 }
 
 /*
@@ -153,6 +93,14 @@ Projects
 
 .see-more-projects-box {
   text-align: center;
+}
+
+#projectscontainer {
+  padding-bottom: 70px;
+}
+
+.projButtonRow {
+  margin-bottom: 20px;
 }
 
 /*
@@ -176,74 +124,75 @@ Projects
   filter: grayscale(10%);
 }
 
-// #nhs {
-//   background-image: url("@asset('images/NHS-Logo.png')");
-// }
+#logo-container {
+  margin-top: 10px;
+}
+
 #nhs {
-  height: 60px;
-  width: 100px;
+  height: 50px;
+  width: 90px;
   background-image: url("images/logos/NHS-Logo.png");
 }
 
 #unicef {
-  height: 40px;
-  width: 100px;
+  height: 30px;
+  width: 90px;
   background-image: url("images/logos/unicef.png");
 }
 
 #capita {
-  height: 25px;
-  width: 100px;
+  height: 15px;
+  width: 90px;
   background-image: url("images/logos/capita.png");
 }
 
 #paars {
-  height: 42px;
-  width: 100px;
+  height: 32px;
+  width: 90px;
   margin-right: 10px;
   background-image: url("images/logos/paars.jpg");
 }
 
 #citi {
-  height: 70px;
-  width: 90px;
+  height: 60px;
+  width: 80px;
   background-image: url("images/logos/citi.jpg");
 }
 
 #amrc {
-  height: 40px;
-  width: 100px;
+  height: 30px;
+  width: 90px;
   background-image: url("images/logos/amrc.jpg");
 }
 
 #microsoft {
-  height: 30px;
-  width: 100px;
+  height: 20px;
+  width: 90px;
   background-image: url("images/logos/Microsoft.jpg");
 }
 
 #ibm {
-  height: 55px;
-  width: 100px;
+  height: 45px;
+  width: 90px;
   background-image: url("images/logos/IBM.jpg");
 }
 
 #atos {
-  height: 30px;
-  width: 100px;
+  height: 20px;
+  width: 90px;
   background-image: url("images/logos/atos.png");
 }
 
 #bosch {
-  height: 42px;
-  width: 100px;
+  height: 32px;
+  width: 90px;
   margin-right: 10px;
   background-image: url("images/logos/bosch.png");
 }
 
 #creditsuisse {
-  height: 30px;
-  width: 90px;
+  height: 20px;
+  width: 80px;
   background-image: url("images/logos/credit suisse.jpg");
 }
 
@@ -254,45 +203,50 @@ Projects
 }
 
 #google {
-  height: 35px;
-  width: 100px;
+  height: 25px;
+  width: 90px;
   background-image: url("images/logos/Google.png");
 }
 
 #jpmorgan {
-  height: 34px;
-  width: 100px;
+  height: 24px;
+  width: 90px;
   background-image: url("images/logos/J.P.Morgan.jpg");
 }
 
 #morganstanley {
-  height: 27px;
-  width: 100px;
+  height: 17px;
+  width: 90px;
   background-image: url("images/logos/Morgan Stanley.jpg");
 }
 
 #microsoftresearch {
-  height: 42px;
-  width: 100px;
+  height: 32px;
+  width: 90px;
   margin-right: 10px;
   background-image: url("images/logos/Microsoft Research.jpg");
 }
 
 #NTT {
-  height: 27px;
-  width: 90px;
+  height: 17px;
+  width: 80px;
   background-image: url("images/logos/NTT Data.jpg");
 }
 
 #santander {
-  height: 60px;
-  width: 100px;
+  height: 50px;
+  width: 90px;
   background-image: url("images/logos/Santander.jpg");
 }
 
 /*
 Stats Box
  */
+
+#statscontainter {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
 
 .statsBox {
   padding: 20px 30px;
@@ -341,6 +295,10 @@ Stats Box
 /*
 How it works Section
  */
+
+#hiwcontainer {
+  padding-bottom: 50px;
+}
 
 .hiwslide {
   max-width: 900px;
@@ -511,14 +469,6 @@ How it works Section
 }
 
 .imgFullText {
-  //@include body-font;
-  //
-  //font-size: 56pt;
-  //line-height: normal;
-  //text-align: center;
-  //color: white;
-  //opacity: 1;
-  //margin-top: 0;
   margin-top: 0;
   font-family: Lato;
   font-size: 2em;
@@ -530,66 +480,34 @@ How it works Section
 }
 
 .buttonImg {
-  //position: relative;
   z-index: 3;
   margin-top: 50px;
 }
 
+/*
+News
+ */
+#moreNews {
+  margin-top: 30px;
+}
+
+/*
+Events
+*/
+
 .events-home-background-box {
-  // margin-top: -50px;
-  padding-bottom: 20px;
-  padding-right: 50px;
-}
-
-.homepage-event-box {
-  // margin-top: 100px;
-  height: 400px;
-  width: 500px;
-  background-color: #f4f4e7;
-  padding-right: 200px;
+  //background-color: #f4f4e7;
   padding-left: 20px;
-}
+  padding-bottom: 20px;
+  width: 400px;
+  max-height: 300px;
 
-.eventsbutton {
-  margin-left: 90%;
-  margin-bottom: 5px;
-}
+  @media screen and (max-width: 1200px) {
+    max-height: 400px;
+    margin-left: 15px;
+  }
 
-.events-home-box {
-  margin-top: 2%;
-  height: 380px;
-  background-color: #f4f4e7;
+  @media screen and (max-width: 992px) {
+    margin-left: 0;
+  }
 }
-
-.events-home-top {
-  height: 210px;
-  background-color: #f4f4e7;
-  line-height: 80%;
-  word-wrap: break-word;
-  padding: 1%;
-  background-image: url("https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&w=1600&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D");
-  background-size: cover;
-}
-
-.events-home-bottom {
-  height: 170px;
-  background-color: white;
-  border-style: solid;
-  border-width: 5px;
-  border-color: #022b3a;
-  background-repeat: no-repeat;
-  padding: 10px;
-}
-
-.eventName {
-  font-size: 30pt;
-}
-
-#events-box-2 {
-  margin-top: 40px;
-}
-
-.events-home-text {
-  padding-top: 30px;
-}
-

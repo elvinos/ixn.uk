@@ -494,7 +494,7 @@
             <div class="events-home-background-box">
                 <div class="row">
                     <div class="col-md-6 col-lg-4">
-                        <div class="homepage-event-box">
+                        <div class="events-box-text">
                             <div class="events-text-box">
                                 <h1 class="symbol">events</h1>
                                 <p class="events-home-text">IXN links up it’s industry partners with the right student teams in order to complete well designed and efficient web and app development projects. Working closely with their clients from design to implementations, out teams are able to make
