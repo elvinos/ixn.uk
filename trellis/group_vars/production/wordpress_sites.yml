@@ -9,7 +9,8 @@ wordpress_sites:
         redirects:
           - www.ixn.host
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
-    repo: git@github.com:elvinos/ixn.uk.git # replace with your Git repo URL    repo_subtree_path: site # relative path to your Bedrock/WP directory in your repo
+    repo: git@github.com:elvinos/ixn.uk.git # replace with your Git repo URL
+    repo_subtree_path: site # relative path to your Bedrock/WP directory in your repo
     branch: master
     multisite:
       enabled: false
