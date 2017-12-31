@@ -408,7 +408,7 @@
 			if ( ! empty( $categories ) ) {
 				$catname = $categories[0]->name;
 			};
-			if ( $postCounter % 7 == 0 ) {
+			if ( $postCounter % 3 == 0 ) {
 				echo '</div> <div class="blogSet">';
 				$postCounter = 1;
 			}
@@ -464,7 +464,7 @@
             </div>
         </div>
     </section>
-    <section class="eventsSec">
+    <section class="eventsSec" id="eventsHome">
         <div class="container-fluid" id="eventscontainer">
             <div class="row">
                 <div class="col-xl-11 offset-xl-1" id="hiwDivider">

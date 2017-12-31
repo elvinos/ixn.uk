@@ -3,7 +3,7 @@
 # Define accompanying passwords/secrets in group_vars/development/vault.yml
 
 wordpress_sites:
-  ixn.uk:
+  ixn.host:
     site_hosts:
       - canonical: ixn.test
         redirects:
