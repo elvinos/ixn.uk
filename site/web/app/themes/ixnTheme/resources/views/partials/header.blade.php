@@ -61,19 +61,19 @@ $url = home_url();
 	            $outputevents = str_replace( $find, $replace, $permalinkevents);
                 $outputcontact = str_replace( $find, $replace, $permalinkcontact);
 		            echo '<li class="nav-item">
-                            <a class="nav-link" href=  "'. $outputabout . '">About</a>
+                            <a class="nav-link" href=  "'. $permalinkabout . '">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href= "' . $outputprojects . '">Projects</a>
+                            <a class="nav-link" href= "' . $permalinkprojects . '">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href= "' . $outputnews . '">News</a>
+                            <a class="nav-link" href= "' . $permalinknews . '">News</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href= "' . $outputevents . '">Events</a>
+                            <a class="nav-link" href= "' . $permalinkevents . '">Events</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href= "' . $outputcontact . '">Contact</a>
+                            <a class="nav-link" href= "' . $permalinkcontact . '">Contact</a>
                         </li>';
                 endif
                     ?>

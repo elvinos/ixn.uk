@@ -57,7 +57,7 @@
                     </div>
                     <div class="row">
                         <div class="col-lg-12 buttonRow">
-							<?php echo '<a class="navLink" href= "' . $outputabout . '"> <button class="moreBtn draw-border float-right">More</button></a>' ?>
+							<?php echo '<a class="navLink" href= "' . $permalinkabout . '"> <button class="moreBtn draw-border float-right">More</button></a>' ?>
                         </div>
                     </div>
                 </div>
@@ -107,7 +107,7 @@
                             <span class="homeText"><?php echo the_field( 'what_we_do_text' );?></span>
 
                             <div class="buttonRow" id="aboutButtonBox">
-								<?php echo '<a class="navLink" href= "' . $outputabout . '"> <button class="moreBtn draw-border mx-auto">+ About Us</button></a>' ?>
+								<?php echo '<a class="navLink" href= "' . $permalinkabout . '"> <button class="moreBtn draw-border mx-auto">+ About Us</button></a>' ?>
 
                             </div>
                         </div>
@@ -370,7 +370,7 @@
                 <div class="col-md-12">
                     <div class="see-more-projects-box mx-auto">
 
-                        <?php echo '<a class="navLink" href= "' . $outputprojects . '"> <button class="moreBtn draw-border float-center">See More Projects</button></a>' ?>
+                        <?php echo '<a class="navLink" href= "' . $permalinkprojects . '"> <button class="moreBtn draw-border float-center">See More Projects</button></a>' ?>
                     </div>
                 </div>
             </div>
@@ -458,7 +458,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="see-more-projects-box" id="moreNews">
-						<?php echo '<a class="navLink" href= "' . $outputnews . '"> <button class="moreBtn draw-border float-center">See More News</button></a>' ?>
+						<?php echo '<a class="navLink" href= "' . $permalinknews . '"> <button class="moreBtn draw-border float-center">See More News</button></a>' ?>
                     </div>
                 </div>
             </div>
@@ -477,7 +477,7 @@
                         <div class="events-text-box container-fluid">
                             <div class="events-home-text"><?php echo the_field( 'events_home_page_text' );?></div>
                         </div>
-                        <?php echo '<a class="navLink" href= "' . $outputevents . '"> <button class="moreBtn draw-border float-right">More</button></a>' ?>
+                        <?php echo '<a class="navLink" href= "' . $permalinkevents . '"> <button class="moreBtn draw-border float-right">More</button></a>' ?>
                     </div>
                 </div>
                 <div class="col-12 col-xl-6 col-lg-7 events-post-group ">
@@ -534,7 +534,7 @@
                     <span class="imgFullText"> interested? <br/> get in touch.</span>
                 </div>
                 <div class="row buttonImg">
-					<?php echo '<a class="navLink mx-auto" href= "' . $outputcontact . '"> <button class="moreBtn draw-border">Contact us</button> </a>' ?>
+					<?php echo '<a class="navLink mx-auto" href= "' . $permalinkcontact . '"> <button class="moreBtn draw-border">Contact us</button> </a>' ?>
                 </div>
             </div>
         </div>
