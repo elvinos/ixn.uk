@@ -13,11 +13,11 @@
    args:
      chdir: "{{ project_local_path }}/web/app/themes/ixnTheme"
 
- - name: Run npm install via npm
-   command: npm install
-   connection: local
-   args:
-     chdir: "{{ project.local_path }}/web/app/themes/ixnTheme"
+# - name: Run npm install via npm
+#   command: npm install
+#   connection: local
+#   args:
+#     chdir: "{{ project_local_path }}/web/app/themes/ixnTheme"
 
  - name: Install Composer dependencies
    command: composer install --no-ansi --no-dev --no-interaction --no-progress --optimize-autoloader --no-scripts

@@ -48,6 +48,7 @@ $blogBreakWidth: $ipadPort + 100px;
 //@media only screen and (max-width: $ipadLand) {
 .blogSet.container {
   display: flow-root;
+  display: flex;
   width: 98%;
   padding-right: 15px;
   padding-left: 15px;

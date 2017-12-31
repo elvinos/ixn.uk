@@ -11,6 +11,7 @@
       <path value="$PROJECT_DIR$/site/vendor/johnpbloch/wordpress" />
       <path value="$PROJECT_DIR$/site/vendor/johnpbloch/wordpress-core-installer" />
       <path value="$PROJECT_DIR$/site/vendor/wp-sync-db/wp-sync-db-media-files" />
+      <path value="$PROJECT_DIR$/site/vendor/trellis-sync/trellis-sync" />
     </include_path>
   </component>
 </project>

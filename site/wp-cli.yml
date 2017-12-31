@@ -1,1 +1,7 @@
 path: web/wp
+
+@prod:
+  ssh: web@ixn.host/srv/www/ixn.host/current
+
+@dev:
+  ssh: vagrant@ixn.test/srv/www/ixn.host/current
