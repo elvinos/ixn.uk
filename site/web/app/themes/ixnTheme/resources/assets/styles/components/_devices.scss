@@ -46,7 +46,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("macbook/macbook.png");
+  background-image: url("../images/device-mockups/macbook/macbook.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -80,7 +80,7 @@
 }
 
 .device-mockup.imac > .device {
-  background-image: url("imac/imac.png");
+  background-image: url("../images/device-mockups/imac/imac.png");
 }
 
 .device-mockup.imac > .device > .screen {
@@ -96,7 +96,7 @@
 }
 
 .device-mockup.macbook > .device {
-  background-image: url("macbook/macbook.png");
+  background-image: url("../images/device-mockups/macbook/macbook.png");
 }
 
 .device-mockup.macbook > .device > .screen {
@@ -113,17 +113,17 @@
 
 .device-mockup.macbook_2015 > .device,
 .device-mockup.macbook_2015.grey > .device {
-  background-image: url("macbook_2015/grey.png");
+  background-image: url("../images/device-mockups/macbook_2015/grey.png");
 }
 
 .device-mockup.macbook_2015 > .device,
 .device-mockup.macbook_2015.silver > .device {
-  background-image: url("macbook_2015/silver.png");
+  background-image: url("../images/device-mockups/macbook_2015/silver.png");
 }
 
 .device-mockup.macbook_2015 > .device,
 .device-mockup.macbook_2015.gold > .device {
-  background-image: url("macbook_2015/gold.png");
+  background-image: url("../images/device-mockups/macbook_2015/gold.png");
 }
 
 .device-mockup.macbook_2015 > .device > .screen {
@@ -146,39 +146,39 @@
 .device-mockup.iphone_se > .device,
 .device-mockup.iphone_se.black > .device,
 .device-mockup.iphone_se.portrait.black > .device {
-  background-image: url("iphone_se/iphone_se_port_black.png");
+  background-image: url("../images/device-mockups/iphone_se/iphone_se_port_black.png");
 }
 
 .device-mockup.iphone_se.landscape > .device,
 .device-mockup.iphone_se.landscape.black > .device {
-  background-image: url("iphone_se/iphone_se_land_black.png");
+  background-image: url("../images/device-mockups/iphone_se/iphone_se_land_black.png");
 }
 
 .device-mockup.iphone_se.portrait.white > .device,
 .device-mockup.iphone_se.white > .device {
-  background-image: url("iphone_se/iphone_se_port_white.png");
+  background-image: url("../images/device-mockups/iphone_se/iphone_se_port_white.png");
 }
 
 .device-mockup.iphone_se.landscape.white > .device {
-  background-image: url("iphone_se/iphone_se_land_white.png");
+  background-image: url("../images/device-mockups/iphone_se/iphone_se_land_white.png");
 }
 
 .device-mockup.iphone_se.gold > .device,
 .device-mockup.iphone_se.portrait.gold > .device {
-  background-image: url("iphone_se/iphone_se_port_gold.png");
+  background-image: url("../images/device-mockups/iphone_se/iphone_se_port_gold.png");
 }
 
 .device-mockup.iphone_se.landscape.gold > .device {
-  background-image: url("iphone_se/iphone_se_land_gold.png");
+  background-image: url("../images/device-mockups/iphone_se/iphone_se_land_gold.png");
 }
 
 .device-mockup.iphone_se.portrait.rose > .device,
 .device-mockup.iphone_se.rose > .device {
-  background-image: url("iphone_se/iphone_se_port_rose.png");
+  background-image: url("../images/device-mockups/iphone_se/iphone_se_port_rose.png");
 }
 
 .device-mockup.iphone_se.landscape.rose > .device {
-  background-image: url("iphone_se/iphone_se_land_rose.png");
+  background-image: url("../images/device-mockups/iphone_se/iphone_se_land_rose.png");
 }
 
 .device-mockup.iphone_se > .device > .screen,
@@ -226,30 +226,30 @@
 .device-mockup.iphone6 > .device,
 .device-mockup.iphone6.black > .device,
 .device-mockup.iphone6.portrait.black > .device {
-  background-image: url("iphone_6/iphone_6_port_black.png");
+  background-image: url("../images/device-mockups/iphone_6/iphone_6_port_black.png");
 }
 
 .device-mockup.iphone6.landscape > .device,
 .device-mockup.iphone6.landscape.black > .device {
-  background-image: url("iphone_6/iphone_6_land_black.png");
+  background-image: url("../images/device-mockups/iphone_6/iphone_6_land_black.png");
 }
 
 .device-mockup.iphone6.portrait.white > .device,
 .device-mockup.iphone6.white > .device {
-  background-image: url("iphone_6/iphone_6_port_white.png");
+  background-image: url("../images/device-mockups/iphone_6/iphone_6_port_white.png");
 }
 
 .device-mockup.iphone6.landscape.white > .device {
-  background-image: url("iphone_6/iphone_6_land_white.png");
+  background-image: url("../images/device-mockups/iphone_6/iphone_6_land_white.png");
 }
 
 .device-mockup.iphone6.gold > .device,
 .device-mockup.iphone6.portrait.gold > .device {
-  background-image: url("iphone_6/iphone_6_port_gold.png");
+  background-image: url("../images/device-mockups/iphone_6/iphone_6_port_gold.png");
 }
 
 .device-mockup.iphone6.landscape.gold > .device {
-  background-image: url("iphone_6/iphone_6_land_gold.png");
+  background-image: url("../images/device-mockups/iphone_6/iphone_6_land_gold.png");
 }
 
 .device-mockup.iphone6 > .device > .screen,
@@ -297,30 +297,30 @@
 .device-mockup.ipad_air_2 > .device,
 .device-mockup.ipad_air_2.grey > .device,
 .device-mockup.ipad_air_2.portrait.grey > .device {
-  background-image: url("ipad_air_2/ipad_air_2_gray_port.png");
+  background-image: url("../images/device-mockups/ipad_air_2/ipad_air_2_gray_port.png");
 }
 
 .device-mockup.ipad_air_2.portrait.silver > .device,
 .device-mockup.ipad_air_2.silver > .device {
-  background-image: url("ipad_air_2/ipad_air_2_silver_port.png");
+  background-image: url("../images/device-mockups/ipad_air_2/ipad_air_2_silver_port.png");
 }
 
 .device-mockup.ipad_air_2.gold > .device,
 .device-mockup.ipad_air_2.portrait.gold > .device {
-  background-image: url("ipad_air_2/ipad_air_2_gold_port.png");
+  background-image: url("../images/device-mockups/ipad_air_2/ipad_air_2_gold_port.png");
 }
 
 .device-mockup.ipad_air_2.landscape > .device,
 .device-mockup.ipad_air_2.landscape.grey > .device {
-  background-image: url("ipad_air_2/ipad_air_2_gray_land.png");
+  background-image: url("../images/device-mockups/ipad_air_2/ipad_air_2_gray_land.png");
 }
 
 .device-mockup.ipad_air_2.landscape.silver > .device {
-  background-image: url("ipad_air_2/ipad_air_2_silver_land.png");
+  background-image: url("../images/device-mockups/ipad_air_2/ipad_air_2_silver_land.png");
 }
 
 .device-mockup.ipad_air_2.landscape.gold > .device {
-  background-image: url("ipad_air_2/ipad_air_2_gold_land.png");
+  background-image: url("../images/device-mockups/ipad_air_2/ipad_air_2_gold_land.png");
 }
 
 .device-mockup.ipad_air_2 > .device > .screen,
