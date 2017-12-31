@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="465a1e18-6d93-4e37-b660-bb00eb32b495" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/images/logos/Chelsea and Westminster Hospital.png" afterPath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/images/logos/ChelseaWestminsterHospital.png" />
-      <change beforePath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/images/logos/Deutsche Bank.jpg" afterPath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/images/logos/DeutscheBank.jpg" />
-      <change beforePath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/images/logos/J.P.Morgan.jpg" afterPath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/images/logos/JPMorgan.jpg" />
-      <change beforePath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/images/logos/Microsoft Research.jpg" afterPath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/images/logos/MicrosoftResearch.jpg" />
-      <change beforePath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/images/logos/Morgan Stanley.jpg" afterPath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/images/logos/MorganStanley.jpg" />
-      <change beforePath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/images/logos/NTT Data.jpg" afterPath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/images/logos/NTTData.jpg" />
-      <change beforePath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/images/logos/National Institute of Informatics.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/images/logos/UCL Hospital.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/images/logos/Warner Music Group.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/images/logos/credit suisse.jpg" afterPath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/images/logos/creditsuisse.jpg" />
-      <change beforePath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/components/_home.scss" afterPath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/components/_home.scss" />
+      <change beforePath="$PROJECT_DIR$/trellis/deploy-hooks/build-before.yml" afterPath="$PROJECT_DIR$/trellis/deploy-hooks/build-before.yml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -78,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build-before.yml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="build-before.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/trellis/deploy-hooks/build-before.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="16" />
+            <state relative-caret-position="256">
+              <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -98,7 +87,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_home.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_home.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/components/_home.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-228">
@@ -203,10 +192,10 @@
         <option value="$PROJECT_DIR$/trellis/group_vars/development/vault.yml" />
         <option value="$PROJECT_DIR$/trellis/group_vars/production/wordpress_sites.yml" />
         <option value="$PROJECT_DIR$/trellis/hosts/production" />
-        <option value="$PROJECT_DIR$/trellis/deploy-hooks/build-before.yml" />
         <option value="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/layouts/_contactPage.scss" />
         <option value="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/components/_devices.scss" />
         <option value="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/components/_home.scss" />
+        <option value="$PROJECT_DIR$/trellis/deploy-hooks/build-before.yml" />
       </list>
     </option>
   </component>
@@ -424,17 +413,18 @@
       <workItem from="1514577020056" duration="16406000" />
       <workItem from="1514650873528" duration="3978000" />
       <workItem from="1514664844929" duration="2166000" />
-      <workItem from="1514715182599" duration="4341000" />
+      <workItem from="1514715182599" duration="4662000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113966000" />
+    <option name="totallyTimeSpent" value="114287000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20386267" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20386267" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36517534" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
@@ -889,14 +879,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trellis/deploy-hooks/build-before.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/partials/footer.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -909,6 +891,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-228">
           <caret line="232" column="44" lean-forward="false" selection-start-line="232" selection-start-column="44" selection-end-line="232" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trellis/deploy-hooks/build-before.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
           <folding />
         </state>
       </provider>
