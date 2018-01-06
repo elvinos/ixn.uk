@@ -3,7 +3,7 @@
 DEVDIR="web/app/uploads/"
 DEVSITE="ixn.test"
 
-PRODDIR="web@ixn.host:/srv/www/ixn.host/current/web/app/uploads"
+PRODDIR="web@ixn.host:/srv/www/ixn.host/current/web/app/uploads/"
 PRODSITE="ixn.host"
 
 FROM=$1
