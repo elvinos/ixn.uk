@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "e57656333ab071ffb316fcb22c1b3b36",
+    "content-hash": "e3b91aba0616df443ad351c74128c5b6",
     "packages": [
         {
             "name": "composer/installers",
@@ -354,50 +354,6 @@
             "time": "2016-03-01T16:27:06+00:00"
         },
         {
-            "name": "trellis-sync/trellis-sync",
-            "version": "0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/jasperf/trellis-sync.git",
-                "reference": "8d9ade971423bf57d7e23f7ba783450eb83e4bf1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/jasperf/trellis-sync/zipball/8d9ade971423bf57d7e23f7ba783450eb83e4bf1",
-                "reference": "8d9ade971423bf57d7e23f7ba783450eb83e4bf1",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.6.0"
-            },
-            "type": "script",
-            "autoload": {
-                "psr-0": {
-                    "Trellis Sync": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Jasper Frumau",
-                    "email": "jasper@imagewize.com",
-                    "homepage": "https://imagewize.com",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Synchronization Tool for Trellis",
-            "homepage": "https://github.com/jasperf/trellis-sync",
-            "keywords": [
-                "backup",
-                "sync",
-                "wp-cli"
-            ],
-            "time": "2017-06-13T04:52:46+00:00"
-        },
-        {
             "name": "vlucas/phpdotenv",
             "version": "v2.4.0",
             "source": {
@@ -448,40 +404,6 @@
             "time": "2016-09-01T10:05:43+00:00"
         },
         {
-            "name": "wp-sync-db/wp-sync-db",
-            "version": "dev-delicious-brains",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/wp-sync-db/wp-sync-db.git",
-                "reference": "87ad434deb71773e658f47449f93a3f283dc1fa9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/wp-sync-db/wp-sync-db/zipball/87ad434deb71773e658f47449f93a3f283dc1fa9",
-                "reference": "87ad434deb71773e658f47449f93a3f283dc1fa9",
-                "shasum": ""
-            },
-            "type": "library",
-            "notification-url": "https://packagist.org/downloads/"
-        },
-        {
-            "name": "wp-sync-db/wp-sync-db-media-files",
-            "version": "dev-delicious-brains",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/wp-sync-db/wp-sync-db-media-files.git",
-                "reference": "2b790b6af6751a98abd468bab34cba2313418dbf"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/wp-sync-db/wp-sync-db-media-files/zipball/2b790b6af6751a98abd468bab34cba2313418dbf",
-                "reference": "2b790b6af6751a98abd468bab34cba2313418dbf",
-                "shasum": ""
-            },
-            "type": "library",
-            "notification-url": "https://packagist.org/downloads/"
-        },
-        {
             "name": "wpackagist-plugin/advanced-custom-fields",
             "version": "4.4.11",
             "source": {
@@ -522,16 +444,36 @@
             "homepage": "https://wordpress.org/plugins/custom-post-type-ui/"
         },
         {
-            "name": "wpackagist-plugin/jetpack",
-            "version": "5.6.1",
+            "name": "wpackagist-plugin/google-analytics-dashboard-for-wp",
+            "version": "5.1.2.5",
             "source": {
                 "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/jetpack/",
-                "reference": "tags/5.6.1"
+                "url": "https://plugins.svn.wordpress.org/google-analytics-dashboard-for-wp/",
+                "reference": "tags/5.1.2.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/jetpack.5.6.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/google-analytics-dashboard-for-wp.5.1.2.5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/google-analytics-dashboard-for-wp/"
+        },
+        {
+            "name": "wpackagist-plugin/jetpack",
+            "version": "5.7",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/jetpack/",
+                "reference": "tags/5.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/jetpack.5.7.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -540,26 +482,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/jetpack/"
-        },
-        {
-            "name": "wpackagist-plugin/search-filter",
-            "version": "1.2.9",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/search-filter/",
-                "reference": "tags/1.2.9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/search-filter.1.2.9.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/search-filter/"
         }
     ],
     "packages-dev": [

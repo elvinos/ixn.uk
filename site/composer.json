@@ -52,45 +52,12 @@
     "oscarotero/env": "^1.1.0",
     "roots/wp-password-bcrypt": "1.0.0",
     "wpackagist-plugin/jetpack": "^5.2.1",
-    "wp-sync-db/wp-sync-db": "*",
-    "wp-sync-db/wp-sync-db-media-files": "*",
     "wpackagist-plugin/advanced-custom-fields": "4.4.11",
     "wpackagist-plugin/custom-post-type-ui": "1.5.4",
-    "wpackagist-plugin/search-filter": "1.2.9",
-    "trellis-sync/trellis-sync": "^0.1.0"
+    "wpackagist-plugin/google-analytics-dashboard-for-wp": "^5.1.1.1"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2"
-  },
-  "wp-sync-db": {
-    "type": "package",
-    "package": {
-      "name": "wp-sync-db/wp-sync-db",
-      "type": "wordpress-plugin",
-      "version": "1.5",
-      "dist": {
-        "type": "zip",
-        "url": "https://github.com/wp-sync-db/wp-sync-db/archive/1.5.zip"
-      },
-      "require": {
-        "composer/installers": "1.0.6"
-      }
-    }
-  },
-  "wp-sync-db-media-files": {
-    "type": "package",
-    "package": {
-      "name": "wp-sync-db/wp-sync-db-media-files",
-      "type": "wordpress-muplugin",
-      "version": "1.1.5",
-      "dist": {
-        "type": "zip",
-        "url": "https://github.com/wp-sync-db/wp-sync-db/archive/1.1.5.zip"
-      },
-      "require": {
-        "composer/installers": "1.0.6"
-      }
-    }
   },
 
   "extra": {
