@@ -102,7 +102,7 @@
                         <div class="home-back-box mx-auto">
                             <div class="spacerwwd"></div>
                             <div class="youtube-container col-lg-8">
-                                <div class="youtube-player" data-id="w5F8rqN7rFA"></div>
+                                <div class="youtube-player" data-id="<?php echo get_field('video') ?>"></div>
                             </div>
                         </div>
                     </div>
