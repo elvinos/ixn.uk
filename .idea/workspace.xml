@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="465a1e18-6d93-4e37-b660-bb00eb32b495" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/site/dev-backup.sql" afterPath="$PROJECT_DIR$/site/dev-backup.sql" />
-      <change beforePath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/indexOld.blade.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/layouts/_projectPosts.scss" afterPath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/layouts/_projectPosts.scss" />
       <change beforePath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/partials/content-single-project.blade.php" afterPath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/partials/content-single-project.blade.php" />
-      <change beforePath="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/template-projects3.blade.php" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,117 +30,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="wordpress_sites.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trellis/group_vars/development/wordpress_sites.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="template-projects.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/template-projects.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-488">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1514651040139" expanded="true" signature="55:68" ph="..." />
-                <marker date="1514651040139" expanded="true" signature="80:89" ph="..." />
-                <marker date="1514651040139" expanded="true" signature="105:127" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="404.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/404.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1507798911593" expanded="true" signature="9:22" ph="..." />
-                <marker date="1507798911593" expanded="true" signature="34:43" ph="..." />
-                <marker date="1507798911593" expanded="true" signature="88:101" ph="..." />
-                <marker date="1507798911593" expanded="true" signature="245:269" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/index.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1514651040135" expanded="true" signature="9:22" ph="..." />
-                <marker date="1514651040135" expanded="true" signature="33:46" ph="..." />
-                <marker date="1514651040135" expanded="true" signature="58:67" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/page.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1507798911593" expanded="true" signature="9:22" ph="..." />
-                <marker date="1507798911593" expanded="true" signature="34:43" ph="..." />
-                <marker date="1507798911593" expanded="true" signature="54:66" ph="..." />
-                <marker date="1507798911593" expanded="true" signature="73:83" ph="..." />
-                <marker date="1507798911593" expanded="true" signature="98:120" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="search.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/search.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1507798911595" expanded="true" signature="9:22" ph="..." />
-                <marker date="1507798911595" expanded="true" signature="34:43" ph="..." />
-                <marker date="1507798911595" expanded="true" signature="56:78" ph="..." />
-                <marker date="1507798911595" expanded="true" signature="149:195" ph="..." />
-                <marker date="1507798911595" expanded="true" signature="216:240" ph="..." />
-                <marker date="1507798911595" expanded="true" signature="263:275" ph="..." />
-                <marker date="1507798911595" expanded="true" signature="307:332" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="single.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/single.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1513121207052" expanded="true" signature="9:22" ph="..." />
-                <marker date="1513121207052" expanded="true" signature="34:43" ph="..." />
-                <marker date="1513121207052" expanded="true" signature="54:66" ph="..." />
-                <marker date="1513121207052" expanded="true" signature="73:83" ph="..." />
-                <marker date="1513121207052" expanded="true" signature="98:140" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="content-single-project.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/partials/content-single-project.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="104" column="102" lean-forward="false" selection-start-line="104" selection-start-column="102" selection-end-line="104" selection-end-column="102" />
+            <state relative-caret-position="624">
+              <caret line="123" column="18" lean-forward="true" selection-start-line="123" selection-start-column="18" selection-end-line="123" selection-end-column="18" />
               <folding>
-                <marker date="1515360979013" expanded="true" signature="2863:2885" ph="..." />
+                <marker date="1515362530853" expanded="true" signature="2861:2883" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_projectPosts.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/layouts/_projectPosts.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="593">
+              <caret line="118" column="27" lean-forward="false" selection-start-line="118" selection-start-column="27" selection-end-line="118" selection-end-column="27" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -152,7 +56,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ent</find>
       <find>90%</find>
       <find>col</find>
       <find>col-10</find>
@@ -182,6 +85,7 @@
       <find>see all</find>
       <find>flex</find>
       <find>flow</find>
+      <find>poster</find>
     </findStrings>
     <replaceStrings>
       <replace>url(&quot;device-mockups/</replace>
@@ -200,7 +104,6 @@
         <option value="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/components/_videos.scss" />
         <option value="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/scripts/routes/home.js" />
         <option value="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/layouts/_pages.scss" />
-        <option value="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/layouts/_projectPosts.scss" />
         <option value="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/components/_navbar.scss" />
         <option value="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/partials/footer.blade.php" />
         <option value="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/layouts/_footer.scss" />
@@ -246,6 +149,7 @@
         <option value="$PROJECT_DIR$/trellis/group_vars/production/wordpress_sites.yml" />
         <option value="$PROJECT_DIR$/trellis/CODE_OF_CONDUCT.md" />
         <option value="$PROJECT_DIR$/site/composer.json" />
+        <option value="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/layouts/_projectPosts.scss" />
         <option value="$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/partials/content-single-project.blade.php" />
       </list>
     </option>
@@ -364,6 +268,31 @@
               <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="ixnTheme" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="styles" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="ixn.uk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ixn.uk" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ixnTheme" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="styles" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="layouts" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="ixn.uk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ixn.uk" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="site" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ixnTheme" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -469,12 +398,12 @@
       <workItem from="1515254157753" duration="1834000" />
       <workItem from="1515279443502" duration="3463000" />
       <workItem from="1515323897431" duration="3511000" />
-      <workItem from="1515360630737" duration="480000" />
+      <workItem from="1515360630737" duration="1052000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131538000" />
+    <option name="totallyTimeSpent" value="132110000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -567,7 +496,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/site/vendor/trellis-sync/trellis-sync/sync-db-from-prod.sh" />
     <entry file="file://$PROJECT_DIR$/trellis/dev.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -872,19 +800,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/404.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1507798911593" expanded="true" signature="9:22" ph="..." />
-            <marker date="1507798911593" expanded="true" signature="34:43" ph="..." />
-            <marker date="1507798911593" expanded="true" signature="88:101" ph="..." />
-            <marker date="1507798911593" expanded="true" signature="245:269" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -911,6 +826,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/assets/styles/layouts/_projectPosts.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="118" column="27" lean-forward="false" selection-start-line="118" selection-start-column="27" selection-end-line="118" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/template-projects.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1572">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1514651040139" expanded="true" signature="55:68" ph="..." />
+            <marker date="1514651040139" expanded="true" signature="80:89" ph="..." />
+            <marker date="1514651040139" expanded="true" signature="105:127" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/search.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -927,14 +862,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/template-projects.blade.php">
+    <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/404.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-488">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1514651040139" expanded="true" signature="55:68" ph="..." />
-            <marker date="1514651040139" expanded="true" signature="80:89" ph="..." />
-            <marker date="1514651040139" expanded="true" signature="105:127" ph="..." />
+            <marker date="1507798911593" expanded="true" signature="9:22" ph="..." />
+            <marker date="1507798911593" expanded="true" signature="34:43" ph="..." />
+            <marker date="1507798911593" expanded="true" signature="88:101" ph="..." />
+            <marker date="1507798911593" expanded="true" signature="245:269" ph="..." />
           </folding>
         </state>
       </provider>
@@ -955,10 +891,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/site/web/app/themes/ixnTheme/resources/views/partials/content-single-project.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="104" column="102" lean-forward="false" selection-start-line="104" selection-start-column="102" selection-end-line="104" selection-end-column="102" />
+        <state relative-caret-position="624">
+          <caret line="123" column="18" lean-forward="true" selection-start-line="123" selection-start-column="18" selection-end-line="123" selection-end-column="18" />
           <folding>
-            <marker date="1515360979013" expanded="true" signature="2863:2885" ph="..." />
+            <marker date="1515362530853" expanded="true" signature="2861:2883" ph="..." />
           </folding>
         </state>
       </provider>

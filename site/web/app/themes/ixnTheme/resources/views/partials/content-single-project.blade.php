@@ -16,7 +16,7 @@
 		$thumbnail_url = wp_get_attachment_image_src( $thumbnail_id, 'header', true );
 		$thumbnail_image = get_posts( array( 'p' => $thumbnail_id, 'post_type' => 'attachment' ) );
             $poster_id = get_field('project_poster');
-            $size = "medium"; // (thumbnail, medium, large, full or custom size)
+            $size = "full"; // (thumbnail, medium, large, full or custom size)
             $posterImage = wp_get_attachment_image_src( $poster_id, $size );
 
 		?>
@@ -117,8 +117,9 @@
                 </div>
             </div>
                 <div class="row">
-
-                    <div class="mx-auto poster-image" ><img src="<?php echo $posterImage[0] ?>"></div>
+                    <div class="col-12 col-lg-10 offset-lg-1">
+                        <div class="mx-auto poster-image" ><img src="<?php echo $posterImage[0] ?>"></div>
+                    </div>
                 </div>
             </div>
         </section>
