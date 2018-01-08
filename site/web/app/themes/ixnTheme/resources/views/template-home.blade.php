@@ -117,7 +117,7 @@
                     <div class="home-back-box">
                         <div class="spacerwwd"></div>
                         <div class="youtube-container">
-                            <div class="youtube-player" data-id="w5F8rqN7rFA"></div>
+                            <div class="youtube-player" data-id="<?php echo get_field('main_video')?>"></div>
                         </div>
                     </div>
                 </div>
