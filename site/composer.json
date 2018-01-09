@@ -54,7 +54,10 @@
     "wpackagist-plugin/jetpack": "^5.2.1",
     "wpackagist-plugin/advanced-custom-fields": "4.4.11",
     "wpackagist-plugin/custom-post-type-ui": "1.5.4",
-    "wpackagist-plugin/google-analytics-dashboard-for-wp": "^5.1.1.1"
+    "wpackagist-plugin/google-analytics-dashboard-for-wp": "^5.1.1.1",
+    "wpackagist-plugin/fancy-admin-ui": "2.1",
+    "wpackagist-plugin/adminimize": "1.11.4",
+    "wpackagist-plugin/admin-menu-editor": "1.8.1"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2"

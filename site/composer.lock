@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "e3b91aba0616df443ad351c74128c5b6",
+    "content-hash": "75bd2b17d5fa9f097ca73c734518688f",
     "packages": [
         {
             "name": "composer/installers",
@@ -404,6 +404,46 @@
             "time": "2016-09-01T10:05:43+00:00"
         },
         {
+            "name": "wpackagist-plugin/admin-menu-editor",
+            "version": "1.8.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/admin-menu-editor/",
+                "reference": "tags/1.8.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/admin-menu-editor.1.8.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/admin-menu-editor/"
+        },
+        {
+            "name": "wpackagist-plugin/adminimize",
+            "version": "1.11.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/adminimize/",
+                "reference": "tags/1.11.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/adminimize.1.11.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/adminimize/"
+        },
+        {
             "name": "wpackagist-plugin/advanced-custom-fields",
             "version": "4.4.11",
             "source": {
@@ -442,6 +482,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/custom-post-type-ui/"
+        },
+        {
+            "name": "wpackagist-plugin/fancy-admin-ui",
+            "version": "2.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/fancy-admin-ui/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/fancy-admin-ui.zip?timestamp=1514396871",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/fancy-admin-ui/"
         },
         {
             "name": "wpackagist-plugin/google-analytics-dashboard-for-wp",
