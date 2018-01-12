@@ -95,6 +95,17 @@ add_action('widgets_init', function () {
     ] + $config);
 });
 
+//Add PDF support
+function add_file_types_to_uploads($file_types){
+
+	$new_filetypes = array();
+	$new_filetypes['svg'] = 'image/svg+xml';
+	$file_types = array_merge($file_types, $new_filetypes );
+
+	return $file_types;
+}
+add_action('upload_mimes', __NAMESPACE__ . '\\add_file_types_to_uploads');
+
 /**
  * Updates the `$post` variable on each iteration of the loop.
  * Note: updated value is only available for subsequently loaded views, such as partials

@@ -58,7 +58,11 @@
             <div class="row" id="projectsList">
     <?php if (have_posts()) : while ($the_queryposts->have_posts()) : $the_queryposts->the_post();
 	    $thumbnail_id = get_post_thumbnail_id();
-	    $thumbnail_url = wp_get_attachment_image_src($thumbnail_id, 'large', true);
+	    $thumbnail_url = wp_get_attachment_image_src($thumbnail_id, 'full', true);
+        $poster_id = get_field('project_poster');
+        $poster_pdf_id = get_field('pdfposter');
+        $posterImage = wp_get_attachment_image_src( $poster_id, 'full' );
+        $posterUrl = wp_get_attachment_url( $poster_pdf_id );
 		    ?>
                 <div class="col-lg-6 ">
                     <div class="projects-box">
@@ -101,9 +105,15 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="projects-bottom"
-                            style="background-image: url(<?php echo $thumbnail_url[0]; ?>);">
-                        </div>
+                        @if(empty($poster_pdf_id))
+                            <div class="projects-bottom"
+                                 style="background-image: url(<?php echo $posterImage[0]; ?>);">
+                            </div>
+                        @else
+                            <div class="projects-bottom"
+                                 style="background-image: url(<?php echo $posterUrl; ?>);">
+                            </div>
+                        @endif
                     </div>
                 </div>
         <?php endwhile;endif; wp_reset_postdata() ?>
