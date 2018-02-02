@@ -3,11 +3,11 @@
 # Define accompanying passwords/secrets in group_vars/production/vault.yml
 
 wordpress_sites:
-  ixn.host:
+  ixn.org.uk:
     site_hosts:
-      - canonical: ixn.host
+      - canonical: ixn.org.uk
         redirects:
-          - www.ixn.host
+          - www.ixn.org.uk
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
     repo: git@github.com:elvinos/ixn.uk.git # replace with your Git repo URL
     repo_subtree_path: site # relative path to your Bedrock/WP directory in your repo
@@ -15,7 +15,7 @@ wordpress_sites:
     multisite:
       enabled: false
     ssl:
-      enabled: false
+      enabled: true
       provider: letsencrypt
     cache:
       enabled: true

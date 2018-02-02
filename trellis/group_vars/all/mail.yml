@@ -1,6 +1,6 @@
 # Documentation: https://roots.io/trellis/docs/mail/
-mail_smtp_server: smtp.ixn.host:587
-mail_admin: admin@ixn.host
-mail_hostname: ixn.host
+mail_smtp_server: smtp.ixn.org.uk:587
+mail_admin: admin@ixn.org.uk
+mail_hostname: ixn.org.uk
 mail_user: smtp_user
 mail_password: "{{ vault_mail_password }}" # Define this variable in group_vars/all/vault.yml
