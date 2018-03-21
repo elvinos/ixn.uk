@@ -30,31 +30,40 @@
   padding-top: 38px;
 }
 
-.img1 {
+.profileImg {
   height: 155px;
   width: 155px;
   border-radius: 150px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
-  background-size: 180px 252px;
+  //background-size: 160px 232px;
   background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+.img1 {
+  //background-size: 186px 202px;
   background-image: url(../images/homeImages/yun.jpg);
 }
 
 .img2 {
-  border-radius: 150px;
-  height: 155px;
-  width: 155px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px;
-  background-size: cover;
   background-image: url(../images/homeImages/dean.png);
+}
+
+.img3 {
+  background-image: url(../images/homeImages/roberts.png);
 }
 
 #faHome {
   color: $theme-dark;
+}
+
+.whoCardsRow {
+  @media screen and (min-width: 800px) {
+    padding-top: 80px;
+  }
 }
 
 /*

@@ -1,7 +1,7 @@
 path: web/wp
 
 @prod:
-  ssh: elvinos@51.140.156.171/srv/www/ixn.org.uk/current
+  ssh: web@51.140.156.171/srv/www/ixn.org.uk/current
 
 @dev:
   ssh: vagrant@ixn.test/srv/www/ixn.org.uk/current

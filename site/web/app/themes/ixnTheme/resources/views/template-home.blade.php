@@ -42,51 +42,65 @@
     <section class="who-we-are" id="about">
         <div class="container-fluid">
             <div class="row">
-                <div class=" offset-lg-1 col-lg-4 col-md-12">
-                    <div class="row">
-                        <div class="col-md-12 section-divider-row">
-                            <span class="section-divider">who we are</span>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div id="wwabox">
-                                <span class="homeText"><?php echo the_field( 'who_we_are_text' );?></span>
+                    <div class=" offset-lg-1 col-lg-3 col-md-12">
+                        <div class="row">
+                            <div class="col-md-12 section-divider-row">
+                                <span class="section-divider">who we are</span>
                             </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-12 buttonRow">
-							<?php echo '<a class="navLink" href= "' . $permalinkabout . '"> <button class="moreBtn draw-border float-right">More</button></a>' ?>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-7 col-md-12">
-                    <div class="row">
-                        <div class="col-lg-6 col-sm-12 aboutBox">
-                            <div class="profile-box">
-                                <div class="row">
-                                    <div class="col-12 col-md-6 col-lg-12">
-                                        <div class="img1"></div>
-                                    </div>
-                                    <div class="col-12 col-md-6 col-lg-12">
-                                        <span class="aboutText">Dr. Yun Fu<br/>App Project Manager<br/>Teaching Fellow<br/>University College London<br/></span>
-                                        <a href="mailto:y.fu@cs.ucl.ac.uk" class="fa fa-envelope-o fa-lg" aria-hidden="true" id="faHome"></a>
-                                    </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div id="wwabox">
+                                    <span class="homeText"><?php echo the_field( 'who_we_are_text' );?></span>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-sm-12 aboutBox">
-                            <div class="profile-box">
-                                <div class="row">
-                                    <div class="col-12 col-md-6 col-lg-12">
-                                        <div class="img2"></div>
-                                    </div>
-                                    <div class="col-12 col-md-6 col-lg-12">
-                                    <span class="aboutText">Dr. Dean Mohamedally<br/> Teaching Fellow<br/> Director for Apps Engineering<br/> University College London<br/></span><a href="mailto:d.mohamedally@cs.ucl.ac.uk" class="fa fa-envelope-o fa-lg"
-                                   aria-hidden="true" id="faHome"></a>
+                        <div class="row">
+                            <div class="col-lg-12 buttonRow">
+                                <?php echo '<a class="navLink" href= "' . $permalinkabout . '"> <button class="moreBtn draw-border float-right">More</button></a>' ?>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-md-12">
+                        <div class="row whoCardsRow">
+                            <div class="col-lg-4 col-md-6 col-sm-12 aboutBox">
+                                <div class="profile-box">
+                                    <div class="row">
+                                        <div class="col-12 col-md-6 col-lg-12">
+                                            <div class="profileImg img3"></div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-12">
+                                            <span class="aboutText">Dr. Graham Roberts <br/>Principal Teaching Fellow<br/>Departmental Welfare Tutor<br/> University College London<br/></span>
+                                            <a href="mailto:graham.roberts@ucl.ac.uk" class="fa fa-envelope-o fa-lg" aria-hidden="true" id="faHome"></a>
+                                        </div>
                                     </div>
                                 </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12 aboutBox">
+                                <div class="profile-box">
+                                    <div class="row">
+                                        <div class="col-12 col-md-6 col-lg-12">
+                                            <div class="profileImg img1"></div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-12">
+                                            <span class="aboutText">Dr. Yun Fu<br/>App Project Manager<br/>Teaching Fellow<br/>University College London<br/></span>
+                                            <a href="mailto:y.fu@cs.ucl.ac.uk" class="fa fa-envelope-o fa-lg" aria-hidden="true" id="faHome"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12 aboutBox">
+                                <div class="profile-box">
+                                    <div class="row">
+                                        <div class="col-12 col-md-6 col-lg-12">
+                                            <div class="profileImg img2"></div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-12">
+                                        <span class="aboutText">Dr. Dean Mohamedally<br/>Principal Teaching Fellow<br/> Director for Apps Engineering<br/> University College London<br/></span><a href="mailto:d.mohamedally@cs.ucl.ac.uk" class="fa fa-envelope-o fa-lg"
+                                       aria-hidden="true" id="faHome"></a>
+                                        </div>
+                                    </div>
+                            </div>
                         </div>
                     </div>
                 </div>

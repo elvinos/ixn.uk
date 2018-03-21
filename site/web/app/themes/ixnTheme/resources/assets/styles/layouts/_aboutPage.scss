@@ -5,6 +5,7 @@
 .aboutText {
   @include body-font;
 
+  font-size: 18px;
   padding: 20px 5%;
 }
 
@@ -18,8 +19,8 @@
 }
 
 .aboutBox {
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
 
   @media screen and (max-width: 1200px) {
     padding-left: 5px;
@@ -44,15 +45,15 @@
   text-align: center;
 }
 
-.img1 {
-  height: 180px;
-  width: 180px;
-}
-
-.img2 {
-  height: 180px;
-  width: 180px;
-}
+//.img1 {
+//  height: 180px;
+//  width: 180px;
+//}
+//
+//.img2 {
+//  height: 180px;
+//  width: 180px;
+//}
 
 .imgabout {
   width: 90%;

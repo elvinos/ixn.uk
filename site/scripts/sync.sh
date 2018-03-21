@@ -3,7 +3,7 @@
 DEVDIR="web/app/uploads/"
 DEVSITE="ixn.test"
 
-PRODDIR="elvinos@51.140.156.171:/srv/www/ixn.org.uk/current/web/app/uploads/"
+PRODDIR="web@51.140.156.171:/srv/www/ixn.org.uk/current/web/app/uploads/"
 PRODSITE="ixn.org.uk"
 
 FROM=$1
